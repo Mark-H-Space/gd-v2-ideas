@@ -1,0 +1,18 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const c={window:{addEventListener(){}},document:{querySelector(){return null},querySelectorAll(){return []},addEventListener(){}},location:{search:''},localStorage:{getItem(){return null}},URLSearchParams,requestAnimationFrame(){}};
+vm.createContext(c);vm.runInContext(fs.readFileSync('dist/furniture-filters.js','utf8'),c);
+const f=c.window.FurnitureFilters;
+const sofa={type:'Sofas',colour:'Black',material:'Fabric',availability:'In stock',widthMm:1800,heightMm:800,depthMm:900,'Seats or Capacity':'2'};
+const cabinet={type:'Cabinets',colour:'Natural',material:'Wood',widthMm:1000};
+c.window.MIRROR_PRODUCTS=[sofa,cabinet];c.window.CATALOGUE_CONTEXT=f.configure(c.window.MIRROR_PRODUCTS,'','');
+assert.deepEqual(Object.keys(c.window.CATALOGUE_CONTEXT.labels).slice(0,8),['type','width','height','depth','colour','material','style','availability']);
+assert(!('size' in c.window.CATALOGUE_CONTEXT.labels));
+assert.deepEqual(Array.from(f.values(sofa,'type')),['Sofas & Armchairs']);assert.deepEqual(Array.from(f.values(sofa,'availability')),['In Stock']);
+assert(!('doors' in f.configure([sofa],'Sofas','').labels));assert(!('upholstery' in f.configure([cabinet],'Cabinets','').labels));assert('doors' in f.configure([cabinet],'Cabinets','').labels);
+assert('shape' in f.configure([],'Dining Tables','').labels);assert(!('shape' in f.configure([sofa],'Sofas','').labels));assert(!('assembly' in f.configure([sofa],'Sofas','').labels));
+assert.equal(f.numeric({size:'Large',dimensions:'Not supplied'},'width'),null);assert.equal(f.numeric({rrp:120},'price'),null);
+vm.runInContext(fs.readFileSync('dist/preview.js','utf8'),c);
+const {matches}=c.window.GalleryPreview;
+assert(matches(sofa,{width:['1800','1800']},''));assert(!matches(sofa,{width:['1801','']},''));assert(!matches(sofa,{width:['','1799']},''));assert(!matches(cabinet,{height:['1','']},''));
+assert(matches(sofa,{type:['Sofas & Armchairs'],colour:['Black'],width:['1500','2000'],capacity:['2']},''));assert(!matches(cabinet,{type:['Sofas & Armchairs']},''));
+console.log('Passed: Furniture ordering, taxonomy, conditional fields, supported stock, missing specifications, numeric bounds and combined filters.');

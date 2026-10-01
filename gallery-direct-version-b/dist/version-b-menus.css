@@ -1,0 +1,16 @@
+/* Scoped to the three editorial dropdowns; all other menus retain their styling. */
+@media(min-width:901px){
+ .department-mega .editorial-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;align-items:start}
+ .department-mega .editorial-grid>.mega-col{border-left:1px solid var(--line);padding-left:18px}
+ .department-mega .editorial-grid>.mega-col:first-child{border-left:0;padding-left:0}
+ .department-mega .mega-title{min-height:58px;margin-top:0}
+ .department-feature{display:none;min-width:0;text-decoration:none}
+ .department-feature img{display:block;width:100%;height:275px;object-fit:cover;object-position:center 35%}
+ .department-feature>span{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:12px;font-size:15px;line-height:1.4}
+ .department-feature:hover>span,.department-feature:focus-visible>span{text-decoration:underline;text-underline-offset:4px}
+}
+@media(min-width:1200px){
+ .department-mega .editorial-grid{grid-template-columns:repeat(4,minmax(0,1fr)) minmax(190px,1.25fr)}
+ .department-mega .mega-title{min-height:34px}
+ .department-mega .department-feature{display:block}
+}

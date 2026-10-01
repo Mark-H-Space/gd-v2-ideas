@@ -1,0 +1,86 @@
+[
+  {
+    "sku": "244855",
+    "name": "Hayle Round Mirror Champagne",
+    "summary": "100 \u00d7 100cm \u00b7 Champagne",
+    "availability": "In stock",
+    "image": "assets/02ef8313b8085984.webp"
+  },
+  {
+    "sku": "699048",
+    "name": "Bowie Round Mirror Black",
+    "summary": "80 \u00d7 80cm \u00b7 Black",
+    "availability": "In stock",
+    "image": "assets/7370bcdf813ad57a.webp"
+  },
+  {
+    "sku": "401122",
+    "name": "Windsor Round Mirror",
+    "summary": "91 \u00d7 91cm \u00b7 Gold",
+    "availability": "",
+    "image": "assets/0efb58f76d1d4cf0.webp"
+  },
+  {
+    "sku": "110420",
+    "name": "Holworth Overmantle Mirror",
+    "summary": "90 \u00d7 110cm \u00b7 Gold",
+    "availability": "In stock",
+    "image": "assets/7f43ef3ecab733db.webp"
+  },
+  {
+    "sku": "552213",
+    "name": "Millbrook Round Mirror",
+    "summary": "95 \u00d7 95cm \u00b7 Black",
+    "availability": "In stock",
+    "image": "assets/9076618d825d9515.webp"
+  },
+  {
+    "sku": "441401",
+    "name": "Romana Arch Mirror Gold",
+    "summary": "80 \u00d7 120cm \u00b7 Gold",
+    "availability": "In stock",
+    "image": "assets/58bc2b6be8a24cad.webp"
+  },
+  {
+    "sku": "693039",
+    "name": "Phantom Leaner Mirror",
+    "summary": "80 \u00d7 180cm \u00b7 Black",
+    "availability": "In stock",
+    "image": "assets/7370bcdf813ad57a.webp"
+  },
+  {
+    "sku": "669003",
+    "name": "Monterey Wave Mirror",
+    "summary": "85 \u00d7 120cm \u00b7 Champagne",
+    "availability": "",
+    "image": "assets/02ef8313b8085984.webp"
+  },
+  {
+    "sku": "682019",
+    "name": "Elowen Arched Mirror",
+    "summary": "70 \u00d7 150cm \u00b7 Black",
+    "availability": "In stock",
+    "image": "assets/7f43ef3ecab733db.webp"
+  },
+  {
+    "sku": "722111",
+    "name": "Camber Round Mirror",
+    "summary": "100 \u00d7 100cm \u00b7 Bronze",
+    "availability": "In stock",
+    "image": "assets/0efb58f76d1d4cf0.webp"
+  },
+  {
+    "sku": "604103",
+    "name": "Westbury Leaner Mirror",
+    "summary": "90 \u00d7 180cm \u00b7 Gold",
+    "availability": "",
+    "image": "assets/9076618d825d9515.webp"
+  },
+  {
+    "sku": "664411",
+    "name": "Loxley Wall Mirror",
+    "summary": "75 \u00d7 105cm \u00b7 Black",
+    "availability": "In stock",
+    "image": "assets/58bc2b6be8a24cad.webp"
+  }
+]

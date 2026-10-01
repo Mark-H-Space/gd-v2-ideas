@@ -1,0 +1,921 @@
+{
+  "matchedProductCount": 20,
+  "primaryImageProductCount": 20,
+  "alternateImageProductCount": 20,
+  "importedImageCount": 88,
+  "workbookArtCount": 244,
+  "archiveImageCount": 158,
+  "archiveImageKeyCount": 47,
+  "archiveMatchedKeyCount": 42,
+  "archiveUnmatchedImageKeys": [
+    "048303",
+    "048310",
+    "054748",
+    "055356",
+    "057329"
+  ],
+  "sampleImageKeys": [
+    "057404",
+    "054120",
+    "048495",
+    "048402",
+    "048747",
+    "054526",
+    "054328",
+    "058234",
+    "054571",
+    "042844",
+    "059811",
+    "060480",
+    "054625",
+    "048723",
+    "054021",
+    "048280",
+    "054175",
+    "059606",
+    "041922",
+    "059682"
+  ],
+  "assets": [
+    {
+      "imageKey": "057404",
+      "sourceFilename": "WALL DECOR-ART-057404.jpg",
+      "asset": "assets/gallery-art/057404.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "057404",
+      "sourceFilename": "WALL DECOR-ART-057404~1.jpg",
+      "asset": "assets/gallery-art/057404~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "057404",
+      "sourceFilename": "WALL DECOR-ART-057404~2.jpg",
+      "asset": "assets/gallery-art/057404~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "057404",
+      "sourceFilename": "WALL DECOR-ART-057404~3.jpg",
+      "asset": "assets/gallery-art/057404~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "057404",
+      "sourceFilename": "WALL DECOR-ART-057404~4.jpg",
+      "asset": "assets/gallery-art/057404~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "057404",
+      "sourceFilename": "WALL DECOR-ART-057404~5.jpg",
+      "asset": "assets/gallery-art/057404~5.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "057404",
+      "sourceFilename": "WALL DECOR-ART-057404~6.jpg",
+      "asset": "assets/gallery-art/057404~6.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054120",
+      "sourceFilename": "WALL DECOR-ART-054120.jpg",
+      "asset": "assets/gallery-art/054120.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054120",
+      "sourceFilename": "WALL DECOR-ART-054120~1.jpg",
+      "asset": "assets/gallery-art/054120~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054120",
+      "sourceFilename": "WALL DECOR-ART-054120~2.jpg",
+      "asset": "assets/gallery-art/054120~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054120",
+      "sourceFilename": "WALL DECOR-ART-054120~3.jpg",
+      "asset": "assets/gallery-art/054120~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054120",
+      "sourceFilename": "WALL DECOR-ART-054120~4.jpg",
+      "asset": "assets/gallery-art/054120~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054120",
+      "sourceFilename": "WALL DECOR-ART-054120~5.jpg",
+      "asset": "assets/gallery-art/054120~5.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048495",
+      "sourceFilename": "WALL DECOR-ART-048495.jpg",
+      "asset": "assets/gallery-art/048495.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048495",
+      "sourceFilename": "WALL DECOR-ART-048495~1.jpg",
+      "asset": "assets/gallery-art/048495~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048495",
+      "sourceFilename": "WALL DECOR-ART-048495~2.jpg",
+      "asset": "assets/gallery-art/048495~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048495",
+      "sourceFilename": "WALL DECOR-ART-048495~3.jpg",
+      "asset": "assets/gallery-art/048495~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048495",
+      "sourceFilename": "WALL DECOR-ART-048495~4.jpg",
+      "asset": "assets/gallery-art/048495~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048402",
+      "sourceFilename": "WALL DECOR-ART-048402.jpg",
+      "asset": "assets/gallery-art/048402.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048402",
+      "sourceFilename": "WALL DECOR-ART-048402~1.jpg",
+      "asset": "assets/gallery-art/048402~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048402",
+      "sourceFilename": "WALL DECOR-ART-048402~2.jpg",
+      "asset": "assets/gallery-art/048402~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048402",
+      "sourceFilename": "WALL DECOR-ART-048402~3.jpg",
+      "asset": "assets/gallery-art/048402~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048402",
+      "sourceFilename": "WALL DECOR-ART-048402~4.jpg",
+      "asset": "assets/gallery-art/048402~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048747",
+      "sourceFilename": "WALL DECOR-ART-048747.jpg",
+      "asset": "assets/gallery-art/048747.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048747",
+      "sourceFilename": "WALL DECOR-ART-048747~1.jpg",
+      "asset": "assets/gallery-art/048747~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048747",
+      "sourceFilename": "WALL DECOR-ART-048747~2.jpg",
+      "asset": "assets/gallery-art/048747~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048747",
+      "sourceFilename": "WALL DECOR-ART-048747~3.jpg",
+      "asset": "assets/gallery-art/048747~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048747",
+      "sourceFilename": "WALL DECOR-ART-048747~4.jpg",
+      "asset": "assets/gallery-art/048747~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054526",
+      "sourceFilename": "WALL DECOR-ART-054526.jpg",
+      "asset": "assets/gallery-art/054526.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054526",
+      "sourceFilename": "WALL DECOR-ART-054526~1.jpg",
+      "asset": "assets/gallery-art/054526~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054526",
+      "sourceFilename": "WALL DECOR-ART-054526~2.jpg",
+      "asset": "assets/gallery-art/054526~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054526",
+      "sourceFilename": "WALL DECOR-ART-054526~3.jpg",
+      "asset": "assets/gallery-art/054526~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054328",
+      "sourceFilename": "WALL DECOR-ART-054328.jpg",
+      "asset": "assets/gallery-art/054328.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054328",
+      "sourceFilename": "WALL DECOR-ART-054328~1.jpg",
+      "asset": "assets/gallery-art/054328~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054328",
+      "sourceFilename": "WALL DECOR-ART-054328~2.jpg",
+      "asset": "assets/gallery-art/054328~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054328",
+      "sourceFilename": "WALL DECOR-ART-054328~3.jpg",
+      "asset": "assets/gallery-art/054328~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "058234",
+      "sourceFilename": "WALL DECOR-ART-058234.jpg",
+      "asset": "assets/gallery-art/058234.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "058234",
+      "sourceFilename": "WALL DECOR-ART-058234~2.jpg",
+      "asset": "assets/gallery-art/058234~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "058234",
+      "sourceFilename": "WALL DECOR-ART-058234~3.jpg",
+      "asset": "assets/gallery-art/058234~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "058234",
+      "sourceFilename": "WALL DECOR-ART-058234~4.jpg",
+      "asset": "assets/gallery-art/058234~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054571",
+      "sourceFilename": "WALL DECOR-ART-054571.jpg",
+      "asset": "assets/gallery-art/054571.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054571",
+      "sourceFilename": "WALL DECOR-ART-054571~1.jpg",
+      "asset": "assets/gallery-art/054571~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054571",
+      "sourceFilename": "WALL DECOR-ART-054571~2.jpg",
+      "asset": "assets/gallery-art/054571~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054571",
+      "sourceFilename": "WALL DECOR-ART-054571~3.jpg",
+      "asset": "assets/gallery-art/054571~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "042844",
+      "sourceFilename": "WALL DECOR-ART-042844.jpg",
+      "asset": "assets/gallery-art/042844.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "042844",
+      "sourceFilename": "WALL DECOR-ART-042844~1.jpg",
+      "asset": "assets/gallery-art/042844~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "042844",
+      "sourceFilename": "WALL DECOR-ART-042844~2.jpg",
+      "asset": "assets/gallery-art/042844~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "042844",
+      "sourceFilename": "WALL DECOR-ART-042844~3.jpg",
+      "asset": "assets/gallery-art/042844~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "059811",
+      "sourceFilename": "WALL DECOR-ART-059811.jpg",
+      "asset": "assets/gallery-art/059811.webp",
+      "primary": true,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "059811",
+      "sourceFilename": "WALL DECOR-ART-059811~1.jpg",
+      "asset": "assets/gallery-art/059811~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "059811",
+      "sourceFilename": "WALL DECOR-ART-059811~2.jpg",
+      "asset": "assets/gallery-art/059811~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "059811",
+      "sourceFilename": "WALL DECOR-ART-059811~3.jpg",
+      "asset": "assets/gallery-art/059811~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "060480",
+      "sourceFilename": "WALL DECOR-ART-060480.jpg",
+      "asset": "assets/gallery-art/060480.webp",
+      "primary": true,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "060480",
+      "sourceFilename": "WALL DECOR-ART-060480~1.jpg",
+      "asset": "assets/gallery-art/060480~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "060480",
+      "sourceFilename": "WALL DECOR-ART-060480~2.jpg",
+      "asset": "assets/gallery-art/060480~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "060480",
+      "sourceFilename": "WALL DECOR-ART-060480~3.jpg",
+      "asset": "assets/gallery-art/060480~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "054625",
+      "sourceFilename": "WALL DECOR-ART-054625.jpg",
+      "asset": "assets/gallery-art/054625.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054625",
+      "sourceFilename": "WALL DECOR-ART-054625~1.jpg",
+      "asset": "assets/gallery-art/054625~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054625",
+      "sourceFilename": "WALL DECOR-ART-054625~2.jpg",
+      "asset": "assets/gallery-art/054625~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054625",
+      "sourceFilename": "WALL DECOR-ART-054625~3.jpg",
+      "asset": "assets/gallery-art/054625~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048723",
+      "sourceFilename": "WALL DECOR-ART-048723.jpg",
+      "asset": "assets/gallery-art/048723.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048723",
+      "sourceFilename": "WALL DECOR-ART-048723~1.jpg",
+      "asset": "assets/gallery-art/048723~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048723",
+      "sourceFilename": "WALL DECOR-ART-048723~2.jpg",
+      "asset": "assets/gallery-art/048723~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048723",
+      "sourceFilename": "WALL DECOR-ART-048723~3.jpg",
+      "asset": "assets/gallery-art/048723~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054021",
+      "sourceFilename": "WALL DECOR-ART-054021.jpg",
+      "asset": "assets/gallery-art/054021.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054021",
+      "sourceFilename": "WALL DECOR-ART-054021~1.jpg",
+      "asset": "assets/gallery-art/054021~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054021",
+      "sourceFilename": "WALL DECOR-ART-054021~2.jpg",
+      "asset": "assets/gallery-art/054021~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054021",
+      "sourceFilename": "WALL DECOR-ART-054021~3.jpg",
+      "asset": "assets/gallery-art/054021~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048280",
+      "sourceFilename": "WALL DECOR-ART-048280.jpg",
+      "asset": "assets/gallery-art/048280.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048280",
+      "sourceFilename": "WALL DECOR-ART-048280~1.jpg",
+      "asset": "assets/gallery-art/048280~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048280",
+      "sourceFilename": "WALL DECOR-ART-048280~2.jpg",
+      "asset": "assets/gallery-art/048280~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "048280",
+      "sourceFilename": "WALL DECOR-ART-048280~3.jpg",
+      "asset": "assets/gallery-art/048280~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054175",
+      "sourceFilename": "WALL DECOR-ART-054175.jpg",
+      "asset": "assets/gallery-art/054175.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054175",
+      "sourceFilename": "WALL DECOR-ART-054175~1.jpg",
+      "asset": "assets/gallery-art/054175~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054175",
+      "sourceFilename": "WALL DECOR-ART-054175~2.jpg",
+      "asset": "assets/gallery-art/054175~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "054175",
+      "sourceFilename": "WALL DECOR-ART-054175~3.jpg",
+      "asset": "assets/gallery-art/054175~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "059606",
+      "sourceFilename": "WALL DECOR-ART-059606.jpg",
+      "asset": "assets/gallery-art/059606.webp",
+      "primary": true,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "059606",
+      "sourceFilename": "WALL DECOR-ART-059606~1.jpg",
+      "asset": "assets/gallery-art/059606~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "059606",
+      "sourceFilename": "WALL DECOR-ART-059606~2.jpg",
+      "asset": "assets/gallery-art/059606~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "059606",
+      "sourceFilename": "WALL DECOR-ART-059606~3.jpg",
+      "asset": "assets/gallery-art/059606~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "041922",
+      "sourceFilename": "WALL DECOR-ART-041922.jpg",
+      "asset": "assets/gallery-art/041922.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "041922",
+      "sourceFilename": "WALL DECOR-ART-041922~1.jpg",
+      "asset": "assets/gallery-art/041922~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "041922",
+      "sourceFilename": "WALL DECOR-ART-041922~2.jpg",
+      "asset": "assets/gallery-art/041922~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "041922",
+      "sourceFilename": "WALL DECOR-ART-041922~4.jpg",
+      "asset": "assets/gallery-art/041922~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "059682",
+      "sourceFilename": "WALL DECOR-ART-059682.jpg",
+      "asset": "assets/gallery-art/059682.webp",
+      "primary": true,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "059682",
+      "sourceFilename": "WALL DECOR-ART-059682~1.jpg",
+      "asset": "assets/gallery-art/059682~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "059682",
+      "sourceFilename": "WALL DECOR-ART-059682~2.jpg",
+      "asset": "assets/gallery-art/059682~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "imageKey": "059682",
+      "sourceFilename": "WALL DECOR-ART-059682~3.jpg",
+      "asset": "assets/gallery-art/059682~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        2500,
+        2500
+      ]
+    }
+  ]
+}

@@ -1,0 +1,932 @@
+[
+  {
+    "title": "Furniture",
+    "href": "catalogue.html?dept=Furniture",
+    "groups": [
+      {
+        "title": "Seating",
+        "href": "catalogue.html?dept=Furniture&group=Seating",
+        "links": [
+          [
+            "Sofas",
+            "catalogue.html?dept=Furniture&sub=Sofas"
+          ],
+          [
+            "Sofa Beds",
+            "catalogue.html?dept=Furniture&sub=Sofa+Beds"
+          ],
+          [
+            "Armchairs & Accent Chairs",
+            "catalogue.html?dept=Furniture&sub=Armchairs+%26+Accent+Chairs"
+          ],
+          [
+            "Dining Chairs",
+            "catalogue.html?dept=Furniture&sub=Dining+Chairs"
+          ],
+          [
+            "Bar Stools",
+            "catalogue.html?dept=Furniture&sub=Bar+Stools"
+          ],
+          [
+            "Benches",
+            "catalogue.html?dept=Furniture&sub=Benches"
+          ],
+          [
+            "Footstools & Pouffes",
+            "catalogue.html?dept=Furniture&sub=Footstools+%26+Pouffes"
+          ]
+        ]
+      },
+      {
+        "title": "Tables & Storage",
+        "href": "catalogue.html?dept=Furniture&group=Tables+%26+Storage",
+        "links": [
+          [
+            "Dining Tables",
+            "catalogue.html?dept=Furniture&sub=Dining+Tables"
+          ],
+          [
+            "Coffee Tables",
+            "catalogue.html?dept=Furniture&sub=Coffee+Tables"
+          ],
+          [
+            "Side & Lamp Tables",
+            "catalogue.html?dept=Furniture&sub=Side+%26+Lamp+Tables"
+          ],
+          [
+            "Console Tables",
+            "catalogue.html?dept=Furniture&sub=Console+Tables"
+          ],
+          [
+            "Desks",
+            "catalogue.html?dept=Furniture&sub=Desks"
+          ],
+          [
+            "Sideboards",
+            "catalogue.html?dept=Furniture&sub=Sideboards"
+          ],
+          [
+            "Cabinets",
+            "catalogue.html?dept=Furniture&sub=Cabinets"
+          ],
+          [
+            "Bookcases & Shelving",
+            "catalogue.html?dept=Furniture&sub=Bookcases+%26+Shelving"
+          ]
+        ]
+      },
+      {
+        "title": "Bedroom",
+        "href": "catalogue.html?dept=Furniture&group=Bedroom",
+        "links": [
+          [
+            "Bed Frames",
+            "catalogue.html?dept=Furniture&sub=Bed+Frames"
+          ],
+          [
+            "Bedside Tables",
+            "catalogue.html?dept=Furniture&sub=Bedside+Tables"
+          ],
+          [
+            "Chests of Drawers",
+            "catalogue.html?dept=Furniture&sub=Chests+of+Drawers"
+          ],
+          [
+            "Wardrobes",
+            "catalogue.html?dept=Furniture&sub=Wardrobes"
+          ],
+          [
+            "Dressing Tables",
+            "catalogue.html?dept=Furniture&sub=Dressing+Tables"
+          ],
+          [
+            "Headboards",
+            "catalogue.html?dept=Furniture&sub=Headboards"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Art",
+    "href": "catalogue.html?dept=Art",
+    "groups": [
+      {
+        "title": "Shop Art",
+        "href": "catalogue.html?dept=Art",
+        "links": [
+          [
+            "All Art",
+            "catalogue.html?dept=Art"
+          ],
+          [
+            "Framed Art",
+            "catalogue.html?dept=Art&nav=product&value=Framed+Art&label=Framed+Art"
+          ],
+          [
+            "Canvas Art",
+            "catalogue.html?dept=Art&nav=product&value=Canvas+Art&label=Canvas+Art"
+          ],
+          [
+            "Glass Art",
+            "catalogue.html?dept=Art&nav=product&value=Glass+Art&label=Glass+Art"
+          ],
+          [
+            "Art Sets",
+            "catalogue.html?dept=Art&nav=product&value=Art+Sets&label=Art+Sets"
+          ],
+          [
+            "Metal Wall Art",
+            "catalogue.html?dept=Art&nav=product&value=Metal+Wall+Art&label=Metal+Wall+Art"
+          ]
+        ]
+      },
+      {
+        "title": "Subject",
+        "href": "catalogue.html?dept=Art",
+        "links": [
+          [
+            "Abstract",
+            "catalogue.html?dept=Art&nav=subject&value=Abstract&label=Abstract"
+          ],
+          [
+            "Landscape",
+            "catalogue.html?dept=Art&nav=subject&value=Landscape&label=Landscape"
+          ],
+          [
+            "Coastal",
+            "catalogue.html?dept=Art&nav=subject&value=Coastal&label=Coastal"
+          ],
+          [
+            "Floral & Botanical",
+            "catalogue.html?dept=Art&nav=subject&value=Floral+%26+Botanical&label=Floral+%26+Botanical"
+          ],
+          [
+            "Animals",
+            "catalogue.html?dept=Art&nav=subject&value=Animals&label=Animals"
+          ],
+          [
+            "People",
+            "catalogue.html?dept=Art&nav=subject&value=People&label=People"
+          ],
+          [
+            "Typography",
+            "catalogue.html?dept=Art&nav=subject&value=Typography&label=Typography"
+          ]
+        ]
+      },
+      {
+        "title": "Style",
+        "href": "catalogue.html?dept=Art",
+        "links": [
+          [
+            "Modern",
+            "catalogue.html?dept=Art&nav=style&value=Modern&label=Modern"
+          ],
+          [
+            "Heritage",
+            "catalogue.html?dept=Art&nav=style&value=Heritage&label=Heritage"
+          ],
+          [
+            "Country",
+            "catalogue.html?dept=Art&nav=style&value=Country&label=Country"
+          ],
+          [
+            "Chic",
+            "catalogue.html?dept=Art&nav=style&value=Chic&label=Chic"
+          ],
+          [
+            "Contemporary",
+            "catalogue.html?dept=Art&nav=style&value=Contemporary&label=Contemporary"
+          ]
+        ]
+      },
+      {
+        "title": "Discover",
+        "href": "catalogue.html?dept=Art",
+        "links": [
+          [
+            "New Art",
+            "catalogue.html?dept=Art&nav=new&value=New+Art&label=New+Art"
+          ],
+          [
+            "Large Art",
+            "catalogue.html?dept=Art&nav=large&value=Large+Art&label=Large+Art"
+          ],
+          [
+            "Art Sets",
+            "catalogue.html?dept=Art&nav=product&value=Art+Sets&label=Art+Sets"
+          ],
+          [
+            "Inspiration",
+            "inspiration.html?dept=Art"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mirrors",
+    "href": "mirrors.html",
+    "groups": [
+      {
+        "title": "Shop Mirrors",
+        "href": "mirrors.html",
+        "links": [
+          [
+            "All Mirrors",
+            "mirrors.html"
+          ],
+          [
+            "Wall Mirrors",
+            "mirrors.html?nav=type&value=Wall+Mirror&label=Wall+Mirrors"
+          ],
+          [
+            "Leaner Mirrors",
+            "mirrors.html?nav=type&value=Leaner+Mirror&label=Leaner+Mirrors"
+          ],
+          [
+            "Freestanding Mirrors",
+            "mirrors.html?nav=type&value=Freestanding&label=Freestanding+Mirrors"
+          ],
+          [
+            "Overmantel Mirrors",
+            "mirrors.html?nav=type&value=Overmantel&label=Overmantel+Mirrors"
+          ],
+          [
+            "Cheval Mirrors",
+            "mirrors.html?nav=type&value=Cheval&label=Cheval+Mirrors"
+          ],
+          [
+            "Tabletop Mirrors",
+            "mirrors.html?nav=type&value=Tabletop&label=Tabletop+Mirrors"
+          ]
+        ]
+      },
+      {
+        "title": "Shop by Shape",
+        "href": "mirrors.html",
+        "links": [
+          [
+            "Round",
+            "mirrors.html?nav=shape&value=Round&label=Round"
+          ],
+          [
+            "Oval",
+            "mirrors.html?nav=shape&value=Oval&label=Oval"
+          ],
+          [
+            "Rectangle",
+            "mirrors.html?nav=shape&value=Rectangle&label=Rectangle"
+          ],
+          [
+            "Arched",
+            "mirrors.html?nav=shape&value=Arched&label=Arched"
+          ],
+          [
+            "Rounded Rectangle",
+            "mirrors.html?nav=shape&value=Rounded+Rectangle&label=Rounded+Rectangle"
+          ],
+          [
+            "Freeform",
+            "mirrors.html?nav=shape&value=Freeform&label=Freeform"
+          ]
+        ]
+      },
+      {
+        "title": "Style / Room",
+        "href": "mirrors.html",
+        "links": [
+          [
+            "Modern",
+            "mirrors.html?nav=style&value=Modern&label=Modern"
+          ],
+          [
+            "Heritage",
+            "mirrors.html?nav=style&value=Heritage&label=Heritage"
+          ],
+          [
+            "Country",
+            "mirrors.html?nav=style&value=Country&label=Country"
+          ],
+          [
+            "Chic",
+            "mirrors.html?nav=style&value=Chic&label=Chic"
+          ],
+          [
+            "Living Room",
+            "mirrors.html?nav=room&value=Living+Room&label=Living+Room"
+          ],
+          [
+            "Hallway",
+            "mirrors.html?nav=room&value=Hallway&label=Hallway"
+          ],
+          [
+            "Bedroom",
+            "mirrors.html?nav=room&value=Bedroom&label=Bedroom"
+          ],
+          [
+            "Cloakroom",
+            "mirrors.html?nav=room&value=Cloakroom&label=Cloakroom"
+          ],
+          [
+            "Outdoor",
+            "mirrors.html?nav=room&value=Outdoor&label=Outdoor"
+          ]
+        ]
+      },
+      {
+        "title": "Discover",
+        "href": "mirrors.html",
+        "links": [
+          [
+            "New Mirrors",
+            "mirrors.html?nav=new&value=New+Mirrors&label=New+Mirrors"
+          ],
+          [
+            "Large Mirrors",
+            "mirrors.html?nav=large&value=Large+Mirrors&label=Large+Mirrors"
+          ],
+          [
+            "Statement Mirrors",
+            "mirrors.html?nav=statement&value=Statement+Mirrors&label=Statement+Mirrors"
+          ],
+          [
+            "Inspiration",
+            "inspiration.html?dept=Mirrors"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Clocks",
+    "href": "catalogue.html?dept=Clocks",
+    "groups": [
+      {
+        "title": "Shop Clocks",
+        "href": "catalogue.html?dept=Clocks",
+        "links": [
+          [
+            "All Clocks",
+            "catalogue.html?dept=Clocks"
+          ],
+          [
+            "Large Wall Clocks",
+            "catalogue.html?dept=Clocks&nav=wallSize&value=Large&label=Large+Wall+Clocks"
+          ],
+          [
+            "Small Wall Clocks",
+            "catalogue.html?dept=Clocks&nav=wallSize&value=Small&label=Small+Wall+Clocks"
+          ],
+          [
+            "Cuckoo Clocks",
+            "catalogue.html?dept=Clocks&nav=type&value=Cuckoo+Clocks&label=Cuckoo+Clocks"
+          ],
+          [
+            "Outdoor Clocks",
+            "catalogue.html?dept=Clocks&nav=type&value=Outdoor+Clocks&label=Outdoor+Clocks"
+          ],
+          [
+            "Mantel Clocks",
+            "catalogue.html?dept=Clocks&nav=type&value=Mantel+Clocks&label=Mantel+Clocks"
+          ]
+        ]
+      },
+      {
+        "title": "Shop by Type",
+        "href": "catalogue.html?dept=Clocks",
+        "links": [
+          [
+            "Wall Clocks",
+            "catalogue.html?dept=Clocks&nav=type&value=Wall+Clocks&label=Wall+Clocks"
+          ],
+          [
+            "Mantel Clocks",
+            "catalogue.html?dept=Clocks&nav=type&value=Mantel+Clocks&label=Mantel+Clocks"
+          ],
+          [
+            "Cuckoo Clocks",
+            "catalogue.html?dept=Clocks&nav=type&value=Cuckoo+Clocks&label=Cuckoo+Clocks"
+          ],
+          [
+            "Outdoor Clocks",
+            "catalogue.html?dept=Clocks&nav=type&value=Outdoor+Clocks&label=Outdoor+Clocks"
+          ],
+          [
+            "Open Face",
+            "catalogue.html?dept=Clocks&nav=face&value=Open+Face&label=Open+Face"
+          ],
+          [
+            "Glazed",
+            "catalogue.html?dept=Clocks&nav=face&value=Glazed&label=Glazed"
+          ],
+          [
+            "Skeleton",
+            "catalogue.html?dept=Clocks&nav=face&value=Skeleton&label=Skeleton"
+          ]
+        ]
+      },
+      {
+        "title": "Style / Dial",
+        "href": "catalogue.html?dept=Clocks",
+        "links": [
+          [
+            "Modern",
+            "catalogue.html?dept=Clocks&nav=style&value=Modern&label=Modern"
+          ],
+          [
+            "Classic",
+            "catalogue.html?dept=Clocks&nav=style&value=Classic&label=Classic"
+          ],
+          [
+            "Country",
+            "catalogue.html?dept=Clocks&nav=style&value=Country&label=Country"
+          ],
+          [
+            "Arabic Numerals",
+            "catalogue.html?dept=Clocks&nav=dial&value=Arabic+Numerals&label=Arabic+Numerals"
+          ],
+          [
+            "Roman Numerals",
+            "catalogue.html?dept=Clocks&nav=dial&value=Roman+Numerals&label=Roman+Numerals"
+          ],
+          [
+            "Batons / Markers",
+            "catalogue.html?dept=Clocks&nav=dial&value=Batons+%2F+Markers&label=Batons+%2F+Markers"
+          ]
+        ]
+      },
+      {
+        "title": "Discover",
+        "href": "catalogue.html?dept=Clocks",
+        "links": [
+          [
+            "Thomas Kent Clocks",
+            "catalogue.html?dept=Clocks&nav=brand&value=Thomas+Kent&label=Thomas+Kent+Clocks"
+          ],
+          [
+            "New Clocks",
+            "catalogue.html?dept=Clocks&nav=new&value=New+Clocks&label=New+Clocks"
+          ],
+          [
+            "Oversized Clocks",
+            "catalogue.html?dept=Clocks&nav=type&value=Oversized+Clocks&label=Oversized+Clocks"
+          ],
+          [
+            "Inspiration",
+            "inspiration.html?dept=Clocks"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Lighting",
+    "href": "catalogue.html?dept=Lighting",
+    "groups": [
+      {
+        "title": "Lamps & Shades",
+        "href": "catalogue.html?dept=Lighting&group=Lamps+%26+Shades",
+        "links": [
+          [
+            "Table Lamps",
+            "catalogue.html?dept=Lighting&sub=Table+Lamps"
+          ],
+          [
+            "Floor Lamps",
+            "catalogue.html?dept=Lighting&sub=Floor+Lamps"
+          ],
+          [
+            "Shades and Bases",
+            "catalogue.html?dept=Lighting&sub=Shades+and+Bases"
+          ]
+        ]
+      },
+      {
+        "title": "Ceiling & Wall Lighting",
+        "href": "catalogue.html?dept=Lighting&group=Ceiling+%26+Wall+Lighting",
+        "links": [
+          [
+            "Ceiling Lighting",
+            "catalogue.html?dept=Lighting&sub=Ceiling+Lighting"
+          ],
+          [
+            "Pendant Lighting",
+            "catalogue.html?dept=Lighting&sub=Pendant+Lighting"
+          ],
+          [
+            "Spot Lights",
+            "catalogue.html?dept=Lighting&sub=Spot+Lights"
+          ],
+          [
+            "Wall Fitting",
+            "catalogue.html?dept=Lighting&sub=Wall+Fitting"
+          ],
+          [
+            "Wall Lights",
+            "catalogue.html?dept=Lighting&sub=Wall+Lights"
+          ]
+        ]
+      },
+      {
+        "title": "Ranges & Accessories",
+        "href": "catalogue.html?dept=Lighting&group=Ranges+%26+Accessories",
+        "links": [
+          [
+            "Design Series",
+            "catalogue.html?dept=Lighting&sub=Design+Series"
+          ],
+          [
+            "Bulbs",
+            "catalogue.html?dept=Lighting&sub=Bulbs"
+          ],
+          [
+            "Outdoor Wall Lights",
+            "catalogue.html?dept=Lighting&sub=Outdoor+Wall+Lights"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Home & Accessories",
+    "href": "catalogue.html?dept=Home+Accessories",
+    "groups": [
+      {
+        "title": "Decorative Accessories",
+        "href": "catalogue.html?dept=Home+Accessories&group=Decorative+Accessories",
+        "links": [
+          [
+            "Vases",
+            "catalogue.html?dept=Home+Accessories&sub=Vases"
+          ],
+          [
+            "Pots & Planters",
+            "catalogue.html?dept=Home+Accessories&sub=Pots+%26+Planters"
+          ],
+          [
+            "Artificial Flowers & Plants",
+            "catalogue.html?dept=Home+Accessories&sub=Artificial+Flowers+%26+Plants"
+          ],
+          [
+            "Ornaments & Sculptures",
+            "catalogue.html?dept=Home+Accessories&sub=Ornaments+%26+Sculptures"
+          ],
+          [
+            "Photo Frames",
+            "catalogue.html?dept=Home+Accessories&sub=Photo+Frames"
+          ]
+        ]
+      },
+      {
+        "title": "Dining & Entertaining",
+        "href": "catalogue.html?dept=Home+Accessories&group=Dining+%26+Entertaining",
+        "links": [
+          [
+            "Bowls & Plates",
+            "catalogue.html?dept=Home+Accessories&sub=Bowls+%26+Plates"
+          ],
+          [
+            "Glassware & Barware",
+            "catalogue.html?dept=Home+Accessories&sub=Glassware+%26+Barware"
+          ],
+          [
+            "Mugs",
+            "catalogue.html?dept=Home+Accessories&sub=Mugs"
+          ],
+          [
+            "Pitchers & Jugs",
+            "catalogue.html?dept=Home+Accessories&sub=Pitchers+%26+Jugs"
+          ],
+          [
+            "Cutlery & Knife Sets",
+            "catalogue.html?dept=Home+Accessories&sub=Cutlery+%26+Knife+Sets"
+          ],
+          [
+            "Coasters & Placemats",
+            "catalogue.html?dept=Home+Accessories&sub=Coasters+%26+Placemats"
+          ],
+          [
+            "Trays",
+            "catalogue.html?dept=Home+Accessories&sub=Trays"
+          ]
+        ]
+      },
+      {
+        "title": "Candles & Home Fragrance",
+        "href": "catalogue.html?dept=Home+Accessories&group=Candles+%26+Home+Fragrance",
+        "links": [
+          [
+            "Candles",
+            "catalogue.html?dept=Home+Accessories&sub=Candles"
+          ],
+          [
+            "Candle Holders & Lanterns",
+            "catalogue.html?dept=Home+Accessories&sub=Candle+Holders+%26+Lanterns"
+          ],
+          [
+            "Reed Diffusers",
+            "catalogue.html?dept=Home+Accessories&sub=Reed+Diffusers"
+          ],
+          [
+            "Room Sprays",
+            "catalogue.html?dept=Home+Accessories&sub=Room+Sprays"
+          ]
+        ]
+      },
+      {
+        "title": "Storage & Practical Accessories",
+        "href": "catalogue.html?dept=Home+Accessories&group=Storage+%26+Practical+Accessories",
+        "links": [
+          [
+            "Boxes & Baskets",
+            "catalogue.html?dept=Home+Accessories&sub=Boxes+%26+Baskets"
+          ],
+          [
+            "Bookends",
+            "catalogue.html?dept=Home+Accessories&sub=Bookends"
+          ],
+          [
+            "Doorstops",
+            "catalogue.html?dept=Home+Accessories&sub=Doorstops"
+          ],
+          [
+            "Decorative Wall Hooks",
+            "catalogue.html?dept=Home+Accessories&sub=Decorative+Wall+Hooks"
+          ]
+        ]
+      },
+      {
+        "title": "Christmas",
+        "href": "catalogue.html?dept=Home+Accessories&group=Christmas",
+        "links": [
+          [
+            "Christmas Tree Decorations",
+            "catalogue.html?dept=Home+Accessories&sub=Christmas+Tree+Decorations"
+          ],
+          [
+            "Tree Skirts",
+            "catalogue.html?dept=Home+Accessories&sub=Tree+Skirts"
+          ],
+          [
+            "Christmas Decorations",
+            "catalogue.html?dept=Home+Accessories&sub=Christmas+Decorations"
+          ]
+        ]
+      },
+      {
+        "title": "Textiles",
+        "href": "catalogue.html?dept=Soft+Furnishings",
+        "links": [
+          [
+            "Cushions & Throws",
+            "catalogue.html?dept=Soft+Furnishings&group=Cushions+%26+Throws"
+          ],
+          [
+            "Bedding",
+            "catalogue.html?dept=Soft+Furnishings&group=Bedding"
+          ],
+          [
+            "Kitchen & Table Linen",
+            "catalogue.html?dept=Soft+Furnishings&group=Kitchen+%26+Table+Linen"
+          ],
+          [
+            "Rugs & Practical Textiles",
+            "catalogue.html?dept=Soft+Furnishings&group=Rugs+%26+Practical+Textiles"
+          ],
+          [
+            "Outdoor Textiles",
+            "catalogue.html?dept=Soft+Furnishings&group=Outdoor+Textiles"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cards",
+    "href": "catalogue.html?dept=Greeting+Cards",
+    "groups": [
+      {
+        "title": "Occasion",
+        "href": "catalogue.html?dept=Greeting+Cards&group=Occasion",
+        "links": [
+          [
+            "Birthday",
+            "catalogue.html?dept=Greeting+Cards&sub=Birthday"
+          ],
+          [
+            "Wedding",
+            "catalogue.html?dept=Greeting+Cards&sub=Wedding"
+          ],
+          [
+            "Anniversary",
+            "catalogue.html?dept=Greeting+Cards&sub=Anniversary"
+          ],
+          [
+            "New Baby",
+            "catalogue.html?dept=Greeting+Cards&sub=New+Baby"
+          ],
+          [
+            "Thank You",
+            "catalogue.html?dept=Greeting+Cards&sub=Thank+You"
+          ],
+          [
+            "Sympathy",
+            "catalogue.html?dept=Greeting+Cards&sub=Sympathy"
+          ]
+        ]
+      },
+      {
+        "title": "Seasonal",
+        "href": "catalogue.html?dept=Greeting+Cards&group=Seasonal",
+        "links": [
+          [
+            "Christmas",
+            "catalogue.html?dept=Greeting+Cards&sub=Christmas"
+          ],
+          [
+            "Mother\u2019s Day",
+            "catalogue.html?dept=Greeting+Cards&sub=Mother%E2%80%99s+Day"
+          ],
+          [
+            "Father\u2019s Day",
+            "catalogue.html?dept=Greeting+Cards&sub=Father%E2%80%99s+Day"
+          ],
+          [
+            "Easter",
+            "catalogue.html?dept=Greeting+Cards&sub=Easter"
+          ]
+        ]
+      },
+      {
+        "title": "Everyday",
+        "href": "catalogue.html?dept=Greeting+Cards&group=Everyday",
+        "links": [
+          [
+            "Blank Cards",
+            "catalogue.html?dept=Greeting+Cards&sub=Blank+Cards"
+          ],
+          [
+            "Packs & Boxed Cards",
+            "catalogue.html?dept=Greeting+Cards&sub=Packs+%26+Boxed+Cards"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Outdoor",
+    "href": "catalogue.html?dept=Outdoor+Living",
+    "groups": [
+      {
+        "title": "Outdoor Sets",
+        "href": "catalogue.html?dept=Outdoor+Living&group=Outdoor+Sets",
+        "links": [
+          [
+            "Dining Sets",
+            "catalogue.html?dept=Outdoor+Living&sub=Dining+Sets"
+          ],
+          [
+            "Lounge Sets",
+            "catalogue.html?dept=Outdoor+Living&sub=Lounge+Sets"
+          ],
+          [
+            "Bistro Tables & Sets",
+            "catalogue.html?dept=Outdoor+Living&sub=Bistro+Tables+%26+Sets"
+          ],
+          [
+            "Bar Sets",
+            "catalogue.html?dept=Outdoor+Living&sub=Bar+Sets"
+          ]
+        ]
+      },
+      {
+        "title": "Seating & Tables",
+        "href": "catalogue.html?dept=Outdoor+Living&group=Seating+%26+Tables",
+        "links": [
+          [
+            "Chairs",
+            "catalogue.html?dept=Outdoor+Living&sub=Chairs"
+          ],
+          [
+            "Sofas",
+            "catalogue.html?dept=Outdoor+Living&sub=Sofas"
+          ],
+          [
+            "Benches",
+            "catalogue.html?dept=Outdoor+Living&sub=Benches"
+          ],
+          [
+            "Stools",
+            "catalogue.html?dept=Outdoor+Living&sub=Stools"
+          ],
+          [
+            "Sun Loungers",
+            "catalogue.html?dept=Outdoor+Living&sub=Sun+Loungers"
+          ],
+          [
+            "Swings",
+            "catalogue.html?dept=Outdoor+Living&sub=Swings"
+          ],
+          [
+            "Tables",
+            "catalogue.html?dept=Outdoor+Living&sub=Tables"
+          ],
+          [
+            "Side Tables",
+            "catalogue.html?dept=Outdoor+Living&sub=Side+Tables"
+          ]
+        ]
+      },
+      {
+        "title": "Shade & Outdoor Living",
+        "href": "catalogue.html?dept=Outdoor+Living&group=Shade+%26+Outdoor+Living",
+        "links": [
+          [
+            "Parasols",
+            "catalogue.html?dept=Outdoor+Living&sub=Parasols"
+          ],
+          [
+            "Pergolas",
+            "catalogue.html?dept=Outdoor+Living&sub=Pergolas"
+          ],
+          [
+            "Fire Pits",
+            "catalogue.html?dept=Outdoor+Living&sub=Fire+Pits"
+          ],
+          [
+            "Pizza Ovens",
+            "catalogue.html?dept=Outdoor+Living&sub=Pizza+Ovens"
+          ]
+        ]
+      },
+      {
+        "title": "Outdoor Accessories",
+        "href": "catalogue.html?dept=Outdoor+Living&group=Outdoor+Accessories",
+        "links": [
+          [
+            "Drinks Trolleys",
+            "catalogue.html?dept=Outdoor+Living&sub=Drinks+Trolleys"
+          ],
+          [
+            "Storage Boxes",
+            "catalogue.html?dept=Outdoor+Living&sub=Storage+Boxes"
+          ],
+          [
+            "Outdoor Mirrors",
+            "catalogue.html?dept=Outdoor+Living&sub=Outdoor+Mirrors"
+          ],
+          [
+            "Solar Lanterns",
+            "catalogue.html?dept=Outdoor+Living&sub=Solar+Lanterns"
+          ],
+          [
+            "Garden Ornaments",
+            "catalogue.html?dept=Outdoor+Living&sub=Garden+Ornaments"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Made to Order",
+    "href": "catalogue.html?dept=Made+to+Order",
+    "groups": [
+      {
+        "title": "Upholstery",
+        "href": "catalogue.html?dept=Made+to+Order&sub=Upholstery",
+        "links": [
+          [
+            "Made to Order Upholstery",
+            "catalogue.html?dept=Made+to+Order&sub=Upholstery"
+          ]
+        ]
+      },
+      {
+        "title": "Mattresses",
+        "href": "catalogue.html?dept=Made+to+Order&sub=Mattresses",
+        "links": [
+          [
+            "Made to Order Mattresses",
+            "catalogue.html?dept=Made+to+Order&sub=Mattresses"
+          ]
+        ]
+      },
+      {
+        "title": "Options & Advice",
+        "href": "https://info.gallerydirect.co.uk/help/contract-development-work",
+        "links": [
+          [
+            "Fabrics & Contract Options",
+            "https://info.gallerydirect.co.uk/help/contract-development-work"
+          ],
+          [
+            "Own Brand Options",
+            "https://info.gallerydirect.co.uk/help/own-brand"
+          ]
+        ]
+      }
+    ]
+  }
+]

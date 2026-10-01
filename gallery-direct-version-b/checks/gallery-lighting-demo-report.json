@@ -1,0 +1,108 @@
+{
+  "productCount": 20,
+  "imageCount": 20,
+  "productsWithAlternates": 0,
+  "dataStatus": "Fictional demo data; supplied Gallery images",
+  "assets": [
+    {
+      "imageKey": "976638",
+      "source": "LIGHT-PEND-976638.jpg",
+      "asset": "assets/gallery-lighting/976638.webp"
+    },
+    {
+      "imageKey": "976171",
+      "source": "LIGHT-PEND-976171.jpg",
+      "asset": "assets/gallery-lighting/976171.webp"
+    },
+    {
+      "imageKey": "975594",
+      "source": "LIGHT-PEND-975594.jpg",
+      "asset": "assets/gallery-lighting/975594.webp"
+    },
+    {
+      "imageKey": "910410",
+      "source": "LIGHT-PEND-910410.jpg",
+      "asset": "assets/gallery-lighting/910410.webp"
+    },
+    {
+      "imageKey": "981823",
+      "source": "LIGHT-FLOOR-981823.jpg",
+      "asset": "assets/gallery-lighting/981823.webp"
+    },
+    {
+      "imageKey": "190669",
+      "source": "LIGHT-FLOOR-190669.jpg",
+      "asset": "assets/gallery-lighting/190669.webp"
+    },
+    {
+      "imageKey": "154791",
+      "source": "LIGHT-FLOOR-154791.jpg",
+      "asset": "assets/gallery-lighting/154791.webp"
+    },
+    {
+      "imageKey": "981786",
+      "source": "LIGHT-CEILING-981786.jpg",
+      "asset": "assets/gallery-lighting/981786.webp"
+    },
+    {
+      "imageKey": "157600",
+      "source": "LIGHT-CEILING-157600.jpg",
+      "asset": "assets/gallery-lighting/157600.webp"
+    },
+    {
+      "imageKey": "152070",
+      "source": "LIGHT-CEILING-152070.jpg",
+      "asset": "assets/gallery-lighting/152070.webp"
+    },
+    {
+      "imageKey": "916474",
+      "source": "LIGHT-BULB-916474.jpg",
+      "asset": "assets/gallery-lighting/916474.webp"
+    },
+    {
+      "imageKey": "893814",
+      "source": "LIGHT-TABLE-893814.jpg",
+      "asset": "assets/gallery-lighting/893814.webp"
+    },
+    {
+      "imageKey": "027125",
+      "source": "LIGHT-TABLE-027125.jpg",
+      "asset": "assets/gallery-lighting/027125.webp"
+    },
+    {
+      "imageKey": "010295",
+      "source": "LIGHT-TABLE-010295.jpg",
+      "asset": "assets/gallery-lighting/010295.webp"
+    },
+    {
+      "imageKey": "996544",
+      "source": "LIGHT-TABLE-996544.jpg",
+      "asset": "assets/gallery-lighting/996544.webp"
+    },
+    {
+      "imageKey": "996438",
+      "source": "LIGHT-TABLE-996438.jpg",
+      "asset": "assets/gallery-lighting/996438.webp"
+    },
+    {
+      "imageKey": "028429",
+      "source": "LIGHT-WALL-028429.jpg",
+      "asset": "assets/gallery-lighting/028429.webp"
+    },
+    {
+      "imageKey": "027446",
+      "source": "LIGHT-WALL-027446.jpg",
+      "asset": "assets/gallery-lighting/027446.webp"
+    },
+    {
+      "imageKey": "027040",
+      "source": "LIGHT-WALL-027040.jpg",
+      "asset": "assets/gallery-lighting/027040.webp"
+    },
+    {
+      "imageKey": "893720",
+      "source": "LIGHT-SHADES-893720.jpg",
+      "asset": "assets/gallery-lighting/893720.webp"
+    }
+  ]
+}

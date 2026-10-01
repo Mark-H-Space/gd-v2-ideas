@@ -1,0 +1,1358 @@
+{
+  "matchedProductCount": 20,
+  "primaryImageProductCount": 20,
+  "alternateImageProductCount": 20,
+  "importedImageCount": 106,
+  "workbookMirrorCount": 319,
+  "archiveImageKeyCount": 234,
+  "archiveMatchedKeyCount": 169,
+  "archiveUnmatchedImageKeys": [
+    "061326",
+    "121982",
+    "122019",
+    "201193",
+    "201278",
+    "201285",
+    "201292",
+    "205788",
+    "207423",
+    "207430",
+    "207485",
+    "214919",
+    "217071",
+    "217088",
+    "217385",
+    "217477",
+    "217712",
+    "226004",
+    "227865",
+    "228541",
+    "228633",
+    "228893",
+    "228909",
+    "237932",
+    "237949",
+    "237956",
+    "238311",
+    "241700",
+    "242301",
+    "242318",
+    "243100",
+    "243889",
+    "245005",
+    "253185",
+    "253574",
+    "253581",
+    "253703",
+    "253741",
+    "254717",
+    "254724",
+    "255745",
+    "400494",
+    "403958",
+    "406898",
+    "407338",
+    "407345",
+    "407390",
+    "407406",
+    "407451",
+    "407512",
+    "407567",
+    "408391",
+    "422441",
+    "422458",
+    "423424",
+    "423431",
+    "431788",
+    "436025",
+    "449912",
+    "451250",
+    "468548",
+    "468586",
+    "468593",
+    "469569",
+    "469576"
+  ],
+  "workbookKeysWithoutArchiveImages": [
+    "207386",
+    "217729",
+    "244862",
+    "255806",
+    "406342",
+    "411834",
+    "411841",
+    "449905",
+    "450048",
+    "469620",
+    "469842",
+    "469859",
+    "484234",
+    "484241",
+    "484456",
+    "490068",
+    "491973",
+    "537922",
+    "537939",
+    "537946",
+    "537953",
+    "537977",
+    "537991",
+    "538004",
+    "538011",
+    "545361",
+    "545378",
+    "545385",
+    "545408",
+    "545415",
+    "546740",
+    "546757",
+    "546764",
+    "546771",
+    "546788",
+    "546795",
+    "546801",
+    "546818",
+    "546825",
+    "546832",
+    "546849",
+    "546856",
+    "567400",
+    "567417",
+    "567424",
+    "567431",
+    "567448",
+    "567455",
+    "567462",
+    "567479",
+    "567486",
+    "567493",
+    "567509",
+    "567530",
+    "567547",
+    "567554",
+    "567561",
+    "567578",
+    "567585",
+    "567592",
+    "567608",
+    "567615",
+    "567622",
+    "567653",
+    "567660",
+    "567677",
+    "567684",
+    "567691",
+    "567707",
+    "567721",
+    "567738",
+    "567745",
+    "567752",
+    "567769",
+    "567776",
+    "567783",
+    "567790",
+    "567806",
+    "567813",
+    "567820",
+    "567837",
+    "567844",
+    "567851",
+    "567868",
+    "567875",
+    "567882",
+    "567899",
+    "567905",
+    "567912",
+    "567929",
+    "567967",
+    "567974",
+    "567981",
+    "568247",
+    "568254",
+    "568261",
+    "594420",
+    "595243",
+    "595250",
+    "595267",
+    "595274",
+    "676949",
+    "677014",
+    "682522",
+    "687435",
+    "701979",
+    "701986",
+    "701993",
+    "703522",
+    "703539",
+    "703546",
+    "703553",
+    "703577",
+    "703621",
+    "703645",
+    "834685",
+    "929258",
+    "929265",
+    "929272",
+    "929289",
+    "929302",
+    "929319",
+    "929333",
+    "929340",
+    "929357",
+    "929388",
+    "929395",
+    "929401",
+    "931992",
+    "932012",
+    "932227",
+    "932234",
+    "932241",
+    "932258",
+    "932265",
+    "932579",
+    "946192",
+    "959875",
+    "959882",
+    "959912",
+    "959967",
+    "960017",
+    "960024",
+    "960031",
+    "960048",
+    "960055",
+    "960062",
+    "962639",
+    "962646",
+    "962653"
+  ],
+  "sampleImageKeys": [
+    "567929",
+    "082904",
+    "082911",
+    "082928",
+    "256677",
+    "256684",
+    "256653",
+    "468821",
+    "468814",
+    "407376",
+    "438114",
+    "469033",
+    "228572",
+    "428764",
+    "256639",
+    "407383",
+    "403181",
+    "082959",
+    "252010",
+    "433249"
+  ],
+  "issues": [
+    {
+      "imageKey": "407376",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    },
+    {
+      "imageKey": "438114",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    },
+    {
+      "imageKey": "469033",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    },
+    {
+      "imageKey": "228572",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    },
+    {
+      "imageKey": "428764",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    },
+    {
+      "imageKey": "256639",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    },
+    {
+      "imageKey": "407383",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    },
+    {
+      "imageKey": "403181",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    },
+    {
+      "imageKey": "082959",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    },
+    {
+      "imageKey": "252010",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    },
+    {
+      "imageKey": "433249",
+      "issue": "Dimensions retained from name; axis order unconfirmed, width/height not inferred."
+    }
+  ],
+  "assets": [
+    {
+      "imageKey": "567929",
+      "sourceFilename": "WALL DECOR-MIRRORS-567929.jpg",
+      "asset": "assets/gallery-mirrors/567929.webp",
+      "primary": true,
+      "originalDimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "imageKey": "567929",
+      "sourceFilename": "WALL DECOR-MIRRORS-567929~1.jpg",
+      "asset": "assets/gallery-mirrors/567929~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "imageKey": "567929",
+      "sourceFilename": "WALL DECOR-MIRRORS-567929~2.jpg",
+      "asset": "assets/gallery-mirrors/567929~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "imageKey": "567929",
+      "sourceFilename": "WALL DECOR-MIRRORS-567929~3.jpg",
+      "asset": "assets/gallery-mirrors/567929~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "imageKey": "567929",
+      "sourceFilename": "WALL DECOR-MIRRORS-567929~5.jpg",
+      "asset": "assets/gallery-mirrors/567929~5.webp",
+      "primary": false,
+      "originalDimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "imageKey": "567929",
+      "sourceFilename": "WALL DECOR-MIRRORS-567929~7.jpg",
+      "asset": "assets/gallery-mirrors/567929~7.webp",
+      "primary": false,
+      "originalDimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "imageKey": "567929",
+      "sourceFilename": "WALL DECOR-MIRRORS-567929~8.jpg",
+      "asset": "assets/gallery-mirrors/567929~8.webp",
+      "primary": false,
+      "originalDimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "imageKey": "567929",
+      "sourceFilename": "WALL DECOR-MIRRORS-567929~9.jpg",
+      "asset": "assets/gallery-mirrors/567929~9.webp",
+      "primary": false,
+      "originalDimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "imageKey": "082904",
+      "sourceFilename": "WALL DECOR-MIRRORS-082904.jpg",
+      "asset": "assets/gallery-mirrors/082904.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082904",
+      "sourceFilename": "WALL DECOR-MIRRORS-082904~1.jpg",
+      "asset": "assets/gallery-mirrors/082904~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082904",
+      "sourceFilename": "WALL DECOR-MIRRORS-082904~2.jpg",
+      "asset": "assets/gallery-mirrors/082904~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082904",
+      "sourceFilename": "WALL DECOR-MIRRORS-082904~3.jpg",
+      "asset": "assets/gallery-mirrors/082904~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082911",
+      "sourceFilename": "WALL DECOR-MIRRORS-082911.jpg",
+      "asset": "assets/gallery-mirrors/082911.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082911",
+      "sourceFilename": "WALL DECOR-MIRRORS-082911~1.jpg",
+      "asset": "assets/gallery-mirrors/082911~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082911",
+      "sourceFilename": "WALL DECOR-MIRRORS-082911~2.jpg",
+      "asset": "assets/gallery-mirrors/082911~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082911",
+      "sourceFilename": "WALL DECOR-MIRRORS-082911~3.jpg",
+      "asset": "assets/gallery-mirrors/082911~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082911",
+      "sourceFilename": "WALL DECOR-MIRRORS-082911~4.jpg",
+      "asset": "assets/gallery-mirrors/082911~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082928",
+      "sourceFilename": "WALL DECOR-MIRRORS-082928.jpg",
+      "asset": "assets/gallery-mirrors/082928.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082928",
+      "sourceFilename": "WALL DECOR-MIRRORS-082928~1.jpg",
+      "asset": "assets/gallery-mirrors/082928~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082928",
+      "sourceFilename": "WALL DECOR-MIRRORS-082928~2.jpg",
+      "asset": "assets/gallery-mirrors/082928~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082928",
+      "sourceFilename": "WALL DECOR-MIRRORS-082928~3.jpg",
+      "asset": "assets/gallery-mirrors/082928~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082928",
+      "sourceFilename": "WALL DECOR-MIRRORS-082928~4.jpg",
+      "asset": "assets/gallery-mirrors/082928~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082928",
+      "sourceFilename": "WALL DECOR-MIRRORS-082928~5.jpg",
+      "asset": "assets/gallery-mirrors/082928~5.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082928",
+      "sourceFilename": "WALL DECOR-MIRRORS-082928~10.jpg",
+      "asset": "assets/gallery-mirrors/082928~10.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256677",
+      "sourceFilename": "WALL DECOR-MIRRORS-256677.jpg",
+      "asset": "assets/gallery-mirrors/256677.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256677",
+      "sourceFilename": "WALL DECOR-MIRRORS-256677~1.jpg",
+      "asset": "assets/gallery-mirrors/256677~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256677",
+      "sourceFilename": "WALL DECOR-MIRRORS-256677~2.jpg",
+      "asset": "assets/gallery-mirrors/256677~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256677",
+      "sourceFilename": "WALL DECOR-MIRRORS-256677~3.jpg",
+      "asset": "assets/gallery-mirrors/256677~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256677",
+      "sourceFilename": "WALL DECOR-MIRRORS-256677~4.jpg",
+      "asset": "assets/gallery-mirrors/256677~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256684",
+      "sourceFilename": "WALL DECOR-MIRRORS-256684.jpg",
+      "asset": "assets/gallery-mirrors/256684.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256684",
+      "sourceFilename": "WALL DECOR-MIRRORS-256684~1.jpg",
+      "asset": "assets/gallery-mirrors/256684~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256684",
+      "sourceFilename": "WALL DECOR-MIRRORS-256684~2.jpg",
+      "asset": "assets/gallery-mirrors/256684~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256684",
+      "sourceFilename": "WALL DECOR-MIRRORS-256684~3.jpg",
+      "asset": "assets/gallery-mirrors/256684~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256684",
+      "sourceFilename": "WALL DECOR-MIRRORS-256684~4.jpg",
+      "asset": "assets/gallery-mirrors/256684~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256653",
+      "sourceFilename": "WALL DECOR-MIRRORS-256653.jpg",
+      "asset": "assets/gallery-mirrors/256653.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256653",
+      "sourceFilename": "WALL DECOR-MIRRORS-256653~1.jpg",
+      "asset": "assets/gallery-mirrors/256653~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256653",
+      "sourceFilename": "WALL DECOR-MIRRORS-256653~2.jpg",
+      "asset": "assets/gallery-mirrors/256653~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256653",
+      "sourceFilename": "WALL DECOR-MIRRORS-256653~3.jpg",
+      "asset": "assets/gallery-mirrors/256653~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256653",
+      "sourceFilename": "WALL DECOR-MIRRORS-256653~4.jpg",
+      "asset": "assets/gallery-mirrors/256653~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468821",
+      "sourceFilename": "WALL DECOR-MIRRORS-468821.jpg",
+      "asset": "assets/gallery-mirrors/468821.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468821",
+      "sourceFilename": "WALL DECOR-MIRRORS-468821~1.jpg",
+      "asset": "assets/gallery-mirrors/468821~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468821",
+      "sourceFilename": "WALL DECOR-MIRRORS-468821~2.jpg",
+      "asset": "assets/gallery-mirrors/468821~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468821",
+      "sourceFilename": "WALL DECOR-MIRRORS-468821~3.jpg",
+      "asset": "assets/gallery-mirrors/468821~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468821",
+      "sourceFilename": "WALL DECOR-MIRRORS-468821~4.jpg",
+      "asset": "assets/gallery-mirrors/468821~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468814",
+      "sourceFilename": "WALL DECOR-MIRRORS-468814.jpg",
+      "asset": "assets/gallery-mirrors/468814.webp",
+      "primary": true,
+      "originalDimensions": [
+        2859,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468814",
+      "sourceFilename": "WALL DECOR-MIRRORS-468814~1.jpg",
+      "asset": "assets/gallery-mirrors/468814~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468814",
+      "sourceFilename": "WALL DECOR-MIRRORS-468814~2.jpg",
+      "asset": "assets/gallery-mirrors/468814~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468814",
+      "sourceFilename": "WALL DECOR-MIRRORS-468814~3.jpg",
+      "asset": "assets/gallery-mirrors/468814~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468814",
+      "sourceFilename": "WALL DECOR-MIRRORS-468814~4.jpg",
+      "asset": "assets/gallery-mirrors/468814~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "468814",
+      "sourceFilename": "WALL DECOR-MIRRORS-468814~5.jpg",
+      "asset": "assets/gallery-mirrors/468814~5.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "407376",
+      "sourceFilename": "WALL DECOR-MIRRORS-407376.jpg",
+      "asset": "assets/gallery-mirrors/407376.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "407376",
+      "sourceFilename": "WALL DECOR-MIRRORS-407376~1.jpg",
+      "asset": "assets/gallery-mirrors/407376~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "407376",
+      "sourceFilename": "WALL DECOR-MIRRORS-407376~2.jpg",
+      "asset": "assets/gallery-mirrors/407376~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "407376",
+      "sourceFilename": "WALL DECOR-MIRRORS-407376~3.jpg",
+      "asset": "assets/gallery-mirrors/407376~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "438114",
+      "sourceFilename": "WALL DECOR-MIRRORS-438114.jpg",
+      "asset": "assets/gallery-mirrors/438114.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "438114",
+      "sourceFilename": "WALL DECOR-MIRRORS-438114~1.jpg",
+      "asset": "assets/gallery-mirrors/438114~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "438114",
+      "sourceFilename": "WALL DECOR-MIRRORS-438114~2.jpg",
+      "asset": "assets/gallery-mirrors/438114~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "438114",
+      "sourceFilename": "WALL DECOR-MIRRORS-438114~3.jpg",
+      "asset": "assets/gallery-mirrors/438114~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "438114",
+      "sourceFilename": "WALL DECOR-MIRRORS-438114~4.jpg",
+      "asset": "assets/gallery-mirrors/438114~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "438114",
+      "sourceFilename": "WALL DECOR-MIRRORS-438114~8.jpg",
+      "asset": "assets/gallery-mirrors/438114~8.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "438114",
+      "sourceFilename": "WALL DECOR-MIRRORS-438114~9.jpg",
+      "asset": "assets/gallery-mirrors/438114~9.webp",
+      "primary": false,
+      "originalDimensions": [
+        2996,
+        2996
+      ]
+    },
+    {
+      "imageKey": "469033",
+      "sourceFilename": "WALL DECOR-MIRRORS-469033.jpg",
+      "asset": "assets/gallery-mirrors/469033.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "469033",
+      "sourceFilename": "WALL DECOR-MIRRORS-469033~1.jpg",
+      "asset": "assets/gallery-mirrors/469033~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "469033",
+      "sourceFilename": "WALL DECOR-MIRRORS-469033~2.jpg",
+      "asset": "assets/gallery-mirrors/469033~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "469033",
+      "sourceFilename": "WALL DECOR-MIRRORS-469033~3.jpg",
+      "asset": "assets/gallery-mirrors/469033~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "469033",
+      "sourceFilename": "WALL DECOR-MIRRORS-469033~4.jpg",
+      "asset": "assets/gallery-mirrors/469033~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "228572",
+      "sourceFilename": "WALL DECOR-MIRRORS-228572.jpg",
+      "asset": "assets/gallery-mirrors/228572.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "228572",
+      "sourceFilename": "WALL DECOR-MIRRORS-228572~1.jpg",
+      "asset": "assets/gallery-mirrors/228572~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "228572",
+      "sourceFilename": "WALL DECOR-MIRRORS-228572~2.jpg",
+      "asset": "assets/gallery-mirrors/228572~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "228572",
+      "sourceFilename": "WALL DECOR-MIRRORS-228572~4.jpg",
+      "asset": "assets/gallery-mirrors/228572~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "428764",
+      "sourceFilename": "WALL DECOR-MIRRORS-428764.jpg",
+      "asset": "assets/gallery-mirrors/428764.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "428764",
+      "sourceFilename": "WALL DECOR-MIRRORS-428764~1.jpg",
+      "asset": "assets/gallery-mirrors/428764~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        2999
+      ]
+    },
+    {
+      "imageKey": "428764",
+      "sourceFilename": "WALL DECOR-MIRRORS-428764~2.jpg",
+      "asset": "assets/gallery-mirrors/428764~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "428764",
+      "sourceFilename": "WALL DECOR-MIRRORS-428764~3.jpg",
+      "asset": "assets/gallery-mirrors/428764~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "428764",
+      "sourceFilename": "WALL DECOR-MIRRORS-428764~4.jpg",
+      "asset": "assets/gallery-mirrors/428764~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256639",
+      "sourceFilename": "WALL DECOR-MIRRORS-256639.jpg",
+      "asset": "assets/gallery-mirrors/256639.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256639",
+      "sourceFilename": "WALL DECOR-MIRRORS-256639~1.jpg",
+      "asset": "assets/gallery-mirrors/256639~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256639",
+      "sourceFilename": "WALL DECOR-MIRRORS-256639~2.jpg",
+      "asset": "assets/gallery-mirrors/256639~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256639",
+      "sourceFilename": "WALL DECOR-MIRRORS-256639~3.jpg",
+      "asset": "assets/gallery-mirrors/256639~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "256639",
+      "sourceFilename": "WALL DECOR-MIRRORS-256639~4.jpg",
+      "asset": "assets/gallery-mirrors/256639~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "407383",
+      "sourceFilename": "WALL DECOR-MIRRORS-407383.jpg",
+      "asset": "assets/gallery-mirrors/407383.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "407383",
+      "sourceFilename": "WALL DECOR-MIRRORS-407383~2.jpg",
+      "asset": "assets/gallery-mirrors/407383~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "407383",
+      "sourceFilename": "WALL DECOR-MIRRORS-407383~4.jpg",
+      "asset": "assets/gallery-mirrors/407383~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "403181",
+      "sourceFilename": "WALL DECOR-MIRRORS-403181.jpg",
+      "asset": "assets/gallery-mirrors/403181.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "403181",
+      "sourceFilename": "WALL DECOR-MIRRORS-403181~1.jpg",
+      "asset": "assets/gallery-mirrors/403181~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "403181",
+      "sourceFilename": "WALL DECOR-MIRRORS-403181~2.jpg",
+      "asset": "assets/gallery-mirrors/403181~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "403181",
+      "sourceFilename": "WALL DECOR-MIRRORS-403181~3.jpg",
+      "asset": "assets/gallery-mirrors/403181~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "403181",
+      "sourceFilename": "WALL DECOR-MIRRORS-403181~4.jpg",
+      "asset": "assets/gallery-mirrors/403181~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "403181",
+      "sourceFilename": "WALL DECOR-MIRRORS-403181~8.jpg",
+      "asset": "assets/gallery-mirrors/403181~8.webp",
+      "primary": false,
+      "originalDimensions": [
+        2994,
+        2994
+      ]
+    },
+    {
+      "imageKey": "403181",
+      "sourceFilename": "WALL DECOR-MIRRORS-403181~9.jpg",
+      "asset": "assets/gallery-mirrors/403181~9.webp",
+      "primary": false,
+      "originalDimensions": [
+        2999,
+        2999
+      ]
+    },
+    {
+      "imageKey": "082959",
+      "sourceFilename": "WALL DECOR-MIRRORS-082959.jpg",
+      "asset": "assets/gallery-mirrors/082959.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082959",
+      "sourceFilename": "WALL DECOR-MIRRORS-082959~1.jpg",
+      "asset": "assets/gallery-mirrors/082959~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "imageKey": "082959",
+      "sourceFilename": "WALL DECOR-MIRRORS-082959~2.jpg",
+      "asset": "assets/gallery-mirrors/082959~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082959",
+      "sourceFilename": "WALL DECOR-MIRRORS-082959~3.jpg",
+      "asset": "assets/gallery-mirrors/082959~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082959",
+      "sourceFilename": "WALL DECOR-MIRRORS-082959~4.jpg",
+      "asset": "assets/gallery-mirrors/082959~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "082959",
+      "sourceFilename": "WALL DECOR-MIRRORS-082959~5.jpg",
+      "asset": "assets/gallery-mirrors/082959~5.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "252010",
+      "sourceFilename": "WALL DECOR-MIRRORS-252010.jpg",
+      "asset": "assets/gallery-mirrors/252010.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "252010",
+      "sourceFilename": "WALL DECOR-MIRRORS-252010~1.jpg",
+      "asset": "assets/gallery-mirrors/252010~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "252010",
+      "sourceFilename": "WALL DECOR-MIRRORS-252010~2.jpg",
+      "asset": "assets/gallery-mirrors/252010~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "252010",
+      "sourceFilename": "WALL DECOR-MIRRORS-252010~3.jpg",
+      "asset": "assets/gallery-mirrors/252010~3.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "252010",
+      "sourceFilename": "WALL DECOR-MIRRORS-252010~4.jpg",
+      "asset": "assets/gallery-mirrors/252010~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "252010",
+      "sourceFilename": "WALL DECOR-MIRRORS-252010~5.jpg",
+      "asset": "assets/gallery-mirrors/252010~5.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "433249",
+      "sourceFilename": "WALL DECOR-MIRRORS-433249.jpg",
+      "asset": "assets/gallery-mirrors/433249.webp",
+      "primary": true,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "433249",
+      "sourceFilename": "WALL DECOR-MIRRORS-433249~1.jpg",
+      "asset": "assets/gallery-mirrors/433249~1.webp",
+      "primary": false,
+      "originalDimensions": [
+        3222,
+        3222
+      ]
+    },
+    {
+      "imageKey": "433249",
+      "sourceFilename": "WALL DECOR-MIRRORS-433249~2.jpg",
+      "asset": "assets/gallery-mirrors/433249~2.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "imageKey": "433249",
+      "sourceFilename": "WALL DECOR-MIRRORS-433249~4.jpg",
+      "asset": "assets/gallery-mirrors/433249~4.webp",
+      "primary": false,
+      "originalDimensions": [
+        3000,
+        3000
+      ]
+    }
+  ]
+}

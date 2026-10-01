@@ -1,0 +1,1846 @@
+{
+  "departments": {
+    "Furniture": {
+      "desc": "Seating, tables, storage and beds, organised by what a retailer is buying.",
+      "groups": [
+        [
+          "Seating",
+          "Sofas",
+          "Sofa Beds",
+          "Armchairs & Accent Chairs",
+          "Dining Chairs",
+          "Bar Stools",
+          "Benches",
+          "Footstools & Pouffes"
+        ],
+        [
+          "Tables",
+          "Dining Tables",
+          "Coffee Tables",
+          "Side & Lamp Tables",
+          "Console Tables",
+          "Desks"
+        ],
+        [
+          "Storage & Beds",
+          "Sideboards",
+          "Cabinets",
+          "Bookcases",
+          "Bed Frames",
+          "Headboards"
+        ]
+      ],
+      "filters": [
+        "Product Type",
+        "Availability",
+        "Colour & Finish",
+        "Material",
+        "Width or Size",
+        "Collection"
+      ]
+    },
+    "Lighting": {
+      "desc": "Decorative and practical lighting with the technical details needed to specify it.",
+      "groups": [
+        [
+          "Indoor Lighting",
+          "Table Lamps",
+          "Floor Lamps",
+          "Pendants",
+          "Chandeliers",
+          "Flush & Semi-flush",
+          "Wall Lights",
+          "Picture Lights"
+        ],
+        [
+          "Outdoor Lighting",
+          "Outdoor Wall Lights",
+          "Post Lights",
+          "Garden Lights"
+        ],
+        [
+          "Accessories",
+          "Lamp Shades",
+          "Lamp Bases",
+          "Bulbs"
+        ]
+      ],
+      "filters": [
+        "Product Type",
+        "Availability",
+        "Colour & Finish",
+        "Material",
+        "Height or Size",
+        "Bulb Cap"
+      ]
+    },
+    "Outdoor Living": {
+      "desc": "Outdoor furniture, shade and accessories for complete retail ranges.",
+      "groups": [
+        [
+          "Furniture",
+          "Dining Sets",
+          "Lounge Sets",
+          "Bistro Sets",
+          "Outdoor Chairs",
+          "Outdoor Tables",
+          "Benches"
+        ],
+        [
+          "Shade & Structures",
+          "Parasols",
+          "Bases",
+          "Pergolas"
+        ],
+        [
+          "Complete the look",
+          "Outdoor Lighting",
+          "Outdoor Rugs",
+          "Planters",
+          "Covers & Care"
+        ]
+      ],
+      "filters": [
+        "Product Type",
+        "Availability",
+        "Seats or Capacity",
+        "Material",
+        "Colour",
+        "Size"
+      ]
+    },
+    "Home Accessories": {
+      "desc": "The finishing touches, with Photo Frames given their own clear destination.",
+      "groups": [
+        [
+          "Decorative",
+          "Vases",
+          "Planters",
+          "Decorative Objects",
+          "Candle Holders",
+          "Lanterns"
+        ],
+        [
+          "Useful",
+          "Photo Frames",
+          "Trays",
+          "Baskets & Storage",
+          "Bookends"
+        ],
+        [
+          "More",
+          "Fireside Accessories",
+          "Doorstops"
+        ]
+      ],
+      "filters": [
+        "Product Type",
+        "Availability",
+        "Colour",
+        "Material",
+        "Height or Size",
+        "Style"
+      ]
+    },
+    "Soft Furnishings": {
+      "desc": "Textiles and rugs that help retailers coordinate a room.",
+      "groups": [
+        [
+          "Textiles",
+          "Cushions",
+          "Throws",
+          "Rugs",
+          "Doormats"
+        ],
+        [
+          "Shop by look",
+          "Plain",
+          "Patterned",
+          "Textured"
+        ]
+      ],
+      "filters": [
+        "Product Type",
+        "Availability",
+        "Colour",
+        "Material",
+        "Size",
+        "Pattern"
+      ]
+    },
+    "Mattresses": {
+      "desc": "A provisional top-level department, subject to active SKU breadth and Nigel’s review.",
+      "groups": [
+        [
+          "Construction",
+          "Pocket Sprung",
+          "Foam",
+          "Hybrid"
+        ],
+        [
+          "Related",
+          "Mattress Protectors",
+          "Bed Bases",
+          "Headboards"
+        ]
+      ],
+      "filters": [
+        "Bed Size",
+        "Availability",
+        "Firmness",
+        "Construction",
+        "Depth",
+        "Collection"
+      ]
+    },
+    "Art": {
+      "desc": "Start with the art format; use subject, colour and scale to refine the range.",
+      "groups": [
+        [
+          "Art Type",
+          "Framed Art",
+          "Canvas Art",
+          "Glass Art",
+          "Art Sets"
+        ],
+        [
+          "Browse subjects",
+          "Abstract",
+          "Botanical",
+          "Landscape",
+          "Coastal",
+          "Animals",
+          "Figurative"
+        ]
+      ],
+      "filters": [
+        "Art Type",
+        "Subject",
+        "Colour",
+        "Orientation",
+        "Size",
+        "Availability"
+      ]
+    },
+    "Mirrors": {
+      "desc": "Browse by type and shape, then narrow by size, colour, room and style. Trade availability and specifications stay close to every SKU.",
+      "groups": [
+        [
+          "Type",
+          "Wall Mirrors",
+          "Full Length Mirrors",
+          "Leaner Mirrors",
+          "Free Standing Mirrors",
+          "Overmantel Mirrors",
+          "Storage Mirrors"
+        ],
+        [
+          "Shape",
+          "Round Mirrors",
+          "Oval Mirrors",
+          "Rectangle Mirrors",
+          "Rounded Rectangle Mirrors",
+          "Arch Mirrors",
+          "Freeform Mirrors"
+        ],
+        [
+          "Room",
+          "Living Room Mirrors",
+          "Hallway Mirrors",
+          "Bedroom Mirrors",
+          "Bathroom Mirrors",
+          "Cloakroom Mirrors"
+        ],
+        [
+          "Style",
+          "Contemporary Mirrors",
+          "Country Mirrors",
+          "Heritage Mirrors",
+          "Chic Mirrors"
+        ],
+        [
+          "Size",
+          "Small Mirrors",
+          "Medium Mirrors",
+          "Large Mirrors",
+          "Extra Large Mirrors"
+        ],
+        [
+          "Colour",
+          "Black Mirrors",
+          "Gold Mirrors",
+          "Silver Mirrors",
+          "Wood Mirrors",
+          "Bronze Mirrors",
+          "Brass Mirrors",
+          "Grey Mirrors"
+        ]
+      ],
+      "filters": [
+        "Type",
+        "Shape",
+        "Size",
+        "Colour",
+        "Room",
+        "Style",
+        "Trade Price",
+        "Availability"
+      ]
+    },
+    "Clocks": {
+      "desc": "Start with clock type; refine by size, style, dial, colour and trade availability. Collections remain an optional shortcut.",
+      "groups": [
+        [
+          "Type",
+          "Wall Clocks",
+          "Cuckoo Clocks",
+          "Outdoor Clocks",
+          "Mantel Clocks",
+          "Alarm Clocks"
+        ],
+        [
+          "Style",
+          "Classic Clocks",
+          "Modern Clocks",
+          "Retro & Vintage Clocks",
+          "Scandi Clocks"
+        ],
+        [
+          "Size",
+          "Small Clocks",
+          "Medium Clocks",
+          "Large Clocks",
+          "Oversized Clocks"
+        ],
+        [
+          "Dial",
+          "Roman Numerals",
+          "Number Dials"
+        ],
+        [
+          "Collection",
+          "Arabic Collection",
+          "Mulberry Collection",
+          "Oyster Collection",
+          "Clocksmith Collection"
+        ]
+      ],
+      "filters": [
+        "Type",
+        "Size",
+        "Style",
+        "Colour",
+        "Dial",
+        "Collection",
+        "Room",
+        "Movement",
+        "Features"
+      ]
+    },
+    "Greeting Cards": {
+      "desc": "Build a card range by occasion and recipient, then check finish and pack quantity.",
+      "groups": [
+        [
+          "Occasion",
+          "Birthday",
+          "Wedding",
+          "Anniversary",
+          "New Baby",
+          "Thank You",
+          "Sympathy"
+        ],
+        [
+          "Seasonal",
+          "Christmas",
+          "Mother’s Day",
+          "Father’s Day",
+          "Easter"
+        ],
+        [
+          "Everyday",
+          "Blank Cards",
+          "Packs & Boxed Cards"
+        ]
+      ],
+      "filters": [
+        "Occasion",
+        "Recipient",
+        "Age or Milestone",
+        "Finish",
+        "Pack Quantity",
+        "Availability"
+      ]
+    }
+  },
+  "products": [
+    {
+      "id": "GD-DEMO-1010",
+      "dept": "Furniture",
+      "type": "Sofas",
+      "name": "Elton Two Seater Sofa",
+      "price": 640,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Fabric",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Width or Size": "Two Seater",
+      "Seats or Capacity": "2"
+    },
+    {
+      "id": "GD-DEMO-1011",
+      "dept": "Furniture",
+      "type": "Sofas",
+      "name": "Haven Sofa Bed",
+      "price": 810,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Fabric",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Width or Size": "Three Seater",
+      "Bed Size": "Double"
+    },
+    {
+      "id": "GD-DEMO-1012",
+      "dept": "Furniture",
+      "type": "Armchairs & Accent Chairs",
+      "name": "Marlow Accent Chair",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2"
+    },
+    {
+      "id": "GD-DEMO-1013",
+      "dept": "Furniture",
+      "type": "Armchairs & Accent Chairs",
+      "name": "Nora Armchair",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b"
+    },
+    {
+      "id": "GD-DEMO-1014",
+      "dept": "Furniture",
+      "type": "Sideboards",
+      "name": "Ashford Sideboard",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2"
+    },
+    {
+      "id": "GD-DEMO-1015",
+      "dept": "Furniture",
+      "type": "Sideboards",
+      "name": "Lowry Storage Cabinet",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b"
+    },
+    {
+      "id": "GD-DEMO-1016",
+      "dept": "Lighting",
+      "type": "Table Lamps",
+      "name": "Mia Ceramic Table Lamp",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Bulb Cap": "E27"
+    },
+    {
+      "id": "GD-DEMO-1017",
+      "dept": "Lighting",
+      "type": "Table Lamps",
+      "name": "Eden Ribbed Table Lamp",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Bulb Cap": "E14"
+    },
+    {
+      "id": "GD-DEMO-1018",
+      "dept": "Lighting",
+      "type": "Pendants",
+      "name": "Orla Brass Pendant",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Bulb Cap": "E27"
+    },
+    {
+      "id": "GD-DEMO-1019",
+      "dept": "Lighting",
+      "type": "Pendants",
+      "name": "Atlas Glass Pendant",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Bulb Cap": "E14"
+    },
+    {
+      "id": "GD-DEMO-1020",
+      "dept": "Lighting",
+      "type": "Outdoor Wall Lights",
+      "name": "Harbour Exterior Wall Light",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Bulb Cap": "E27",
+      "IP Rating": "IP44"
+    },
+    {
+      "id": "GD-DEMO-1021",
+      "dept": "Outdoor Living",
+      "type": "Dining Sets",
+      "name": "Alder Outdoor Dining Set",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Seats or Capacity": "6"
+    },
+    {
+      "id": "GD-DEMO-1022",
+      "dept": "Outdoor Living",
+      "type": "Dining Sets",
+      "name": "Seabrook Bistro Set",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Seats or Capacity": "2"
+    },
+    {
+      "id": "GD-DEMO-1023",
+      "dept": "Outdoor Living",
+      "type": "Lounge Sets",
+      "name": "Tide Outdoor Lounge Set",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Seats or Capacity": "4"
+    },
+    {
+      "id": "GD-DEMO-1024",
+      "dept": "Home Accessories",
+      "type": "Vases",
+      "name": "Terra Stoneware Vase",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2"
+    },
+    {
+      "id": "GD-DEMO-1025",
+      "dept": "Home Accessories",
+      "type": "Vases",
+      "name": "Solace Glass Vase",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b"
+    },
+    {
+      "id": "GD-DEMO-1026",
+      "dept": "Home Accessories",
+      "type": "Photo Frames",
+      "name": "Almond 6 × 4 Photo Frame",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Photo Size": "6 × 4 in",
+      "Display Type": "Tabletop",
+      "Orientation": "Both",
+      "Frame Material": "Wood"
+    },
+    {
+      "id": "GD-DEMO-1027",
+      "dept": "Home Accessories",
+      "type": "Photo Frames",
+      "name": "Almond 5 × 7 Photo Frame",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Photo Size": "5 × 7 in",
+      "Display Type": "Wall-hung",
+      "Orientation": "Portrait",
+      "Frame Material": "Metal"
+    },
+    {
+      "id": "GD-DEMO-1028",
+      "dept": "Home Accessories",
+      "type": "Photo Frames",
+      "name": "Rowan Multi-aperture Frame",
+      "price": 128,
+      "rrp": 249,
+      "stock": "Coming soon",
+      "colour": "Gold",
+      "material": "Glass",
+      "size": "Large",
+      "collection": "New Season",
+      "tone": "#a58f77",
+      "Photo Size": "Multiple",
+      "Display Type": "Wall-hung",
+      "Orientation": "Both",
+      "Frame Material": "Wood"
+    },
+    {
+      "id": "GD-DEMO-1029",
+      "dept": "Home Accessories",
+      "type": "Trays",
+      "name": "Luna Brass Tray",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2"
+    },
+    {
+      "id": "GD-DEMO-1030",
+      "dept": "Soft Furnishings",
+      "type": "Cushions",
+      "name": "Linen Weave Cushion",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Pattern": "Plain"
+    },
+    {
+      "id": "GD-DEMO-1031",
+      "dept": "Soft Furnishings",
+      "type": "Cushions",
+      "name": "Botanical Print Cushion",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Pattern": "Botanical"
+    },
+    {
+      "id": "GD-DEMO-1032",
+      "dept": "Soft Furnishings",
+      "type": "Throws",
+      "name": "Cotton Herringbone Throw",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Pattern": "Herringbone"
+    },
+    {
+      "id": "GD-DEMO-1033",
+      "dept": "Soft Furnishings",
+      "type": "Rugs",
+      "name": "Harbour Flatweave Rug",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Pattern": "Striped"
+    },
+    {
+      "id": "GD-DEMO-1034",
+      "dept": "Mattresses",
+      "type": "Pocket Sprung",
+      "name": "Dreamwell Pocket Mattress",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Bed Size": "Double",
+      "Firmness": "Medium",
+      "Construction": "Pocket Sprung",
+      "Depth": "25 cm"
+    },
+    {
+      "id": "GD-DEMO-1035",
+      "dept": "Mattresses",
+      "type": "Pocket Sprung",
+      "name": "Restwell Firm Pocket Mattress",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Bed Size": "King",
+      "Firmness": "Firm",
+      "Construction": "Pocket Sprung",
+      "Depth": "28 cm"
+    },
+    {
+      "id": "GD-DEMO-1036",
+      "dept": "Mattresses",
+      "type": "Hybrid",
+      "name": "Balance Hybrid Mattress",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Bed Size": "Double",
+      "Firmness": "Medium Firm",
+      "Construction": "Hybrid",
+      "Depth": "27 cm"
+    },
+    {
+      "id": "GD-DEMO-1037",
+      "dept": "Art",
+      "type": "Framed Art",
+      "name": "Coastal Horizon Framed Art",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Art Type": "Framed Art",
+      "Subject": "Coastal",
+      "Orientation": "Landscape"
+    },
+    {
+      "id": "GD-DEMO-1038",
+      "dept": "Art",
+      "type": "Framed Art",
+      "name": "Botanical Study Framed Art",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Art Type": "Framed Art",
+      "Subject": "Botanical",
+      "Orientation": "Portrait"
+    },
+    {
+      "id": "GD-DEMO-1039",
+      "dept": "Art",
+      "type": "Canvas Art",
+      "name": "Quiet Abstract Canvas",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Art Type": "Canvas Art",
+      "Subject": "Abstract",
+      "Orientation": "Landscape"
+    },
+    {
+      "id": "GD-DEMO-1040",
+      "dept": "Art",
+      "type": "Art Sets",
+      "name": "Linear Forms Art Set",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Art Type": "Art Sets",
+      "Subject": "Abstract",
+      "Orientation": "Portrait"
+    },
+    {
+      "id": "GD-DEMO-1041",
+      "dept": "Mirrors",
+      "type": "Wall Mirrors",
+      "name": "Camden Arched Wall Mirror",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Wood",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Shape": "Arch",
+      "Style": "Contemporary",
+      "Room": [
+        "Hallway",
+        "Bedroom"
+      ]
+    },
+    {
+      "id": "GD-DEMO-1042",
+      "dept": "Mirrors",
+      "type": "Wall Mirrors",
+      "name": "Hampshire Round Mirror",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Wood",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Shape": "Round",
+      "Style": "Country",
+      "Room": [
+        "Living Room",
+        "Hallway"
+      ]
+    },
+    {
+      "id": "GD-DEMO-1043",
+      "dept": "Mirrors",
+      "type": "Leaner Mirrors",
+      "name": "Como Curved Leaner Mirror",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Gold",
+      "material": "Wood",
+      "size": "Extra Large",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Shape": "Arch",
+      "Style": "Chic",
+      "Room": "Bedroom",
+      "Full Length": "Yes"
+    },
+    {
+      "id": "GD-DEMO-1044",
+      "dept": "Mirrors",
+      "type": "Leaner Mirrors",
+      "name": "Milano Full Length Leaner Mirror",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Extra Large",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Shape": "Rounded Rectangle",
+      "Style": "Contemporary",
+      "Room": "Bedroom",
+      "Full Length": "Yes"
+    },
+    {
+      "id": "GD-DEMO-1045",
+      "dept": "Mirrors",
+      "type": "Bathroom Mirrors",
+      "name": "Shoreline Bathroom Mirror",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Grey",
+      "material": "Wood",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Shape": "Round",
+      "Style": "Contemporary",
+      "Room": "Bathroom"
+    },
+    {
+      "id": "GD-DEMO-1046",
+      "dept": "Mirrors",
+      "type": "Free Standing Mirrors",
+      "name": "Haven Free Standing Mirror",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Silver",
+      "material": "Wood",
+      "size": "Large",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Shape": "Rectangle",
+      "Style": "Heritage",
+      "Room": "Bedroom",
+      "Full Length": "Yes"
+    },
+    {
+      "id": "GD-DEMO-1047",
+      "dept": "Mirrors",
+      "type": "Overmantel Mirrors",
+      "name": "Brampton Overmantel Mirror",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Bronze",
+      "material": "Wood",
+      "size": "Large",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Shape": "Arch",
+      "Style": "Heritage",
+      "Room": "Living Room"
+    },
+    {
+      "id": "GD-DEMO-1048",
+      "dept": "Mirrors",
+      "type": "Storage Mirrors",
+      "name": "Clerkenwell Storage Mirror",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Brass",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Shape": "Rectangle",
+      "Style": "Contemporary",
+      "Room": "Cloakroom"
+    },
+    {
+      "id": "GD-DEMO-1049",
+      "dept": "Mirrors",
+      "type": "Wall Mirrors",
+      "name": "Lyon Oval Wall Mirror",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Gold",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Shape": "Oval",
+      "Style": "Chic",
+      "Room": "Hallway"
+    },
+    {
+      "id": "GD-DEMO-1050",
+      "dept": "Mirrors",
+      "type": "Wall Mirrors",
+      "name": "Pembrooke Rectangular Wall Mirror",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Large",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Shape": "Rectangle",
+      "Style": "Country",
+      "Room": "Living Room"
+    },
+    {
+      "id": "GD-DEMO-1051",
+      "dept": "Mirrors",
+      "type": "Wall Mirrors",
+      "name": "Pebble Freeform Wall Mirror",
+      "price": 128,
+      "rrp": 249,
+      "stock": "Coming soon",
+      "colour": "Wood",
+      "material": "Glass",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#a58f77",
+      "Shape": "Freeform",
+      "Style": "Contemporary",
+      "Room": "Cloakroom"
+    },
+    {
+      "id": "TK-AMC12021",
+      "sku": "AMC12021",
+      "dept": "Clocks",
+      "type": "Wall Clocks",
+      "name": "Arabic Small Wall Clock in Seagrass",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Green",
+      "material": "Not specified",
+      "size": "Small",
+      "collection": "Arabic",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12021.jpg?v=1741188910",
+      "realClock": true,
+      "Style": "Classic",
+      "Room": [
+        "Dining Room",
+        "Hallway",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Not specified",
+      "Dial": "Number Dials",
+      "Collection": "Arabic"
+    },
+    {
+      "id": "TK-AMC12014",
+      "sku": "AMC12014",
+      "dept": "Clocks",
+      "type": "Wall Clocks",
+      "name": "Mulberry Small Wall Clock in Midnight Blue",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Blue",
+      "material": "Not specified",
+      "size": "Small",
+      "collection": "Mulberry",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12014_0ce7edd7-ceb9-4992-827d-15978a0c47dd.jpg?v=1758897890",
+      "realClock": true,
+      "Style": "Modern",
+      "Room": [
+        "Dining Room",
+        "Hallway",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Audible Ticking",
+      "Dial": "Not specified",
+      "Collection": "Mulberry"
+    },
+    {
+      "id": "TK-AMC13003",
+      "sku": "AMC13003",
+      "dept": "Clocks",
+      "type": "Cuckoo Clocks",
+      "name": "Cuckoo Wall Clock in Forest",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Green",
+      "material": "Not specified",
+      "size": "Medium",
+      "collection": "Cuckoo",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13003.jpg?v=1741189718",
+      "realClock": true,
+      "Style": "Scandi",
+      "Room": [
+        "Dining Room",
+        "Hallway",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Audible Ticking",
+      "Dial": "Not specified",
+      "Collection": "Cuckoo"
+    },
+    {
+      "id": "TK-AMC13007",
+      "sku": "AMC13007",
+      "dept": "Clocks",
+      "type": "Cuckoo Clocks",
+      "name": "Cuckoo Wall Clock in Dark Aquamarine",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Blue",
+      "material": "Not specified",
+      "size": "Medium",
+      "collection": "Cuckoo",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13007.jpg?v=1741189714",
+      "realClock": true,
+      "Style": "Modern",
+      "Room": [
+        "Dining Room",
+        "Hallway",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Audible Ticking",
+      "Dial": "Not specified",
+      "Collection": "Cuckoo"
+    },
+    {
+      "id": "TK-AMC04015",
+      "sku": "AMC04015",
+      "dept": "Clocks",
+      "type": "Mantel Clocks",
+      "name": "Portobello Mantel Clock in Moon",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Grey",
+      "material": "Not specified",
+      "size": "Small",
+      "collection": "Portobello",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC04015.jpg?v=1741189470",
+      "realClock": true,
+      "Style": "Modern",
+      "Room": [
+        "Dining Room",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Audible Ticking",
+      "Dial": "Not specified",
+      "Collection": "Portobello"
+    },
+    {
+      "id": "TK-AMC05015",
+      "sku": "AMC05015",
+      "dept": "Clocks",
+      "type": "Mantel Clocks",
+      "name": "Nordic Mantel Clock Tofu",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Natural",
+      "material": "Not specified",
+      "size": "Not specified",
+      "collection": "Nordic",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC05015.jpg?v=1741189512",
+      "realClock": true,
+      "Style": "Not specified",
+      "Room": [
+        "Not specified"
+      ],
+      "Movement": "Not specified",
+      "Dial": "Not specified",
+      "Collection": "Nordic"
+    },
+    {
+      "id": "TK-AMC28001",
+      "sku": "AMC28001",
+      "dept": "Clocks",
+      "type": "Wall Clocks",
+      "name": "Oyster Oversized Wall Clock Bronze",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Bronze",
+      "material": "Not specified",
+      "size": "Oversized",
+      "collection": "Oyster",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC28001_4d415a12-24be-4aa5-8466-a43be0eef209.jpg?v=1741871899",
+      "realClock": true,
+      "Style": "Modern",
+      "Room": [
+        "Dining Room",
+        "Hallway",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Audible Ticking",
+      "Dial": "Not specified",
+      "Collection": "Oyster"
+    },
+    {
+      "id": "TK-AMC30051",
+      "sku": "AMC30051",
+      "dept": "Clocks",
+      "type": "Wall Clocks",
+      "name": "Clocksmith Cog Bronze Oversized Wall Clock",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Bronze",
+      "material": "Not specified",
+      "size": "Oversized",
+      "collection": "Clocksmith",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC30051.jpg?v=1741189385",
+      "realClock": true,
+      "Style": "Modern",
+      "Room": [
+        "Dining Room",
+        "Hallway",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Audible Ticking",
+      "Dial": "Not specified",
+      "Collection": "Clocksmith"
+    },
+    {
+      "id": "TK-AMC16048",
+      "sku": "AMC16048",
+      "dept": "Clocks",
+      "type": "Wall Clocks",
+      "name": "Clocksmith No.2 Wall Clock in Black",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Black",
+      "material": "Not specified",
+      "size": "Medium",
+      "collection": "Clocksmith",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC16048_24639ae4-ba64-4adc-b7d3-10674c804a9e.jpg?v=1752568383",
+      "realClock": true,
+      "Style": "Not specified",
+      "Room": [
+        "Dining Room",
+        "Hallway",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Audible Ticking",
+      "Dial": "Roman Numerals",
+      "Collection": "Clocksmith"
+    },
+    {
+      "id": "TK-AMC21058",
+      "sku": "AMC21058",
+      "dept": "Clocks",
+      "type": "Wall Clocks",
+      "name": "Clocksmith No.3 Wall Clock in Chrome",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Silver",
+      "material": "Not specified",
+      "size": "Large",
+      "collection": "Clocksmith",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC21058_ca17ee8b-b57d-4869-949e-3c3a158cbc54.jpg?v=1752568423",
+      "realClock": true,
+      "Style": "Classic",
+      "Room": [
+        "Dining Room",
+        "Hallway",
+        "Kitchen",
+        "Living Room",
+        "Office",
+        "Outdoor"
+      ],
+      "Movement": "Audible Ticking",
+      "Dial": "Roman Numerals",
+      "Collection": "Clocksmith"
+    },
+    {
+      "id": "TK-AMC20064",
+      "sku": "AMC20064",
+      "dept": "Clocks",
+      "type": "Outdoor Clocks",
+      "name": "Arabic Outdoor Wall Clock in Cement Grey",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Grey",
+      "material": "Not specified",
+      "size": "Large",
+      "collection": "Arabic",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC20064.jpg?v=1741189258",
+      "realClock": true,
+      "Style": "Classic",
+      "Room": [
+        "Dining Room",
+        "Outdoor",
+        "Hallway",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Audible Ticking with battery case cover for protection",
+      "Dial": "Number Dials",
+      "Collection": "Arabic"
+    },
+    {
+      "id": "TK-AMC32001",
+      "sku": "AMC32001",
+      "dept": "Clocks",
+      "type": "Outdoor Clocks",
+      "name": "Summer House Oversized Wall Clock in Green",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Green",
+      "material": "Not specified",
+      "size": "Large",
+      "collection": "Summer House",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC32001.jpg?v=1741189428",
+      "realClock": true,
+      "Style": "Classic",
+      "Room": [
+        "Dining Room",
+        "Outdoor",
+        "Hallway",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Audible Ticking with battery case protection cover",
+      "Dial": "Roman Numerals",
+      "Collection": "Summer House"
+    },
+    {
+      "id": "TK-AMC04017",
+      "sku": "AMC04017",
+      "dept": "Clocks",
+      "type": "Alarm Clocks",
+      "name": "Wren Alarm Clock in Dove Grey",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "Grey",
+      "material": "Not specified",
+      "size": "Small",
+      "collection": "Wren",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC04017.jpg?v=1741189485",
+      "realClock": true,
+      "Style": "Scandi",
+      "Room": [
+        "Dining Room",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Silent Sweep",
+      "Dial": "Not specified",
+      "Collection": "Wren"
+    },
+    {
+      "id": "TK-AMC05027",
+      "sku": "AMC05027",
+      "dept": "Clocks",
+      "type": "Alarm Clocks",
+      "name": "Finch Alarm Clock in Snowberry White",
+      "price": null,
+      "rrp": null,
+      "stock": "Gallery stock to verify",
+      "colour": "White",
+      "material": "Not specified",
+      "size": "Small",
+      "collection": "Finch",
+      "tone": "#eeece8",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC05027.jpg?v=1741189531",
+      "realClock": true,
+      "Style": "Retro & Vintage",
+      "Room": [
+        "Dining Room",
+        "Kitchen",
+        "Living Room",
+        "Office"
+      ],
+      "Movement": "Silent Sweep",
+      "Dial": "Not specified",
+      "Collection": "Finch"
+    },
+    {
+      "id": "GD-DEMO-1052",
+      "dept": "Greeting Cards",
+      "type": "Birthday",
+      "name": "Artbeat Birthday Floral Card",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Occasion": "Birthday",
+      "Recipient": "General",
+      "Age or Milestone": "Any",
+      "Finish": "Foil",
+      "Pack Quantity": "6"
+    },
+    {
+      "id": "GD-DEMO-1053",
+      "dept": "Greeting Cards",
+      "type": "Birthday",
+      "name": "Artbeat Birthday Graphic Card",
+      "price": 94,
+      "rrp": 189,
+      "stock": "In stock",
+      "colour": "Black",
+      "material": "Metal",
+      "size": "Medium",
+      "collection": "New Season",
+      "tone": "#8b958b",
+      "Occasion": "Birthday",
+      "Recipient": "Friend",
+      "Age or Milestone": "Any",
+      "Finish": "Uncoated",
+      "Pack Quantity": "6"
+    },
+    {
+      "id": "GD-DEMO-1054",
+      "dept": "Greeting Cards",
+      "type": "Wedding",
+      "name": "Artbeat Wedding Card",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Occasion": "Wedding",
+      "Recipient": "Couple",
+      "Age or Milestone": "Not applicable",
+      "Finish": "Embossed",
+      "Pack Quantity": "6"
+    },
+    {
+      "id": "GD-DEMO-1055",
+      "dept": "Greeting Cards",
+      "type": "Blank Cards",
+      "name": "Artbeat Blank Art Card",
+      "price": 62,
+      "rrp": 129,
+      "stock": "In stock",
+      "colour": "Natural",
+      "material": "Wood",
+      "size": "Small",
+      "collection": "New Season",
+      "tone": "#c9b7a2",
+      "Occasion": "Blank",
+      "Recipient": "General",
+      "Age or Milestone": "Not applicable",
+      "Finish": "Uncoated",
+      "Pack Quantity": "6"
+    }
+  ],
+  "clockMedia": {
+    "AMC12021": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12021.jpg?v=1741188910",
+        "alt": "Arabic Wall Clock in Seagrass - Seagrass"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12021_1_August_25.jpg?v=1755705491",
+        "alt": "Arabic Small Wall Clock in Seagrass — view 2"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12021_2.jpg?v=1755705491",
+        "alt": "Arabic Wall Clock in Seagrass - Seagrass"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12021_3.jpg?v=1755705491",
+        "alt": "Arabic Wall Clock in Seagrass - Seagrass"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12021_4.jpg?v=1755705491",
+        "alt": "Arabic Wall Clock in Seagrass - Seagrass"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12021_5.jpg?v=1755705491",
+        "alt": "Arabic Wall Clock in Seagrass - Seagrass"
+      }
+    ],
+    "AMC12014": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12014_0ce7edd7-ceb9-4992-827d-15978a0c47dd.jpg?v=1758897890",
+        "alt": "Mulberry Small Wall Clock in Midnight Blue — view 1"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12014_1_Sept_25_Office.jpg?v=1758900209",
+        "alt": "Mulberry Small Wall Clock in Midnight Blue — view 2"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12014_2.jpg?v=1758900209",
+        "alt": "Mulberry Small Wall Clock in Midnight Blue — view 3"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12014_1_Sept_25_Kitchen.jpg?v=1758902212",
+        "alt": "Mulberry Small Wall Clock in Midnight Blue — view 4"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12014_5.jpg?v=1758902212",
+        "alt": "Mulberry Small Wall Clock in Midnight Blue — view 5"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC12014_3.jpg?v=1758902212",
+        "alt": "Mulberry Small Wall Clock in Midnight Blue — view 6"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC20032_4.jpg?v=1758902212",
+        "alt": "Mulberry Wall Clock in Midnight Blue - Midnight Blue"
+      }
+    ],
+    "AMC20064": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC20064.jpg?v=1741189258",
+        "alt": "Arabic Outdoor Wall Clock in Cement Grey - Cement Grey"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC20064_1_August_25.jpg?v=1755163289",
+        "alt": "Arabic Outdoor Wall Clock in Cement Grey — view 2"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC20064_2.jpg?v=1755163289",
+        "alt": "Arabic Outdoor Wall Clock in Cement Grey - Cement Grey"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC20064_3.jpg?v=1755163289",
+        "alt": "Arabic Outdoor Wall Clock in Cement Grey - Cement Grey"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC20064_4.jpg?v=1755163289",
+        "alt": "Arabic Outdoor Wall Clock in Cement Grey - Cement Grey"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC20064_5.jpg?v=1755163289",
+        "alt": "Arabic Outdoor Wall Clock in Cement Grey - Cement Grey"
+      }
+    ],
+    "AMC28001": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC28001_4d415a12-24be-4aa5-8466-a43be0eef209.jpg?v=1741871899",
+        "alt": "Oyster Wall Clock Bronze - Bronze"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC28001_1_4d55a511-9073-418b-b465-2947af20d77f.jpg?v=1741871899",
+        "alt": "Oyster Wall Clock Bronze - Bronze"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC28001_2.jpg?v=1741871899",
+        "alt": "Oyster Wall Clock Bronze - Bronze"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC28001_3_c055e1db-c85f-48e7-95ff-1795008df7f3.jpg?v=1741871899",
+        "alt": "Oyster Wall Clock Bronze - Bronze"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC28001_4_7202f797-3080-41ca-a0b1-f615617b7982.jpg?v=1741871899",
+        "alt": "Oyster Wall Clock Bronze - Bronze"
+      }
+    ],
+    "AMC30051": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC30051.jpg?v=1741189385",
+        "alt": "Clocksmith Wall Clock Cog Bronze - Dark Bronze"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC30051_1.jpg?v=1741189385",
+        "alt": "Clocksmith Wall Clock Cog Bronze - Dark Bronze"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC30051_2.jpg?v=1741869677",
+        "alt": "Clocksmith Wall Clock Cog Bronze - Dark Bronze"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC30051_3.jpg?v=1741869678",
+        "alt": "Clocksmith Wall Clock Cog Bronze - Dark Bronze"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC30051_4.jpg?v=1741869678",
+        "alt": "Clocksmith Wall Clock Cog Bronze - Dark Bronze"
+      }
+    ],
+    "AMC32001": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC32001.jpg?v=1741189428",
+        "alt": "Summer House Wall Clock in Green - Green"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC32001_2_Sept_25.jpg?v=1756822473",
+        "alt": "Summer House Oversized Wall Clock in Green — view 2"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC32001_2.jpg?v=1756822473",
+        "alt": "Summer House Wall Clock in Green - Green"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC32001_3.jpg?v=1756822473",
+        "alt": "Summer House Wall Clock in Green - Green"
+      }
+    ],
+    "AMC04015": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC04015.jpg?v=1741189470",
+        "alt": "Portobello Mantel Clock in Moon - Moon"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC04015_1.jpg?v=1741189470",
+        "alt": "Portobello Mantel Clock in Moon - Moon"
+      }
+    ],
+    "AMC04017": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC04017.jpg?v=1741189485",
+        "alt": "Wren Alarm Clock in Dove Grey - Dove Grey"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC04017_1.jpg?v=1741189485",
+        "alt": "Wren Alarm Clock in Dove Grey - Dove Grey"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC04017_2.jpg?v=1742225799",
+        "alt": "Wren Alarm Clock in Dove Grey - Dove Grey"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC04017_4.jpg?v=1742225798",
+        "alt": "Wren Alarm Clock in Dove Grey - Dove Grey"
+      }
+    ],
+    "AMC05015": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC05015.jpg?v=1741189512",
+        "alt": "Nordic Mantel Clock Tofu - Nordic Tofu"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC05015_1.jpg?v=1741189512",
+        "alt": "Nordic Mantel Clock Tofu - Nordic Tofu"
+      }
+    ],
+    "AMC05027": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC05027.jpg?v=1741189531",
+        "alt": "Finch Alarm Clock in Snowberry White - Snowberry White"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC05027_1.jpg?v=1741189531",
+        "alt": "Finch Alarm Clock in Snowberry White - Snowberry White"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC05027_2.jpg?v=1742225725",
+        "alt": "Finch Alarm Clock in Snowberry White - Snowberry White"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC05027_4.jpg?v=1742225725",
+        "alt": "Finch Alarm Clock in Snowberry White - Snowberry White"
+      }
+    ],
+    "AMC13007": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13007.jpg?v=1741189714",
+        "alt": "Cuckoo Wall Clock in Dark Aquamarine - Dark Aquamarine"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13007_1.jpg?v=1741189714",
+        "alt": "Cuckoo Wall Clock in Dark Aquamarine - Dark Aquamarine"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13007_2_20865bc0-945d-488d-8a93-d24327b5ef81.jpg?v=1750330315",
+        "alt": "Cuckoo Wall Clock in Dark Aquamarine - Dark Aquamarine"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13007_3_a3c16a91-0aa0-4c50-af5a-4cd001e7a313.jpg?v=1750330315",
+        "alt": "Cuckoo Wall Clock in Dark Aquamarine - Dark Aquamarine"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13007_4_8b34c3d1-7cbe-479e-b9a0-9bcc35da28cc.jpg?v=1750330315",
+        "alt": "Cuckoo Wall Clock in Dark Aquamarine - Dark Aquamarine"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13007_5_ae3678b7-4421-4009-818b-1dc9f479b36e.jpg?v=1750330315",
+        "alt": "Cuckoo Wall Clock in Dark Aquamarine - Dark Aquamarine"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13007_6_fbd061f5-f534-49ac-ab5c-2c4ff3c54a3d.jpg?v=1750330315",
+        "alt": "Cuckoo Wall Clock in Dark Aquamarine - Dark Aquamarine"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13007_7_87d41840-b667-484e-bd3e-bad573356a28.jpg?v=1750330315",
+        "alt": "Cuckoo Wall Clock in Dark Aquamarine - Dark Aquamarine"
+      }
+    ],
+    "AMC13003": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13003.jpg?v=1741189718",
+        "alt": "Cuckoo Wall Clock in Forest - Forest"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13003_1.jpg?v=1741189718",
+        "alt": "Cuckoo Wall Clock in Forest - Forest"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13003_2_ebb54df2-b69c-41fd-9cb6-098324e27631.jpg?v=1750330396",
+        "alt": "Cuckoo Wall Clock in Forest - Forest"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13003_3_eb7845af-fbec-4dc6-b149-defe903d093a.jpg?v=1750330396",
+        "alt": "Cuckoo Wall Clock in Forest - Forest"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13003_4_4eddec6d-c97e-4429-bb93-5dd715d56907.jpg?v=1750330396",
+        "alt": "Cuckoo Wall Clock in Forest - Forest"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13003_5_af45297a-7404-452d-8a6f-c772247509a5.jpg?v=1750330396",
+        "alt": "Cuckoo Wall Clock in Forest - Forest"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13003_6_2d24b5b5-fcc9-4c7b-b00d-23f7b1fd47e5.jpg?v=1750330396",
+        "alt": "Cuckoo Wall Clock in Forest - Forest"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC13003_7_701fc0c2-9a33-48f7-8f93-f143f7624be6.jpg?v=1750330396",
+        "alt": "Cuckoo Wall Clock in Forest - Forest"
+      }
+    ],
+    "AMC16048": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC16048_24639ae4-ba64-4adc-b7d3-10674c804a9e.jpg?v=1752568383",
+        "alt": "Clocksmith No.2 Wall Clock in Black — view 1"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC16048_1_48fe9781-baeb-435a-98fc-597fe578703d.jpg?v=1752568383",
+        "alt": "Clocksmith No.2 Wall Clock in Black — view 2"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC16048_2_257ce32b-d1c4-4159-ba2c-481103b55ae0.jpg?v=1752568383",
+        "alt": "Clocksmith No.2 Wall Clock in Black — view 3"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC16048_3_31642526-c0f3-40c4-b407-1b97c00a6e5b.jpg?v=1752568383",
+        "alt": "Clocksmith No.2 Wall Clock in Black — view 4"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC16048_4_76b0e80a-6c2f-4584-8c6d-38cbfb4f0ed6.jpg?v=1752568383",
+        "alt": "Clocksmith No.2 Wall Clock in Black — view 5"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC16048.jpg?v=1746548742",
+        "alt": "Clocksmith No.2 Wall Clock in Black - Black"
+      }
+    ],
+    "AMC21058": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC21058_ca17ee8b-b57d-4869-949e-3c3a158cbc54.jpg?v=1752568423",
+        "alt": "Clocksmith No.3 Wall Clock in Chrome — view 1"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC21058_1_3c35f4ee-7e4d-4e8b-91d1-1aa8c2a2ae84.jpg?v=1752568423",
+        "alt": "Clocksmith No.3 Wall Clock in Chrome — view 2"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC21058_2_9045fd61-80d0-499d-a064-46b80253f707.jpg?v=1752568423",
+        "alt": "Clocksmith No.3 Wall Clock in Chrome — view 3"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC21058_4_a85b63f8-df42-413c-a990-0407e5250e53.jpg?v=1752568423",
+        "alt": "Clocksmith No.3 Wall Clock in Chrome — view 4"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC21058_3_638e2e00-0bf8-46c0-a938-4588a62fb7cf.jpg?v=1752568423",
+        "alt": "Clocksmith No.3 Wall Clock in Chrome — view 5"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0948/8374/2034/files/AMC21058.jpg?v=1746549221",
+        "alt": "Clocksmith No.3 Wall Clock in Chrome - Silver"
+      }
+    ]
+  }
+}

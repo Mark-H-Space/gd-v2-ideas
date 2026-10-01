@@ -1,0 +1,7 @@
+.clocks-filters .spec-range{display:flex;align-items:center;gap:6px;min-width:0}
+.clocks-filters .spec-range label{display:flex;flex-wrap:wrap;gap:5px;flex:1;min-width:0}
+.clocks-filters .spec-range label>span:first-child{flex-basis:100%}
+.clocks-filters .spec-range input{width:calc(100% - 28px);min-width:0;padding:7px 5px;border:1px solid var(--line);background:white;color:var(--ink);font:inherit;border-radius:0}
+.clocks-filters .spec-range input:disabled{background:var(--soft);color:var(--muted)}
+.clocks-filters .spec-range label>span:last-child{align-self:center;font-size:12px}
+.clocks-filters .facet-unavailable{font-size:12px;line-height:1.5;color:var(--muted);margin:6px 0}

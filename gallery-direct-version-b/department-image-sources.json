@@ -1,0 +1,34 @@
+[
+  {
+    "department": "Furniture",
+    "image": "https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_Furn.jpg"
+  },
+  {
+    "department": "D\u00e9cor",
+    "image": "https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_WallDec.jpg"
+  },
+  {
+    "department": "Lighting",
+    "image": "https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_Lighting.jpg"
+  },
+  {
+    "department": "Accessories",
+    "image": "https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_Acc.jpg"
+  },
+  {
+    "department": "Outdoor",
+    "image": "https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_Outdoor.jpg"
+  },
+  {
+    "department": "Textiles",
+    "image": "https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_Textiles.jpg"
+  },
+  {
+    "department": "Mattresses",
+    "image": "assets/9076618d825d9515.webp"
+  },
+  {
+    "department": "Made to Order",
+    "image": "https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_MTO.jpg"
+  }
+]

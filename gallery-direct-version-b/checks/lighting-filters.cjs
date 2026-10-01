@@ -1,0 +1,15 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const c={window:{addEventListener(){}},document:{querySelector(){return null},querySelectorAll(){return []},addEventListener(){}},location:{search:''},localStorage:{getItem(){return null}},URLSearchParams,requestAnimationFrame(){}};
+vm.createContext(c);vm.runInContext(fs.readFileSync('dist/lighting-filters.js','utf8'),c);const f=c.window.LightingFilters;
+const wall={type:'Outdoor Wall Lights','Bulb Cap':'E27','IP Rating':'IP44',availability:'In stock',widthMm:180,heightMm:350,depthMm:200,dimmable:false,numberOfLights:2,maxWattage:40,adjustable:true};
+const led={type:'Ceiling Lights',bulbType:'Integrated LED',bulbIncluded:true,dimmable:true,numberOfLights:6};
+c.window.MIRROR_PRODUCTS=[wall,led];c.window.CATALOGUE_CONTEXT=f.configure(c.window.MIRROR_PRODUCTS);
+assert.deepEqual(Object.keys(c.window.CATALOGUE_CONTEXT.labels).slice(0,10),['type','width','height','colour','material','finish','bulbType','dimmable','ipRating','availability']);
+assert.deepEqual(Array.from(f.values(wall,'type')),['Outdoor Lighting']);assert.deepEqual(Array.from(f.values(wall,'use')),['Outdoor']);assert.deepEqual(Array.from(f.values(wall,'dimmable')),['No']);assert.deepEqual(Array.from(f.values(led,'lights')),['5+ Lights']);
+assert.equal(f.values(led,'bulbType').length,0);assert.equal(f.values(led,'bulbIncluded').length,0);const integrated=f.configure([led]).labels;assert(!('bulbType' in integrated));assert(!('bulbIncluded' in integrated));assert(!('adjustable' in integrated));assert(!('shadeMaterial' in integrated));assert(!('depth' in integrated));
+const shade=f.configure([{type:'Lamp Shades'}]).labels;assert('shadeMaterial' in shade);assert(!('bulbType' in shade));assert(!('lights' in shade));assert(!('dimmable' in shade));
+assert(!('ipRating' in f.configure([{type:'Table Lamps'}]).labels));assert('ipRating' in f.configure([],'Outdoor Wall Lights').labels);assert(f.configure([wall]).initialOpen.includes('ipRating'));
+assert(!('maxWattage' in f.configure([{type:'Table Lamps',maxWattage:'Not supplied'}]).labels));assert.equal(f.numeric({size:'Large'},'height'),null);assert.equal(f.numeric({rrp:100},'price'),null);assert.equal(f.values({availability:'Made to Order'},'availability').length,0);
+vm.runInContext(fs.readFileSync('dist/preview.js','utf8'),c);const {matches}=c.window.GalleryPreview;
+assert(matches(wall,{width:['180','180'],height:['300','400'],ipRating:['IP44'],bulbType:['E27'],dimmable:['No'],maxWattage:['40','40']},''));assert(!matches(wall,{width:['181','']},''));assert(!matches(wall,{height:['','349']},''));assert(!matches(wall,{maxWattage:['','39']},''));assert(!matches(led,{bulbType:['E27']},''));assert(!matches({type:'Wall Lights'},{depth:['1','']},''));
+console.log('Passed: Lighting order, technical values, integrated bulb exclusions, IP prominence, shade/task/depth conditions, millimetre and wattage bounds.');

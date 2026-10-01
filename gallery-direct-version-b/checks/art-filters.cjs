@@ -1,0 +1,17 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const c={window:{addEventListener(){}},document:{querySelector(){return null},querySelectorAll(){return []},addEventListener(){}},location:{search:''},localStorage:{getItem(){return null}},URLSearchParams,requestAnimationFrame(){}};
+vm.createContext(c);vm.runInContext(fs.readFileSync('dist/art-filters.js','utf8'),c);
+const f=c.window.ArtFilters;
+const framed={type:'Framed Art',Subject:'Coastal',Orientation:'Landscape',colour:'Natural',availability:'In stock',widthMm:800,heightMm:500,frameColour:'Black',frameMaterial:'Wood',numberOfPieces:1};
+const canvas={type:'Canvas Art',Subject:'Abstract',Orientation:'Square',colour:'Blue',availability:'Incoming',widthMm:600,heightMm:600};
+c.window.MIRROR_PRODUCTS=[framed,canvas];c.window.CATALOGUE_CONTEXT=f.configure(c.window.MIRROR_PRODUCTS);
+assert.deepEqual(Object.keys(c.window.CATALOGUE_CONTEXT.labels).slice(0,8),['type','subject','orientation','width','height','colour','style','availability']);
+assert(!('size' in f.configure([framed]).labels));assert(!('depth' in f.configure([framed]).labels));
+assert.deepEqual(Array.from(f.values(canvas,'type')),['Canvas']);assert.deepEqual(Array.from(f.values(framed,'colour')),['Neutral']);assert.deepEqual(Array.from(f.values(canvas,'availability')),['Due Soon / Incoming']);assert.equal(f.values({availability:'Made to Order'},'availability').length,0);
+const canvasLabels=f.configure([canvas]).labels;assert(!('frameColour' in canvasLabels));assert(!('frameMaterial' in canvasLabels));assert(!('pieces' in canvasLabels));assert('medium' in canvasLabels);
+const sparse=f.configure([{type:'Framed Art',material:'Wood'}]).labels;assert('frameColour' in sparse);assert(!('frameMaterial' in sparse));assert(!('artist' in sparse));assert(!('medium' in sparse));
+assert('artist' in f.configure([{type:'Framed Art',Artist:'Test Artist'}]).labels);assert('pieces' in f.configure([{type:'Art Sets'}]).labels);assert.deepEqual(Array.from(f.values({numberOfPieces:4},'pieces')),['Multi-piece']);
+assert.equal(f.numeric({size:'Large'},'width'),null);assert.equal(f.numeric({rrp:100},'price'),null);
+vm.runInContext(fs.readFileSync('dist/preview.js','utf8'),c);const {matches}=c.window.GalleryPreview;
+assert(matches(framed,{width:['800','800'],height:['500',''],subject:['Coastal'],orientation:['Landscape'],colour:['Neutral']},''));assert(!matches(framed,{width:['801','']},''));assert(!matches(framed,{height:['','499']},''));assert(matches(canvas,{type:['Canvas'],medium:['Canvas']},''));assert(!matches({type:'Framed Art'},{width:['1','']},''));
+console.log('Passed: Art order, master values, frame/set/artist/medium conditions, supported availability and inclusive millimetre bounds.');

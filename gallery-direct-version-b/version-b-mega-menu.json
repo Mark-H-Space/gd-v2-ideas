@@ -1,0 +1,346 @@
+{
+  "Art": {
+    "groups": [
+      [
+        "Shop Art",
+        [
+          "All Art",
+          "catalogue.html?dept=Art"
+        ],
+        [
+          "Framed Art",
+          "catalogue.html?dept=Art&nav=product&value=Framed+Art&label=Framed+Art"
+        ],
+        [
+          "Canvas Art",
+          "catalogue.html?dept=Art&nav=product&value=Canvas+Art&label=Canvas+Art"
+        ],
+        [
+          "Glass Art",
+          "catalogue.html?dept=Art&nav=product&value=Glass+Art&label=Glass+Art"
+        ],
+        [
+          "Art Sets",
+          "catalogue.html?dept=Art&nav=product&value=Art+Sets&label=Art+Sets"
+        ],
+        [
+          "Metal Wall Art",
+          "catalogue.html?dept=Art&nav=product&value=Metal+Wall+Art&label=Metal+Wall+Art"
+        ]
+      ],
+      [
+        "Subject",
+        [
+          "Abstract",
+          "catalogue.html?dept=Art&nav=subject&value=Abstract&label=Abstract"
+        ],
+        [
+          "Landscape",
+          "catalogue.html?dept=Art&nav=subject&value=Landscape&label=Landscape"
+        ],
+        [
+          "Coastal",
+          "catalogue.html?dept=Art&nav=subject&value=Coastal&label=Coastal"
+        ],
+        [
+          "Floral & Botanical",
+          "catalogue.html?dept=Art&nav=subject&value=Floral+%26+Botanical&label=Floral+%26+Botanical"
+        ],
+        [
+          "Animals",
+          "catalogue.html?dept=Art&nav=subject&value=Animals&label=Animals"
+        ],
+        [
+          "People",
+          "catalogue.html?dept=Art&nav=subject&value=People&label=People"
+        ],
+        [
+          "Typography",
+          "catalogue.html?dept=Art&nav=subject&value=Typography&label=Typography"
+        ]
+      ],
+      [
+        "Style",
+        [
+          "Modern",
+          "catalogue.html?dept=Art&nav=style&value=Modern&label=Modern"
+        ],
+        [
+          "Heritage",
+          "catalogue.html?dept=Art&nav=style&value=Heritage&label=Heritage"
+        ],
+        [
+          "Country",
+          "catalogue.html?dept=Art&nav=style&value=Country&label=Country"
+        ],
+        [
+          "Chic",
+          "catalogue.html?dept=Art&nav=style&value=Chic&label=Chic"
+        ],
+        [
+          "Contemporary",
+          "catalogue.html?dept=Art&nav=style&value=Contemporary&label=Contemporary"
+        ]
+      ],
+      [
+        "Discover",
+        [
+          "New Art",
+          "catalogue.html?dept=Art&nav=new&value=New+Art&label=New+Art"
+        ],
+        [
+          "Large Art",
+          "catalogue.html?dept=Art&nav=large&value=Large+Art&label=Large+Art"
+        ],
+        [
+          "Art Sets",
+          "catalogue.html?dept=Art&nav=product&value=Art+Sets&label=Art+Sets"
+        ],
+        [
+          "Inspiration",
+          "inspiration.html?dept=Art"
+        ]
+      ]
+    ],
+    "image": "assets/gallery-art/057404~1.webp",
+    "alt": "Gallery framed artworks above a sofa",
+    "caption": "Art in the home",
+    "featureHref": "product.html?sku=057404&dept=Art"
+  },
+  "Mirrors": {
+    "groups": [
+      [
+        "Shop Mirrors",
+        [
+          "All Mirrors",
+          "mirrors.html"
+        ],
+        [
+          "Wall Mirrors",
+          "mirrors.html?nav=type&value=Wall+Mirror&label=Wall+Mirrors"
+        ],
+        [
+          "Leaner Mirrors",
+          "mirrors.html?nav=type&value=Leaner+Mirror&label=Leaner+Mirrors"
+        ],
+        [
+          "Freestanding Mirrors",
+          "mirrors.html?nav=type&value=Freestanding&label=Freestanding+Mirrors"
+        ],
+        [
+          "Overmantel Mirrors",
+          "mirrors.html?nav=type&value=Overmantel&label=Overmantel+Mirrors"
+        ],
+        [
+          "Cheval Mirrors",
+          "mirrors.html?nav=type&value=Cheval&label=Cheval+Mirrors"
+        ],
+        [
+          "Tabletop Mirrors",
+          "mirrors.html?nav=type&value=Tabletop&label=Tabletop+Mirrors"
+        ]
+      ],
+      [
+        "Shop by Shape",
+        [
+          "Round",
+          "mirrors.html?nav=shape&value=Round&label=Round"
+        ],
+        [
+          "Oval",
+          "mirrors.html?nav=shape&value=Oval&label=Oval"
+        ],
+        [
+          "Rectangle",
+          "mirrors.html?nav=shape&value=Rectangle&label=Rectangle"
+        ],
+        [
+          "Arched",
+          "mirrors.html?nav=shape&value=Arched&label=Arched"
+        ],
+        [
+          "Rounded Rectangle",
+          "mirrors.html?nav=shape&value=Rounded+Rectangle&label=Rounded+Rectangle"
+        ],
+        [
+          "Freeform",
+          "mirrors.html?nav=shape&value=Freeform&label=Freeform"
+        ]
+      ],
+      [
+        "Style / Room",
+        [
+          "Modern",
+          "mirrors.html?nav=style&value=Modern&label=Modern"
+        ],
+        [
+          "Heritage",
+          "mirrors.html?nav=style&value=Heritage&label=Heritage"
+        ],
+        [
+          "Country",
+          "mirrors.html?nav=style&value=Country&label=Country"
+        ],
+        [
+          "Chic",
+          "mirrors.html?nav=style&value=Chic&label=Chic"
+        ],
+        [
+          "Living Room",
+          "mirrors.html?nav=room&value=Living+Room&label=Living+Room"
+        ],
+        [
+          "Hallway",
+          "mirrors.html?nav=room&value=Hallway&label=Hallway"
+        ],
+        [
+          "Bedroom",
+          "mirrors.html?nav=room&value=Bedroom&label=Bedroom"
+        ],
+        [
+          "Cloakroom",
+          "mirrors.html?nav=room&value=Cloakroom&label=Cloakroom"
+        ],
+        [
+          "Outdoor",
+          "mirrors.html?nav=room&value=Outdoor&label=Outdoor"
+        ]
+      ],
+      [
+        "Discover",
+        [
+          "New Mirrors",
+          "mirrors.html?nav=new&value=New+Mirrors&label=New+Mirrors"
+        ],
+        [
+          "Large Mirrors",
+          "mirrors.html?nav=large&value=Large+Mirrors&label=Large+Mirrors"
+        ],
+        [
+          "Statement Mirrors",
+          "mirrors.html?nav=statement&value=Statement+Mirrors&label=Statement+Mirrors"
+        ],
+        [
+          "Inspiration",
+          "inspiration.html?dept=Mirrors"
+        ]
+      ]
+    ],
+    "image": "assets/gallery-mirrors/567929~1.webp",
+    "alt": "Gallery Windsor round mirror in a room setting",
+    "caption": "Make a statement",
+    "featureHref": "product.html?sku=567929"
+  },
+  "Clocks": {
+    "groups": [
+      [
+        "Shop Clocks",
+        [
+          "All Clocks",
+          "catalogue.html?dept=Clocks"
+        ],
+        [
+          "Large Wall Clocks",
+          "catalogue.html?dept=Clocks&nav=wallSize&value=Large&label=Large+Wall+Clocks"
+        ],
+        [
+          "Small Wall Clocks",
+          "catalogue.html?dept=Clocks&nav=wallSize&value=Small&label=Small+Wall+Clocks"
+        ],
+        [
+          "Cuckoo Clocks",
+          "catalogue.html?dept=Clocks&nav=type&value=Cuckoo+Clocks&label=Cuckoo+Clocks"
+        ],
+        [
+          "Outdoor Clocks",
+          "catalogue.html?dept=Clocks&nav=type&value=Outdoor+Clocks&label=Outdoor+Clocks"
+        ],
+        [
+          "Mantel Clocks",
+          "catalogue.html?dept=Clocks&nav=type&value=Mantel+Clocks&label=Mantel+Clocks"
+        ]
+      ],
+      [
+        "Shop by Type",
+        [
+          "Wall Clocks",
+          "catalogue.html?dept=Clocks&nav=type&value=Wall+Clocks&label=Wall+Clocks"
+        ],
+        [
+          "Mantel Clocks",
+          "catalogue.html?dept=Clocks&nav=type&value=Mantel+Clocks&label=Mantel+Clocks"
+        ],
+        [
+          "Cuckoo Clocks",
+          "catalogue.html?dept=Clocks&nav=type&value=Cuckoo+Clocks&label=Cuckoo+Clocks"
+        ],
+        [
+          "Outdoor Clocks",
+          "catalogue.html?dept=Clocks&nav=type&value=Outdoor+Clocks&label=Outdoor+Clocks"
+        ],
+        [
+          "Open Face",
+          "catalogue.html?dept=Clocks&nav=face&value=Open+Face&label=Open+Face"
+        ],
+        [
+          "Glazed",
+          "catalogue.html?dept=Clocks&nav=face&value=Glazed&label=Glazed"
+        ],
+        [
+          "Skeleton",
+          "catalogue.html?dept=Clocks&nav=face&value=Skeleton&label=Skeleton"
+        ]
+      ],
+      [
+        "Style / Dial",
+        [
+          "Modern",
+          "catalogue.html?dept=Clocks&nav=style&value=Modern&label=Modern"
+        ],
+        [
+          "Classic",
+          "catalogue.html?dept=Clocks&nav=style&value=Classic&label=Classic"
+        ],
+        [
+          "Country",
+          "catalogue.html?dept=Clocks&nav=style&value=Country&label=Country"
+        ],
+        [
+          "Arabic Numerals",
+          "catalogue.html?dept=Clocks&nav=dial&value=Arabic+Numerals&label=Arabic+Numerals"
+        ],
+        [
+          "Roman Numerals",
+          "catalogue.html?dept=Clocks&nav=dial&value=Roman+Numerals&label=Roman+Numerals"
+        ],
+        [
+          "Batons / Markers",
+          "catalogue.html?dept=Clocks&nav=dial&value=Batons+%2F+Markers&label=Batons+%2F+Markers"
+        ]
+      ],
+      [
+        "Discover",
+        [
+          "Thomas Kent Clocks",
+          "catalogue.html?dept=Clocks&nav=brand&value=Thomas+Kent&label=Thomas+Kent+Clocks"
+        ],
+        [
+          "New Clocks",
+          "catalogue.html?dept=Clocks&nav=new&value=New+Clocks&label=New+Clocks"
+        ],
+        [
+          "Oversized Clocks",
+          "catalogue.html?dept=Clocks&nav=type&value=Oversized+Clocks&label=Oversized+Clocks"
+        ],
+        [
+          "Inspiration",
+          "inspiration.html?dept=Clocks"
+        ]
+      ]
+    ],
+    "image": "images/clocks-category.png",
+    "alt": "Existing Thomas Kent clock room scene",
+    "caption": "Thomas Kent",
+    "featureHref": "catalogue.html?dept=Clocks&nav=brand&value=Thomas+Kent&label=Thomas+Kent+Clocks"
+  }
+}

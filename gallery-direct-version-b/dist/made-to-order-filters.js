@@ -1,0 +1,19 @@
+(() => {
+'use strict';
+const materials=['Fabric','Velvet','Bouclé','Linen / Linen Blend','Leather / Faux Leather','Wood','Metal'];
+const colours=['Black','White','Cream','Beige','Brown','Grey','Green','Blue','Pink','Red','Orange','Yellow','Natural','Multi-colour'];
+const finishes=['Natural','Painted','Stained','Matt','Brushed','Polished'];
+const fields={type:['madeToOrderType','Product Type','type'],material:['material','Material'],colourFinish:['colour','Colour','finish','Finish'],style:['style','Style'],leadTime:['productionLeadTimeBand','Lead Time Band','productionLeadTime','Lead Time'],availability:['orderStatus','Order Status','availability'],room:['room','Room'],shape:['shape','Shape'],customisation:['customisationOptions','Customisation Options'],collection:['collection','Range / Collection']};
+const clean=v=>v!==undefined&&v!==null&&v!==''&&!['Not supplied','Not specified','Not applicable'].includes(v);
+const raw=(p,k)=>(fields[k]||[k]).map(f=>p[f]).find(clean);
+const aliases={material:{Boucle:'Bouclé',Linen:'Linen / Linen Blend','Linen Blend':'Linen / Linen Blend',Leather:'Leather / Faux Leather','Faux Leather':'Leather / Faux Leather'},availability:{'Made to order':'Made to Order','Made to Order':'Made to Order','Available to order':'Available to Order','Available to Order':'Available to Order','Temporarily unavailable':'Temporarily Unavailable','Temporarily Unavailable':'Temporarily Unavailable'}};
+const upholstered=p=>p.upholstered===true||/Sofa|Armchair|Dining Chair|Bench|Headboard|Footstool|Ottoman|Upholster/.test(String(raw(p,'type')));
+function values(p,k){let v=raw(p,k);if(k==='colourFinish'){const source=upholstered(p)?['colour','Colour']:['finish','Finish','colour','Colour'];v=source.map(f=>p[f]).find(clean);}if(k==='leadTime'&&!clean(v)&&Number.isFinite(p.productionLeadTimeWeeks)&&p.productionLeadTimeWeeks>0)v=p.productionLeadTimeWeeks+' Weeks';return (Array.isArray(v)?v:[v]).filter(clean).map(x=>aliases[k]?.[x]||x).filter(x=>k!=='availability'||Object.values(aliases.availability).includes(x)).filter(x=>k!=='material'||materials.includes(x)).filter(x=>k!=='colourFinish'||(upholstered(p)?colours:[...finishes,...colours]).includes(x)).filter(x=>k!=='collection'||x!=='New Season');}
+function numeric(p,k){const keys=k==='price'?['tradePrice','Trade Price']:[k+'Mm',k+'_mm',k[0].toUpperCase()+k.slice(1)+' (mm)'];const v=keys.map(f=>p[f]).find(clean);return typeof v!=='boolean'&&v!==undefined&&Number.isFinite(Number(v))&&Number(v)>=0?Number(v):null;}
+function configure(products,sub=''){const has=k=>products.some(p=>values(p,k).length),mattresses=/Mattress/i.test(sub),physical=products.filter(p=>!['Fabric Swatch','Fabric Swatches','Swatches'].includes(raw(p,'type')));
+const labels={type:'Product Type'};for(const k of ['width','height','depth'])if(!products.length||physical.length||products.some(p=>numeric(p,k)!==null))labels[k]=k[0].toUpperCase()+k.slice(1);
+if(!mattresses||has('material'))labels.material='Material';if(!mattresses||has('colourFinish'))labels.colourFinish='Colour / Finish';if(!mattresses||has('style'))labels.style='Style';labels.leadTime='Lead Time';labels.availability='Availability';
+if(has('room'))labels.room='Room';if(has('shape'))labels.shape='Shape';if(has('customisation'))labels.customisation='Customisation Options';if(has('collection'))labels.collection='Range / Collection';labels.price='Price';
+return {labels,facetOptions:{},numericFacets:['width','height','depth','price'],initialOpen:['leadTime'],madeToOrder:true,facetNotes:{type:'Approved made to order product types not supplied.',leadTime:'Production lead times not supplied.',availability:'Order status not supplied.'},filterNote:'Made to order specifications, options and production lead times require approved range data.'};}
+window.MadeToOrderFilters={configure,values,numeric};
+})();
