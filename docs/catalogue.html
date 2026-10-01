@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<title>Gallery Direct | Category preview</title>
+<link rel="stylesheet" href="gallery-theme.css?v=20260930-team"><style>
+/* ---------------- PLP ---------------- */
+.plp-shell{max-width:1560px;margin:0 auto;padding:0 32px 90px}
+.breadcrumbs{display:flex;gap:9px;align-items:center;font-size:12px;color:#6f756f;padding:0 0 18px}
+.breadcrumbs a{color:#676c66}.breadcrumbs strong{font-weight:500;color:#252825}
+.plp-intro{padding:20px 0 30px}
+.plp-hero{
+  display:grid;
+  grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);
+  gap:0;
+  background:#eef1eb;
+  overflow:hidden;
+}
+.plp-hero-copy{
+  padding:32px 34px 34px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  min-height:280px;
+}
+.plp-intro h1{
+  font-size:52px;
+  line-height:.98;
+  font-weight:400;
+  letter-spacing:-.045em;
+  margin:8px 0 12px;
+}
+.plp-intro p{
+  font-size:15px;
+  line-height:1.55;
+  color:#60655f;
+  margin:0;
+  max-width:620px;
+}
+.plp-hero-meta{
+  display:flex;
+  gap:10px;
+  align-items:baseline;
+  margin-top:26px;
+}
+.plp-hero-meta strong{font-size:28px;font-weight:500;color:#252825}
+.plp-hero-meta span{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#7c817a}
+.plp-hero-media{
+  min-height:280px;
+  background-image:
+    linear-gradient(90deg,rgba(238,241,235,.08),rgba(238,241,235,0)),
+    url('assets/02ef8313b8085984.webp');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.subcategory-strip{display:flex;gap:8px;border-top:1px solid #e1e2dd;border-bottom:1px solid #e1e2dd;padding:14px 0;overflow-x:auto;scrollbar-width:none}
+.subcategory-strip::-webkit-scrollbar{display:none}.subcategory-strip a{padding:9px 14px;border:1px solid #d9dbd5;border-radius:999px;font-size:12px;white-space:nowrap}.subcategory-strip .is-active{background:#252825;color:white;border-color:#252825}
+.plp-toolbar{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;padding:17px 0;border-bottom:1px solid #e1e2dd}
+.filter-toggle{height:40px;border:1px solid #cfd1cc;background:white;padding:0 14px;display:flex;align-items:center;gap:9px;font-size:12px;cursor:pointer}.filter-icon{font-size:16px}.filter-count{display:flex;align-items:center;justify-content:center;background:#eef1eb;width:20px;height:20px;border-radius:50%;font-size:10px}
+.selected-filters{display:flex;align-items:center;gap:7px;overflow-x:auto;scrollbar-width:none}.selected-filters::-webkit-scrollbar{display:none}.selected-filters button{border:0;background:#eef1eb;padding:8px 10px;font-size:11px;white-space:nowrap}.selected-filters button span{margin-left:7px}.selected-filters a{font-size:11px;text-decoration:underline;white-space:nowrap}
+.sort-wrap{display:flex;align-items:center;gap:8px;font-size:11px;text-transform:uppercase;letter-spacing:.08em}.sort-wrap select{height:40px;border:1px solid #cfd1cc;background:white;padding:0 35px 0 11px;font-size:12px;text-transform:none;letter-spacing:0}
+.plp-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:34px;padding-top:26px}
+.filter-panel{position:sticky;top:14px;align-self:start}.filter-panel-head{display:flex;justify-content:space-between;align-items:center;padding-bottom:12px;border-bottom:1px solid #dfe0dc}.filter-panel-head strong{font-size:13px;text-transform:uppercase;letter-spacing:.09em}.filter-close{display:none}
+.filter-panel details{border-bottom:1px solid #e1e2dd}.filter-panel summary{list-style:none;display:flex;justify-content:space-between;align-items:center;padding:17px 0;font-size:13px;font-weight:600;cursor:pointer}.filter-panel summary::-webkit-details-marker{display:none}.filter-panel summary span{font-weight:300;font-size:17px}
+.filter-panel label{display:flex;align-items:center;gap:9px;min-height:32px;font-size:12px;color:#4f544f}.filter-panel label small{margin-left:auto;color:#999d96}.filter-panel input{accent-color:#252825}
+.filter-panel details[open]{padding-bottom:12px}.filter-swatches{display:flex;gap:9px;flex-wrap:wrap}.swatch-filter{width:28px;height:28px;border-radius:50%;border:4px solid white;box-shadow:0 0 0 1px #c9cbc6}.swatch-filter.black{background:#222}.swatch-filter.gold{background:#b59459}.swatch-filter.champagne{background:#c6ad82}.swatch-filter.bronze{background:#7b5c43}.swatch-filter.natural{background:#c6b9a3}.mobile-apply{display:none}
+.result-topline{height:34px;display:flex;align-items:start;justify-content:space-between;color:#777c76;font-size:11px}.view-control{border:0;background:none;font-size:17px}
+.plp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 16px}
+.plp-card{min-width:0}.plp-image{
+  display:block;
+  position:relative;
+  background-color:#f1f1ed;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  aspect-ratio:1/1;
+  overflow:hidden;
+  isolation:isolate;
+}
+.plp-image::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:inherit;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  transform:scale(1);
+  transition:transform .42s ease;
+  z-index:0;
+}
+.plp-image > *{
+  position:relative;
+  z-index:2;
+}
+.plp-stock{position:absolute;left:11px;top:11px;background:white;padding:6px 8px;font-size:9px;text-transform:uppercase;letter-spacing:.09em}.plp-stock.low{background:#f1e8d8}.plp-stock.incoming{background:#e8edf1}
+.plp-heart{position:absolute;right:10px;top:10px;width:34px;height:34px;border-radius:50%;border:1px solid #d4d6d0;background:rgba(255,255,255,.9);font-size:18px;cursor:pointer}
+.plp-quick{position:absolute;left:50%;bottom:14px;transform:translate(-50%,12px);opacity:0;background:rgba(255,255,255,.92);padding:9px 15px;font-size:10px;text-transform:uppercase;letter-spacing:.09em;transition:.22s}
+@media(hover:hover) and (pointer:fine){
+  .plp-image:hover::before{transform:scale(1.04)}
+  .plp-image:hover .plp-quick{transform:translate(-50%,0);opacity:1}
+}
+.plp-card-copy{padding:13px 1px 0}.plp-meta{display:flex;justify-content:space-between;font-size:9px;text-transform:uppercase;letter-spacing:.11em;color:#838880}.plp-card h3{font-size:15px;line-height:1.25;font-weight:600;margin:6px 0 4px}.plp-card p{font-size:12px;color:#737872;margin:0}
+.plp-trade-row{display:flex;justify-content:space-between;align-items:end;border-top:1px solid #ecece8;margin-top:13px;padding-top:10px}.plp-trade-row span{display:block;font-size:9px;text-transform:uppercase;letter-spacing:.09em;color:#858a83}.plp-trade-row strong{font-size:12px;font-weight:500;display:block;margin-top:3px}.mini-board{border:0;background:none;font-size:19px}
+.load-more{text-align:center;padding:54px 0 20px}.load-more span{font-size:10px;color:#858a83}.progress{width:220px;height:2px;background:#e0e1dd;margin:10px auto 18px}.progress i{display:block;width:8.2%;height:100%;background:#252825}.load-more button{height:42px;border:1px solid #252825;background:white;padding:0 22px;text-transform:uppercase;letter-spacing:.09em;font-size:10px}
+.seo-category-copy{margin-top:72px;background:#eef1eb;padding:38px;display:grid;grid-template-columns:.7fr 1.3fr;gap:60px}.seo-category-copy h2{font-size:34px;font-weight:400;letter-spacing:-.03em;margin:7px 0 0}.seo-category-copy p{font-size:14px;line-height:1.65;color:#555b54;margin:0;max-width:760px}.seo-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.seo-links a{background:white;border:1px solid #d9dbd5;padding:8px 11px;font-size:11px}
+.filter-backdrop{display:none}
+@media(max-width:1150px){.plp-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.plp-layout{grid-template-columns:220px minmax(0,1fr)}}
+@media(max-width:900px){
+  .plp-shell{padding:0 16px 70px}
+  .plp-intro{padding-top:12px}
+  .plp-hero{grid-template-columns:1fr}
+  .plp-hero-copy{padding:24px 20px 24px;min-height:auto}
+  .plp-hero-media{min-height:180px;order:-1}
+  .breadcrumbs{padding-bottom:14px}
+  .plp-intro h1{font-size:40px}
+  .plp-intro p{font-size:14px}
+  .plp-hero-meta{margin-top:18px}
+  .subcategory-strip{margin:0 -16px;padding:12px 16px}.plp-toolbar{grid-template-columns:auto 1fr;position:sticky;top:0;background:white;z-index:20;margin:0 -16px;padding:12px 16px}.selected-filters{grid-column:1/3;grid-row:2}.sort-wrap span{display:none}.sort-wrap{justify-self:end}
+  .plp-layout{display:block;padding-top:19px}.result-topline{height:30px}.plp-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 10px}.plp-card h3{font-size:14px}
+  .filter-panel{position:fixed;left:0;top:0;bottom:0;width:min(88vw,380px);background:white;z-index:100;transform:translateX(-102%);transition:.3s;padding:19px 18px 84px;overflow-y:auto}.filter-panel.is-open{transform:translateX(0)}.filter-panel-head{position:sticky;top:-19px;background:white;z-index:2;padding:19px 0 14px}.filter-close{display:block;border:0;background:none;font-size:25px}.mobile-apply{display:block;position:fixed;left:18px;right:18px;bottom:16px;height:48px;background:#252825;color:white;border:0;text-transform:uppercase;letter-spacing:.09em;font-size:11px}
+  .filter-backdrop{display:block;position:fixed;inset:0;background:rgba(20,22,20,.3);z-index:90;opacity:0;visibility:hidden;transition:.25s}.filter-backdrop.is-open{opacity:1;visibility:visible}
+  .seo-category-copy{grid-template-columns:1fr;padding:28px 20px;gap:18px}.seo-category-copy h2{font-size:29px}
+}
+@media(max-width:560px){
+  .plp-intro h1{font-size:34px}
+  .plp-hero-copy{padding:20px 16px 22px}
+  .plp-hero-media{min-height:150px}
+  .plp-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 8px}
+  .plp-stock{font-size:8px;padding:5px 6px}
+  .plp-heart{width:31px;height:31px}
+  .plp-card-copy{padding-top:10px}
+  .plp-card h3{font-size:13px}
+  .plp-card p{font-size:11px}
+  .plp-trade-row strong{font-size:11px}
+}
+
+/* PLP hero correction */
+.plp-hero{
+  display:grid;
+  grid-template-columns:minmax(0,1.05fr) minmax(360px,.95fr);
+  background:#eef1eb;
+  overflow:hidden;
+  min-height:245px;
+}
+.plp-hero-copy{
+  padding:28px 34px 30px;
+  min-height:245px;
+  justify-content:center;
+}
+.plp-hero-copy .breadcrumbs{
+  margin-bottom:20px;
+  padding:0;
+}
+.plp-hero-meta{
+  margin-top:20px;
+}
+.plp-hero-media{
+  min-height:245px;
+  overflow:hidden;
+  background:none !important;
+}
+.plp-hero-media img{
+  width:100%;
+  height:100%;
+  min-height:245px;
+  display:block;
+  object-fit:cover;
+  object-position:center;
+}
+@media(max-width:900px){
+  .plp-hero{
+    grid-template-columns:1fr;
+    min-height:0;
+  }
+  .plp-hero-media{
+    min-height:170px;
+    order:-1;
+  }
+  .plp-hero-media img{
+    min-height:170px;
+    height:170px;
+  }
+  .plp-hero-copy{
+    min-height:0;
+    padding:22px 20px 24px;
+  }
+}
+@media(max-width:560px){
+  .plp-hero-media,
+  .plp-hero-media img{
+    min-height:145px;
+    height:145px;
+  }
+}
+
+/* Full-bleed PLP category hero */
+.plp-hero{
+  position:relative !important;
+  display:block !important;
+  min-height:300px !important;
+  overflow:hidden;
+  background:#3e443d;
+  padding:0 !important;
+}
+.plp-hero-bg{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  display:block !important;
+  z-index:0;
+}
+.plp-hero-tint{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  background:
+    linear-gradient(90deg,
+      rgba(40,47,39,.74) 0%,
+      rgba(40,47,39,.60) 38%,
+      rgba(40,47,39,.24) 70%,
+      rgba(40,47,39,.10) 100%);
+}
+.plp-hero-content{
+  position:relative;
+  z-index:2;
+  min-height:300px;
+  padding:28px 34px 32px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:#fff;
+}
+.plp-hero .breadcrumbs{
+  padding:0 0 38px;
+  margin:0;
+  color:rgba(255,255,255,.75);
+}
+.plp-hero .breadcrumbs a,
+.plp-hero .breadcrumbs strong{
+  color:#fff;
+}
+.plp-hero .kicker{
+  color:rgba(255,255,255,.8);
+}
+.plp-hero-title-row{
+  display:flex;
+  align-items:end;
+  justify-content:space-between;
+  gap:30px;
+}
+.plp-hero h1{
+  color:#fff;
+  margin:8px 0 12px;
+  font-size:52px;
+}
+.plp-hero p{
+  color:rgba(255,255,255,.9);
+  max-width:650px;
+}
+.plp-hero-meta{
+  margin:0 0 3px;
+  display:flex;
+  align-items:baseline;
+  gap:9px;
+  flex:0 0 auto;
+}
+.plp-hero-meta strong{
+  color:#fff;
+  font-size:30px;
+}
+.plp-hero-meta span{
+  color:rgba(255,255,255,.76);
+}
+@media(max-width:900px){
+  .plp-hero,
+  .plp-hero-content{
+    min-height:250px !important;
+  }
+  .plp-hero-content{
+    padding:22px 20px 24px;
+    justify-content:flex-end;
+  }
+  .plp-hero .breadcrumbs{
+    padding-bottom:28px;
+  }
+  .plp-hero-tint{
+    background:linear-gradient(0deg,
+      rgba(35,42,35,.80) 0%,
+      rgba(35,42,35,.54) 58%,
+      rgba(35,42,35,.18) 100%);
+  }
+  .plp-hero-title-row{
+    display:block;
+  }
+  .plp-hero-meta{
+    margin-top:18px;
+  }
+}
+@media(max-width:560px){
+  .plp-hero,
+  .plp-hero-content{
+    min-height:230px !important;
+  }
+  .plp-hero h1{
+    font-size:36px;
+  }
+}
+</style>
+<link rel="stylesheet" href="preview.css?v=20261001-filter-toggle"><link rel="icon" href="assets/gallery-logo.svg" type="image/svg+xml"><meta name="description" content="Gallery Direct trade catalogue preview: homepage, mirror filters and product details."><link rel="stylesheet" href="gallery-page-theme.css?v=20260930-compact-menu"><link rel="stylesheet" href="furniture-filters.css?v=20261001-furniture"><link rel="stylesheet" href="art-filters.css?v=20261001-art"><link rel="stylesheet" href="lighting-filters.css?v=20261001-lighting"><link rel="stylesheet" href="textiles-filters.css?v=20261001-textiles"><link rel="stylesheet" href="accessories-filters.css?v=20261001-accessories"><link rel="stylesheet" href="artbeat-filters.css?v=20261001-artbeat"><link rel="stylesheet" href="made-to-order-filters.css?v=20261001-mto"><link rel="stylesheet" href="clocks-filters.css?v=20261001-clocks"><link rel="stylesheet" href="version-b-menus.css?v=20261001-editorial"></head>
+<body data-page="mirrors">
+<div class="notice">Trade only · Gallery Direct Ltd is the complete home and outdoor supplier</div>
+<header class="header">
+<div class="header-main">
+<button aria-controls="mobile-drawer" aria-expanded="false" aria-label="Open menu" class="mobile-menu">
+<span aria-hidden="true" class="hamburger-lines"><i></i><i></i><i></i></span>
+</button>
+<a class="logo logo-img" href="index.html"><img alt="Gallery Direct" src="assets/gallery-logo.svg" loading="lazy" decoding="async"></a>
+<form class="search" onsubmit="event.preventDefault()">
+<input aria-autocomplete="both" aria-expanded="false" aria-haspopup="false" autocomplete="off" class="amsearch-input" data-amsearch-block="input" maxlength="128" name="q" placeholder="Search for products" role="combobox" type="text">
+<button aria-label="Search">⌕</button>
+</form>
+<div class="account">
+<a class="utility-link" href="#preview-boards" target="_blank" rel="noopener noreferrer" data-open-boards="">
+<span aria-hidden="true" class="utility-icon">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+<path d="M12 20.5 4.6 13.6a4.6 4.6 0 0 1 6.5-6.5l.9.9.9-.9a4.6 4.6 0 0 1 6.5 6.5L12 20.5Z"></path>
+</svg>
+</span>
+<span>My Project Boards</span>
+</a>
+<a class="utility-link header-customer-account" href="https://www.gallerydirect.co.uk/customer/account/" target="_blank" rel="noopener noreferrer">
+<span aria-hidden="true" class="utility-icon">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+<circle cx="12" cy="8.1" r="3.4"></circle>
+<path d="M5.5 19.2a7.3 7.3 0 0 1 13 0"></path>
+</svg>
+</span>
+<span>My Trade Account</span>
+</a>
+<a class="utility-link action showcart" href="https://www.gallerydirect.co.uk/checkout/cart/" target="_blank" rel="noopener noreferrer">
+<span aria-hidden="true" class="utility-icon">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+<path d="M5 8h14l-1.2 11H6.2L5 8Z"></path>
+<path d="M9 8a3 3 0 0 1 6 0"></path>
+</svg>
+</span>
+<span>Basket</span>
+</a>
+</div>
+<a aria-label="Basket" class="mobile-basket" href="https://www.gallerydirect.co.uk/checkout/cart/" target="_blank" rel="noopener noreferrer">
+<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24">
+<path d="M5 8h14l-1.2 11H6.2L5 8Z"></path>
+<path d="M9 8a3 3 0 0 1 6 0"></path>
+</svg>
+</a>
+</div>
+<div class="nav-wrap">
+<nav class="nav" aria-label="Main navigation"><div class="nav-item"><div class="nav-link-wrap"><a href="catalogue.html?route=New" class="nav-link">New</a></div></div><div class="nav-item"><div class="nav-link-wrap"><a href="catalogue.html?dept=Furniture" class="nav-link">Furniture</a></div><div class="mega-menu"><div class="mega-inner"><div class="mega-grid" data-columns="3"><div class="mega-col"><a href="catalogue.html?dept=Furniture&amp;group=Seating" class="mega-title"><span>Seating</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Furniture&amp;sub=Sofas">Sofas</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Sofa+Beds">Sofa Beds</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Armchairs+%26+Accent+Chairs">Armchairs &amp; Accent Chairs</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Dining+Chairs">Dining Chairs</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Bar+Stools">Bar Stools</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Benches">Benches</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Footstools+%26+Pouffes">Footstools &amp; Pouffes</a></li></ul></div><div class="mega-col"><a href="catalogue.html?dept=Furniture&amp;group=Tables+%26+Storage" class="mega-title"><span>Tables &amp; Storage</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Furniture&amp;sub=Dining+Tables">Dining Tables</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Coffee+Tables">Coffee Tables</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Side+%26+Lamp+Tables">Side &amp; Lamp Tables</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Console+Tables">Console Tables</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Desks">Desks</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Sideboards">Sideboards</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Cabinets">Cabinets</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Bookcases+%26+Shelving">Bookcases &amp; Shelving</a></li></ul></div><div class="mega-col"><a href="catalogue.html?dept=Furniture&amp;group=Bedroom" class="mega-title"><span>Bedroom</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Furniture&amp;sub=Bed+Frames">Bed Frames</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Bedside+Tables">Bedside Tables</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Chests+of+Drawers">Chests of Drawers</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Wardrobes">Wardrobes</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Dressing+Tables">Dressing Tables</a></li><li><a href="catalogue.html?dept=Furniture&amp;sub=Headboards">Headboards</a></li></ul></div></div><div class="mega-range-link"><a href="catalogue.html?dept=Furniture">Shop all Furniture</a></div></div></div></div><div class="nav-item"><div class="nav-link-wrap"><a href="catalogue.html?dept=Art" class="nav-link">Art</a></div><div class="mega-menu department-mega" data-department="Art"><div class="mega-inner"><div class="mega-grid editorial-grid" data-columns="4"><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Art"><span>Shop Art</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Art">All Art</a></li><li><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Framed+Art&amp;label=Framed+Art">Framed Art</a></li><li><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Canvas+Art&amp;label=Canvas+Art">Canvas Art</a></li><li><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Glass+Art&amp;label=Glass+Art">Glass Art</a></li><li><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Art+Sets&amp;label=Art+Sets">Art Sets</a></li><li><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Metal+Wall+Art&amp;label=Metal+Wall+Art">Metal Wall Art</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Art"><span>Subject</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Abstract&amp;label=Abstract">Abstract</a></li><li><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Landscape&amp;label=Landscape">Landscape</a></li><li><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Coastal&amp;label=Coastal">Coastal</a></li><li><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Floral+%26+Botanical&amp;label=Floral+%26+Botanical">Floral &amp; Botanical</a></li><li><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Animals&amp;label=Animals">Animals</a></li><li><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=People&amp;label=People">People</a></li><li><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Typography&amp;label=Typography">Typography</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Art"><span>Style</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Art&amp;nav=style&amp;value=Modern&amp;label=Modern">Modern</a></li><li><a href="catalogue.html?dept=Art&amp;nav=style&amp;value=Heritage&amp;label=Heritage">Heritage</a></li><li><a href="catalogue.html?dept=Art&amp;nav=style&amp;value=Country&amp;label=Country">Country</a></li><li><a href="catalogue.html?dept=Art&amp;nav=style&amp;value=Chic&amp;label=Chic">Chic</a></li><li><a href="catalogue.html?dept=Art&amp;nav=style&amp;value=Contemporary&amp;label=Contemporary">Contemporary</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Art"><span>Discover</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Art&amp;nav=new&amp;value=New+Art&amp;label=New+Art">New Art</a></li><li><a href="catalogue.html?dept=Art&amp;nav=large&amp;value=Large+Art&amp;label=Large+Art">Large Art</a></li><li><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Art+Sets&amp;label=Art+Sets">Art Sets</a></li><li><a href="inspiration.html?dept=Art">Inspiration</a></li></ul></div><a class="department-feature" href="product.html?sku=057404&amp;dept=Art"><img src="assets/gallery-art/057404~1.webp" alt="Gallery framed artworks above a sofa" loading="lazy" width="320" height="350"><span>Art in the home<span class="direction-arrow" aria-hidden="true"><i></i></span></span></a></div></div></div></div><div class="nav-item"><div class="nav-link-wrap"><a href="mirrors.html" class="nav-link">Mirrors</a></div><div class="mega-menu department-mega" data-department="Mirrors"><div class="mega-inner"><div class="mega-grid editorial-grid" data-columns="4"><div class="mega-col"><a class="mega-title" href="mirrors.html"><span>Shop Mirrors</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="mirrors.html">All Mirrors</a></li><li><a href="mirrors.html?nav=type&amp;value=Wall+Mirror&amp;label=Wall+Mirrors">Wall Mirrors</a></li><li><a href="mirrors.html?nav=type&amp;value=Leaner+Mirror&amp;label=Leaner+Mirrors">Leaner Mirrors</a></li><li><a href="mirrors.html?nav=type&amp;value=Freestanding&amp;label=Freestanding+Mirrors">Freestanding Mirrors</a></li><li><a href="mirrors.html?nav=type&amp;value=Overmantel&amp;label=Overmantel+Mirrors">Overmantel Mirrors</a></li><li><a href="mirrors.html?nav=type&amp;value=Cheval&amp;label=Cheval+Mirrors">Cheval Mirrors</a></li><li><a href="mirrors.html?nav=type&amp;value=Tabletop&amp;label=Tabletop+Mirrors">Tabletop Mirrors</a></li></ul></div><div class="mega-col"><a class="mega-title" href="mirrors.html"><span>Shop by Shape</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="mirrors.html?nav=shape&amp;value=Round&amp;label=Round">Round</a></li><li><a href="mirrors.html?nav=shape&amp;value=Oval&amp;label=Oval">Oval</a></li><li><a href="mirrors.html?nav=shape&amp;value=Rectangle&amp;label=Rectangle">Rectangle</a></li><li><a href="mirrors.html?nav=shape&amp;value=Arched&amp;label=Arched">Arched</a></li><li><a href="mirrors.html?nav=shape&amp;value=Rounded+Rectangle&amp;label=Rounded+Rectangle">Rounded Rectangle</a></li><li><a href="mirrors.html?nav=shape&amp;value=Freeform&amp;label=Freeform">Freeform</a></li></ul></div><div class="mega-col"><a class="mega-title" href="mirrors.html"><span>Style / Room</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="mirrors.html?nav=style&amp;value=Modern&amp;label=Modern">Modern</a></li><li><a href="mirrors.html?nav=style&amp;value=Heritage&amp;label=Heritage">Heritage</a></li><li><a href="mirrors.html?nav=style&amp;value=Country&amp;label=Country">Country</a></li><li><a href="mirrors.html?nav=style&amp;value=Chic&amp;label=Chic">Chic</a></li><li><a href="mirrors.html?nav=room&amp;value=Living+Room&amp;label=Living+Room">Living Room</a></li><li><a href="mirrors.html?nav=room&amp;value=Hallway&amp;label=Hallway">Hallway</a></li><li><a href="mirrors.html?nav=room&amp;value=Bedroom&amp;label=Bedroom">Bedroom</a></li><li><a href="mirrors.html?nav=room&amp;value=Cloakroom&amp;label=Cloakroom">Cloakroom</a></li><li><a href="mirrors.html?nav=room&amp;value=Outdoor&amp;label=Outdoor">Outdoor</a></li></ul></div><div class="mega-col"><a class="mega-title" href="mirrors.html"><span>Discover</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="mirrors.html?nav=new&amp;value=New+Mirrors&amp;label=New+Mirrors">New Mirrors</a></li><li><a href="mirrors.html?nav=large&amp;value=Large+Mirrors&amp;label=Large+Mirrors">Large Mirrors</a></li><li><a href="mirrors.html?nav=statement&amp;value=Statement+Mirrors&amp;label=Statement+Mirrors">Statement Mirrors</a></li><li><a href="inspiration.html?dept=Mirrors">Inspiration</a></li></ul></div><a class="department-feature" href="product.html?sku=567929"><img src="assets/gallery-mirrors/567929~1.webp" alt="Gallery Windsor round mirror in a room setting" loading="lazy" width="320" height="350"><span>Make a statement<span class="direction-arrow" aria-hidden="true"><i></i></span></span></a></div></div></div></div><div class="nav-item"><div class="nav-link-wrap"><a href="catalogue.html?dept=Clocks" class="nav-link">Clocks</a></div><div class="mega-menu department-mega" data-department="Clocks"><div class="mega-inner"><div class="mega-grid editorial-grid" data-columns="4"><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Clocks"><span>Shop Clocks</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Clocks">All Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=wallSize&amp;value=Large&amp;label=Large+Wall+Clocks">Large Wall Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=wallSize&amp;value=Small&amp;label=Small+Wall+Clocks">Small Wall Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Cuckoo+Clocks&amp;label=Cuckoo+Clocks">Cuckoo Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Outdoor+Clocks&amp;label=Outdoor+Clocks">Outdoor Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Mantel+Clocks&amp;label=Mantel+Clocks">Mantel Clocks</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Clocks"><span>Shop by Type</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Wall+Clocks&amp;label=Wall+Clocks">Wall Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Mantel+Clocks&amp;label=Mantel+Clocks">Mantel Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Cuckoo+Clocks&amp;label=Cuckoo+Clocks">Cuckoo Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Outdoor+Clocks&amp;label=Outdoor+Clocks">Outdoor Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=face&amp;value=Open+Face&amp;label=Open+Face">Open Face</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=face&amp;value=Glazed&amp;label=Glazed">Glazed</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=face&amp;value=Skeleton&amp;label=Skeleton">Skeleton</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Clocks"><span>Style / Dial</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Clocks&amp;nav=style&amp;value=Modern&amp;label=Modern">Modern</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=style&amp;value=Classic&amp;label=Classic">Classic</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=style&amp;value=Country&amp;label=Country">Country</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=dial&amp;value=Arabic+Numerals&amp;label=Arabic+Numerals">Arabic Numerals</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=dial&amp;value=Roman+Numerals&amp;label=Roman+Numerals">Roman Numerals</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=dial&amp;value=Batons+%2F+Markers&amp;label=Batons+%2F+Markers">Batons / Markers</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Clocks"><span>Discover</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Clocks&amp;nav=brand&amp;value=Thomas+Kent&amp;label=Thomas+Kent+Clocks">Thomas Kent Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=new&amp;value=New+Clocks&amp;label=New+Clocks">New Clocks</a></li><li><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Oversized+Clocks&amp;label=Oversized+Clocks">Oversized Clocks</a></li><li><a href="inspiration.html?dept=Clocks">Inspiration</a></li></ul></div><a class="department-feature" href="catalogue.html?dept=Clocks&amp;nav=brand&amp;value=Thomas+Kent&amp;label=Thomas+Kent+Clocks"><img src="images/clocks-category.png" alt="Existing Thomas Kent clock room scene" loading="lazy" width="320" height="350"><span>Thomas Kent<span class="direction-arrow" aria-hidden="true"><i></i></span></span></a></div></div></div></div><div class="nav-item"><div class="nav-link-wrap"><a class="nav-link" href="catalogue.html?dept=Lighting">Lighting</a></div><div class="mega-menu"><div class="mega-inner"><div class="mega-grid" data-columns="3"><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Lighting&amp;group=Lamps+%26+Shades"><span>Lamps &amp; Shades</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Lighting&amp;sub=Table+Lamps">Table Lamps</a></li><li><a href="catalogue.html?dept=Lighting&amp;sub=Floor+Lamps">Floor Lamps</a></li><li><a href="catalogue.html?dept=Lighting&amp;sub=Shades+and+Bases">Shades and Bases</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Lighting&amp;group=Ceiling+%26+Wall+Lighting"><span>Ceiling &amp; Wall Lighting</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Lighting&amp;sub=Ceiling+Lighting">Ceiling Lighting</a></li><li><a href="catalogue.html?dept=Lighting&amp;sub=Pendant+Lighting">Pendant Lighting</a></li><li><a href="catalogue.html?dept=Lighting&amp;sub=Spot+Lights">Spot Lights</a></li><li><a href="catalogue.html?dept=Lighting&amp;sub=Wall+Fitting">Wall Fitting</a></li><li><a href="catalogue.html?dept=Lighting&amp;sub=Wall+Lights">Wall Lights</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Lighting&amp;group=Ranges+%26+Accessories"><span>Ranges &amp; Accessories</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Lighting&amp;sub=Design+Series">Design Series</a></li><li><a href="catalogue.html?dept=Lighting&amp;sub=Bulbs">Bulbs</a></li><li><a href="catalogue.html?dept=Lighting&amp;sub=Outdoor+Wall+Lights">Outdoor Wall Lights</a></li></ul></div></div><div class="mega-range-link"><a href="catalogue.html?dept=Lighting">Shop all Lighting</a></div></div></div></div><div class="nav-item"><div class="nav-link-wrap"><a class="nav-link" href="catalogue.html?dept=Home+Accessories">Home &amp; Accessories</a></div><div class="mega-menu"><div class="mega-inner"><div class="mega-grid" data-columns="6"><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Home+Accessories&amp;group=Decorative+Accessories"><span>Decorative Accessories</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Vases">Vases</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Pots+%26+Planters">Pots &amp; Planters</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Artificial+Flowers+%26+Plants">Artificial Flowers &amp; Plants</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Ornaments+%26+Sculptures">Ornaments &amp; Sculptures</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Photo+Frames">Photo Frames</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Home+Accessories&amp;group=Dining+%26+Entertaining"><span>Dining &amp; Entertaining</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Bowls+%26+Plates">Bowls &amp; Plates</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Glassware+%26+Barware">Glassware &amp; Barware</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Mugs">Mugs</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Pitchers+%26+Jugs">Pitchers &amp; Jugs</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Cutlery+%26+Knife+Sets">Cutlery &amp; Knife Sets</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Coasters+%26+Placemats">Coasters &amp; Placemats</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Trays">Trays</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Home+Accessories&amp;group=Candles+%26+Home+Fragrance"><span>Candles &amp; Home Fragrance</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Candles">Candles</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Candle+Holders+%26+Lanterns">Candle Holders &amp; Lanterns</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Reed+Diffusers">Reed Diffusers</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Room+Sprays">Room Sprays</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Home+Accessories&amp;group=Storage+%26+Practical+Accessories"><span>Storage &amp; Practical Accessories</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Boxes+%26+Baskets">Boxes &amp; Baskets</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Bookends">Bookends</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Doorstops">Doorstops</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Decorative+Wall+Hooks">Decorative Wall Hooks</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Home+Accessories&amp;group=Christmas"><span>Christmas</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Christmas+Tree+Decorations">Christmas Tree Decorations</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Tree+Skirts">Tree Skirts</a></li><li><a href="catalogue.html?dept=Home+Accessories&amp;sub=Christmas+Decorations">Christmas Decorations</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Soft+Furnishings"><span>Textiles</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Soft+Furnishings&amp;group=Cushions+%26+Throws">Cushions &amp; Throws</a></li><li><a href="catalogue.html?dept=Soft+Furnishings&amp;group=Bedding">Bedding</a></li><li><a href="catalogue.html?dept=Soft+Furnishings&amp;group=Kitchen+%26+Table+Linen">Kitchen &amp; Table Linen</a></li><li><a href="catalogue.html?dept=Soft+Furnishings&amp;group=Rugs+%26+Practical+Textiles">Rugs &amp; Practical Textiles</a></li><li><a href="catalogue.html?dept=Soft+Furnishings&amp;group=Outdoor+Textiles">Outdoor Textiles</a></li></ul></div></div><div class="mega-range-link"><a href="catalogue.html?dept=Home+Accessories">Shop all Home &amp; Accessories</a></div></div></div></div><div class="nav-item"><div class="nav-link-wrap"><a class="nav-link" href="catalogue.html?dept=Greeting+Cards">Cards</a></div><div class="mega-menu"><div class="mega-inner"><div class="kicker">Artbeat</div><div class="mega-grid" data-columns="3"><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Greeting+Cards&amp;group=Occasion"><span>Occasion</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Birthday">Birthday</a></li><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Wedding">Wedding</a></li><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Anniversary">Anniversary</a></li><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=New+Baby">New Baby</a></li><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Thank+You">Thank You</a></li><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Sympathy">Sympathy</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Greeting+Cards&amp;group=Seasonal"><span>Seasonal</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Christmas">Christmas</a></li><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Mother%E2%80%99s+Day">Mother’s Day</a></li><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Father%E2%80%99s+Day">Father’s Day</a></li><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Easter">Easter</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Greeting+Cards&amp;group=Everyday"><span>Everyday</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Blank+Cards">Blank Cards</a></li><li><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Packs+%26+Boxed+Cards">Packs &amp; Boxed Cards</a></li></ul></div></div><div class="mega-range-link"><a href="catalogue.html?dept=Greeting+Cards">Shop all Greeting Cards</a></div></div></div></div><div class="nav-item"><div class="nav-link-wrap"><a class="nav-link" href="catalogue.html?dept=Outdoor+Living">Outdoor</a></div><div class="mega-menu"><div class="mega-inner"><div class="mega-grid" data-columns="4"><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Outdoor+Living&amp;group=Outdoor+Sets"><span>Outdoor Sets</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Dining+Sets">Dining Sets</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Lounge+Sets">Lounge Sets</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Bistro+Tables+%26+Sets">Bistro Tables &amp; Sets</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Bar+Sets">Bar Sets</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Outdoor+Living&amp;group=Seating+%26+Tables"><span>Seating &amp; Tables</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Chairs">Chairs</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Sofas">Sofas</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Benches">Benches</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Stools">Stools</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Sun+Loungers">Sun Loungers</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Swings">Swings</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Tables">Tables</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Side+Tables">Side Tables</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Outdoor+Living&amp;group=Shade+%26+Outdoor+Living"><span>Shade &amp; Outdoor Living</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Parasols">Parasols</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Pergolas">Pergolas</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Fire+Pits">Fire Pits</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Pizza+Ovens">Pizza Ovens</a></li></ul></div><div class="mega-col"><a class="mega-title" href="catalogue.html?dept=Outdoor+Living&amp;group=Outdoor+Accessories"><span>Outdoor Accessories</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Drinks+Trolleys">Drinks Trolleys</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Storage+Boxes">Storage Boxes</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Outdoor+Mirrors">Outdoor Mirrors</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Solar+Lanterns">Solar Lanterns</a></li><li><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Garden+Ornaments">Garden Ornaments</a></li></ul></div></div><div class="mega-range-link"><a href="catalogue.html?dept=Outdoor+Living">Shop all Outdoor</a></div></div></div></div><div class="nav-item"><div class="nav-link-wrap"><a href="catalogue.html?dept=Made+to+Order" class="nav-link">Made to Order</a></div><div class="mega-menu"><div class="mega-inner"><div class="mega-grid" data-columns="3"><div class="mega-col"><a href="catalogue.html?dept=Made+to+Order&amp;sub=Upholstery" class="mega-title"><span>Upholstery</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Made+to+Order&amp;sub=Upholstery">Made to Order Upholstery</a></li></ul></div><div class="mega-col"><a href="catalogue.html?dept=Made+to+Order&amp;sub=Mattresses" class="mega-title"><span>Mattresses</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="catalogue.html?dept=Made+to+Order&amp;sub=Mattresses">Made to Order Mattresses</a></li></ul></div><div class="mega-col"><a href="https://info.gallerydirect.co.uk/help/contract-development-work" class="mega-title" target="_blank" rel="noopener"><span>Options &amp; Advice</span><span class="direction-arrow" aria-hidden="true"><i></i></span></a><ul><li><a href="https://info.gallerydirect.co.uk/help/contract-development-work" target="_blank" rel="noopener">Fabrics &amp; Contract Options</a></li><li><a href="https://info.gallerydirect.co.uk/help/own-brand" target="_blank" rel="noopener">Own Brand Options</a></li></ul></div></div><div class="mega-range-link"><a href="catalogue.html?dept=Made+to+Order">Shop all Made to Order</a></div></div></div></div><div class="nav-item sale"><div class="nav-link-wrap"><a href="catalogue.html?route=Sale" class="nav-link">Sale</a></div></div></nav></div>
+</header>
+<aside aria-hidden="true" class="mobile-drawer" id="mobile-drawer">
+<div class="mobile-drawer-head">
+<span>Menu</span>
+<button aria-label="Close menu" class="mobile-drawer-close">×</button>
+</div>
+<nav class="mobile-drawer-nav"><a href="catalogue.html?route=New" class="nav-link">New</a><div class="mobile-drawer-group"><a href="catalogue.html?dept=Furniture" class="nav-link">Furniture</a><details class="mobile-nav-section"><summary>Seating</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Furniture&amp;group=Seating">Browse Seating</a><a href="catalogue.html?dept=Furniture&amp;sub=Sofas">Sofas</a><a href="catalogue.html?dept=Furniture&amp;sub=Sofa+Beds">Sofa Beds</a><a href="catalogue.html?dept=Furniture&amp;sub=Armchairs+%26+Accent+Chairs">Armchairs &amp; Accent Chairs</a><a href="catalogue.html?dept=Furniture&amp;sub=Dining+Chairs">Dining Chairs</a><a href="catalogue.html?dept=Furniture&amp;sub=Bar+Stools">Bar Stools</a><a href="catalogue.html?dept=Furniture&amp;sub=Benches">Benches</a><a href="catalogue.html?dept=Furniture&amp;sub=Footstools+%26+Pouffes">Footstools &amp; Pouffes</a></div></details><details class="mobile-nav-section"><summary>Tables &amp; Storage</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Furniture&amp;group=Tables+%26+Storage">Browse Tables &amp; Storage</a><a href="catalogue.html?dept=Furniture&amp;sub=Dining+Tables">Dining Tables</a><a href="catalogue.html?dept=Furniture&amp;sub=Coffee+Tables">Coffee Tables</a><a href="catalogue.html?dept=Furniture&amp;sub=Side+%26+Lamp+Tables">Side &amp; Lamp Tables</a><a href="catalogue.html?dept=Furniture&amp;sub=Console+Tables">Console Tables</a><a href="catalogue.html?dept=Furniture&amp;sub=Desks">Desks</a><a href="catalogue.html?dept=Furniture&amp;sub=Sideboards">Sideboards</a><a href="catalogue.html?dept=Furniture&amp;sub=Cabinets">Cabinets</a><a href="catalogue.html?dept=Furniture&amp;sub=Bookcases+%26+Shelving">Bookcases &amp; Shelving</a></div></details><details class="mobile-nav-section"><summary>Bedroom</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Furniture&amp;group=Bedroom">Browse Bedroom</a><a href="catalogue.html?dept=Furniture&amp;sub=Bed+Frames">Bed Frames</a><a href="catalogue.html?dept=Furniture&amp;sub=Bedside+Tables">Bedside Tables</a><a href="catalogue.html?dept=Furniture&amp;sub=Chests+of+Drawers">Chests of Drawers</a><a href="catalogue.html?dept=Furniture&amp;sub=Wardrobes">Wardrobes</a><a href="catalogue.html?dept=Furniture&amp;sub=Dressing+Tables">Dressing Tables</a><a href="catalogue.html?dept=Furniture&amp;sub=Headboards">Headboards</a></div></details></div><div class="mobile-drawer-group"><a href="catalogue.html?dept=Art" class="nav-link">Art</a><details class="mobile-nav-section"><summary>Shop Art</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Art">All Art</a><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Framed+Art&amp;label=Framed+Art">Framed Art</a><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Canvas+Art&amp;label=Canvas+Art">Canvas Art</a><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Glass+Art&amp;label=Glass+Art">Glass Art</a><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Art+Sets&amp;label=Art+Sets">Art Sets</a><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Metal+Wall+Art&amp;label=Metal+Wall+Art">Metal Wall Art</a></div></details><details class="mobile-nav-section"><summary>Subject</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Abstract&amp;label=Abstract">Abstract</a><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Landscape&amp;label=Landscape">Landscape</a><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Coastal&amp;label=Coastal">Coastal</a><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Floral+%26+Botanical&amp;label=Floral+%26+Botanical">Floral &amp; Botanical</a><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Animals&amp;label=Animals">Animals</a><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=People&amp;label=People">People</a><a href="catalogue.html?dept=Art&amp;nav=subject&amp;value=Typography&amp;label=Typography">Typography</a></div></details><details class="mobile-nav-section"><summary>Style</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Art&amp;nav=style&amp;value=Modern&amp;label=Modern">Modern</a><a href="catalogue.html?dept=Art&amp;nav=style&amp;value=Heritage&amp;label=Heritage">Heritage</a><a href="catalogue.html?dept=Art&amp;nav=style&amp;value=Country&amp;label=Country">Country</a><a href="catalogue.html?dept=Art&amp;nav=style&amp;value=Chic&amp;label=Chic">Chic</a><a href="catalogue.html?dept=Art&amp;nav=style&amp;value=Contemporary&amp;label=Contemporary">Contemporary</a></div></details><details class="mobile-nav-section"><summary>Discover</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Art&amp;nav=new&amp;value=New+Art&amp;label=New+Art">New Art</a><a href="catalogue.html?dept=Art&amp;nav=large&amp;value=Large+Art&amp;label=Large+Art">Large Art</a><a href="catalogue.html?dept=Art&amp;nav=product&amp;value=Art+Sets&amp;label=Art+Sets">Art Sets</a><a href="inspiration.html?dept=Art">Inspiration</a></div></details></div><div class="mobile-drawer-group"><a href="mirrors.html" class="nav-link">Mirrors</a><details class="mobile-nav-section"><summary>Shop Mirrors</summary><div class="mobile-nav-links"><a href="mirrors.html">All Mirrors</a><a href="mirrors.html?nav=type&amp;value=Wall+Mirror&amp;label=Wall+Mirrors">Wall Mirrors</a><a href="mirrors.html?nav=type&amp;value=Leaner+Mirror&amp;label=Leaner+Mirrors">Leaner Mirrors</a><a href="mirrors.html?nav=type&amp;value=Freestanding&amp;label=Freestanding+Mirrors">Freestanding Mirrors</a><a href="mirrors.html?nav=type&amp;value=Overmantel&amp;label=Overmantel+Mirrors">Overmantel Mirrors</a><a href="mirrors.html?nav=type&amp;value=Cheval&amp;label=Cheval+Mirrors">Cheval Mirrors</a><a href="mirrors.html?nav=type&amp;value=Tabletop&amp;label=Tabletop+Mirrors">Tabletop Mirrors</a></div></details><details class="mobile-nav-section"><summary>Shop by Shape</summary><div class="mobile-nav-links"><a href="mirrors.html?nav=shape&amp;value=Round&amp;label=Round">Round</a><a href="mirrors.html?nav=shape&amp;value=Oval&amp;label=Oval">Oval</a><a href="mirrors.html?nav=shape&amp;value=Rectangle&amp;label=Rectangle">Rectangle</a><a href="mirrors.html?nav=shape&amp;value=Arched&amp;label=Arched">Arched</a><a href="mirrors.html?nav=shape&amp;value=Rounded+Rectangle&amp;label=Rounded+Rectangle">Rounded Rectangle</a><a href="mirrors.html?nav=shape&amp;value=Freeform&amp;label=Freeform">Freeform</a></div></details><details class="mobile-nav-section"><summary>Style / Room</summary><div class="mobile-nav-links"><a href="mirrors.html?nav=style&amp;value=Modern&amp;label=Modern">Modern</a><a href="mirrors.html?nav=style&amp;value=Heritage&amp;label=Heritage">Heritage</a><a href="mirrors.html?nav=style&amp;value=Country&amp;label=Country">Country</a><a href="mirrors.html?nav=style&amp;value=Chic&amp;label=Chic">Chic</a><a href="mirrors.html?nav=room&amp;value=Living+Room&amp;label=Living+Room">Living Room</a><a href="mirrors.html?nav=room&amp;value=Hallway&amp;label=Hallway">Hallway</a><a href="mirrors.html?nav=room&amp;value=Bedroom&amp;label=Bedroom">Bedroom</a><a href="mirrors.html?nav=room&amp;value=Cloakroom&amp;label=Cloakroom">Cloakroom</a><a href="mirrors.html?nav=room&amp;value=Outdoor&amp;label=Outdoor">Outdoor</a></div></details><details class="mobile-nav-section"><summary>Discover</summary><div class="mobile-nav-links"><a href="mirrors.html?nav=new&amp;value=New+Mirrors&amp;label=New+Mirrors">New Mirrors</a><a href="mirrors.html?nav=large&amp;value=Large+Mirrors&amp;label=Large+Mirrors">Large Mirrors</a><a href="mirrors.html?nav=statement&amp;value=Statement+Mirrors&amp;label=Statement+Mirrors">Statement Mirrors</a><a href="inspiration.html?dept=Mirrors">Inspiration</a></div></details></div><div class="mobile-drawer-group"><a href="catalogue.html?dept=Clocks" class="nav-link">Clocks</a><details class="mobile-nav-section"><summary>Shop Clocks</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Clocks">All Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=wallSize&amp;value=Large&amp;label=Large+Wall+Clocks">Large Wall Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=wallSize&amp;value=Small&amp;label=Small+Wall+Clocks">Small Wall Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Cuckoo+Clocks&amp;label=Cuckoo+Clocks">Cuckoo Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Outdoor+Clocks&amp;label=Outdoor+Clocks">Outdoor Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Mantel+Clocks&amp;label=Mantel+Clocks">Mantel Clocks</a></div></details><details class="mobile-nav-section"><summary>Shop by Type</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Wall+Clocks&amp;label=Wall+Clocks">Wall Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Mantel+Clocks&amp;label=Mantel+Clocks">Mantel Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Cuckoo+Clocks&amp;label=Cuckoo+Clocks">Cuckoo Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Outdoor+Clocks&amp;label=Outdoor+Clocks">Outdoor Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=face&amp;value=Open+Face&amp;label=Open+Face">Open Face</a><a href="catalogue.html?dept=Clocks&amp;nav=face&amp;value=Glazed&amp;label=Glazed">Glazed</a><a href="catalogue.html?dept=Clocks&amp;nav=face&amp;value=Skeleton&amp;label=Skeleton">Skeleton</a></div></details><details class="mobile-nav-section"><summary>Style / Dial</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Clocks&amp;nav=style&amp;value=Modern&amp;label=Modern">Modern</a><a href="catalogue.html?dept=Clocks&amp;nav=style&amp;value=Classic&amp;label=Classic">Classic</a><a href="catalogue.html?dept=Clocks&amp;nav=style&amp;value=Country&amp;label=Country">Country</a><a href="catalogue.html?dept=Clocks&amp;nav=dial&amp;value=Arabic+Numerals&amp;label=Arabic+Numerals">Arabic Numerals</a><a href="catalogue.html?dept=Clocks&amp;nav=dial&amp;value=Roman+Numerals&amp;label=Roman+Numerals">Roman Numerals</a><a href="catalogue.html?dept=Clocks&amp;nav=dial&amp;value=Batons+%2F+Markers&amp;label=Batons+%2F+Markers">Batons / Markers</a></div></details><details class="mobile-nav-section"><summary>Discover</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Clocks&amp;nav=brand&amp;value=Thomas+Kent&amp;label=Thomas+Kent+Clocks">Thomas Kent Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=new&amp;value=New+Clocks&amp;label=New+Clocks">New Clocks</a><a href="catalogue.html?dept=Clocks&amp;nav=type&amp;value=Oversized+Clocks&amp;label=Oversized+Clocks">Oversized Clocks</a><a href="inspiration.html?dept=Clocks">Inspiration</a></div></details></div><div class="mobile-drawer-group"><a class="nav-link" href="catalogue.html?dept=Lighting">Lighting</a><details class="mobile-nav-section"><summary>Lamps &amp; Shades</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Lighting&amp;group=Lamps+%26+Shades">Browse Lamps &amp; Shades</a><a href="catalogue.html?dept=Lighting&amp;sub=Table+Lamps">Table Lamps</a><a href="catalogue.html?dept=Lighting&amp;sub=Floor+Lamps">Floor Lamps</a><a href="catalogue.html?dept=Lighting&amp;sub=Shades+and+Bases">Shades and Bases</a></div></details><details class="mobile-nav-section"><summary>Ceiling &amp; Wall Lighting</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Lighting&amp;group=Ceiling+%26+Wall+Lighting">Browse Ceiling &amp; Wall Lighting</a><a href="catalogue.html?dept=Lighting&amp;sub=Ceiling+Lighting">Ceiling Lighting</a><a href="catalogue.html?dept=Lighting&amp;sub=Pendant+Lighting">Pendant Lighting</a><a href="catalogue.html?dept=Lighting&amp;sub=Spot+Lights">Spot Lights</a><a href="catalogue.html?dept=Lighting&amp;sub=Wall+Fitting">Wall Fitting</a><a href="catalogue.html?dept=Lighting&amp;sub=Wall+Lights">Wall Lights</a></div></details><details class="mobile-nav-section"><summary>Ranges &amp; Accessories</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Lighting&amp;group=Ranges+%26+Accessories">Browse Ranges &amp; Accessories</a><a href="catalogue.html?dept=Lighting&amp;sub=Design+Series">Design Series</a><a href="catalogue.html?dept=Lighting&amp;sub=Bulbs">Bulbs</a><a href="catalogue.html?dept=Lighting&amp;sub=Outdoor+Wall+Lights">Outdoor Wall Lights</a></div></details></div><div class="mobile-drawer-group"><a class="nav-link" href="catalogue.html?dept=Home+Accessories">Home &amp; Accessories</a><details class="mobile-nav-section"><summary>Decorative Accessories</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Home+Accessories&amp;group=Decorative+Accessories">Shop all Decorative Accessories</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Vases">Vases</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Pots+%26+Planters">Pots &amp; Planters</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Artificial+Flowers+%26+Plants">Artificial Flowers &amp; Plants</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Ornaments+%26+Sculptures">Ornaments &amp; Sculptures</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Photo+Frames">Photo Frames</a></div></details><details class="mobile-nav-section"><summary>Dining &amp; Entertaining</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Home+Accessories&amp;group=Dining+%26+Entertaining">Shop all Dining &amp; Entertaining</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Bowls+%26+Plates">Bowls &amp; Plates</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Glassware+%26+Barware">Glassware &amp; Barware</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Mugs">Mugs</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Pitchers+%26+Jugs">Pitchers &amp; Jugs</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Cutlery+%26+Knife+Sets">Cutlery &amp; Knife Sets</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Coasters+%26+Placemats">Coasters &amp; Placemats</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Trays">Trays</a></div></details><details class="mobile-nav-section"><summary>Candles &amp; Home Fragrance</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Home+Accessories&amp;group=Candles+%26+Home+Fragrance">Shop all Candles &amp; Home Fragrance</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Candles">Candles</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Candle+Holders+%26+Lanterns">Candle Holders &amp; Lanterns</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Reed+Diffusers">Reed Diffusers</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Room+Sprays">Room Sprays</a></div></details><details class="mobile-nav-section"><summary>Storage &amp; Practical Accessories</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Home+Accessories&amp;group=Storage+%26+Practical+Accessories">Shop all Storage &amp; Practical Accessories</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Boxes+%26+Baskets">Boxes &amp; Baskets</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Bookends">Bookends</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Doorstops">Doorstops</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Decorative+Wall+Hooks">Decorative Wall Hooks</a></div></details><details class="mobile-nav-section"><summary>Christmas</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Home+Accessories&amp;group=Christmas">Shop all Christmas</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Christmas+Tree+Decorations">Christmas Tree Decorations</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Tree+Skirts">Tree Skirts</a><a href="catalogue.html?dept=Home+Accessories&amp;sub=Christmas+Decorations">Christmas Decorations</a></div></details><details class="mobile-nav-section"><summary>Textiles</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Soft+Furnishings">Shop All Textiles</a><a href="catalogue.html?dept=Soft+Furnishings&amp;group=Cushions+%26+Throws">Cushions &amp; Throws</a><a href="catalogue.html?dept=Soft+Furnishings&amp;group=Bedding">Bedding</a><a href="catalogue.html?dept=Soft+Furnishings&amp;group=Kitchen+%26+Table+Linen">Kitchen &amp; Table Linen</a><a href="catalogue.html?dept=Soft+Furnishings&amp;group=Rugs+%26+Practical+Textiles">Rugs &amp; Practical Textiles</a><a href="catalogue.html?dept=Soft+Furnishings&amp;group=Outdoor+Textiles">Outdoor Textiles</a></div></details></div><div class="mobile-drawer-group"><a class="nav-link" href="catalogue.html?dept=Greeting+Cards">Cards</a><details class="mobile-nav-section"><summary>Occasion</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Greeting+Cards&amp;group=Occasion">Browse Occasion</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Birthday">Birthday</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Wedding">Wedding</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Anniversary">Anniversary</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=New+Baby">New Baby</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Thank+You">Thank You</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Sympathy">Sympathy</a></div></details><details class="mobile-nav-section"><summary>Seasonal</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Greeting+Cards&amp;group=Seasonal">Browse Seasonal</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Christmas">Christmas</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Mother%E2%80%99s+Day">Mother’s Day</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Father%E2%80%99s+Day">Father’s Day</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Easter">Easter</a></div></details><details class="mobile-nav-section"><summary>Everyday</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Greeting+Cards&amp;group=Everyday">Browse Everyday</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Blank+Cards">Blank Cards</a><a href="catalogue.html?dept=Greeting+Cards&amp;sub=Packs+%26+Boxed+Cards">Packs &amp; Boxed Cards</a></div></details></div><div class="mobile-drawer-group"><a class="nav-link" href="catalogue.html?dept=Outdoor+Living">Outdoor</a><details class="mobile-nav-section"><summary>Outdoor Sets</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Outdoor+Living&amp;group=Outdoor+Sets">Browse Outdoor Sets</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Dining+Sets">Dining Sets</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Lounge+Sets">Lounge Sets</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Bistro+Tables+%26+Sets">Bistro Tables &amp; Sets</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Bar+Sets">Bar Sets</a></div></details><details class="mobile-nav-section"><summary>Seating &amp; Tables</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Outdoor+Living&amp;group=Seating+%26+Tables">Browse Seating &amp; Tables</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Chairs">Chairs</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Sofas">Sofas</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Benches">Benches</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Stools">Stools</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Sun+Loungers">Sun Loungers</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Swings">Swings</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Tables">Tables</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Side+Tables">Side Tables</a></div></details><details class="mobile-nav-section"><summary>Shade &amp; Outdoor Living</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Outdoor+Living&amp;group=Shade+%26+Outdoor+Living">Browse Shade &amp; Outdoor Living</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Parasols">Parasols</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Pergolas">Pergolas</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Fire+Pits">Fire Pits</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Pizza+Ovens">Pizza Ovens</a></div></details><details class="mobile-nav-section"><summary>Outdoor Accessories</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Outdoor+Living&amp;group=Outdoor+Accessories">Browse Outdoor Accessories</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Drinks+Trolleys">Drinks Trolleys</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Storage+Boxes">Storage Boxes</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Outdoor+Mirrors">Outdoor Mirrors</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Solar+Lanterns">Solar Lanterns</a><a href="catalogue.html?dept=Outdoor+Living&amp;sub=Garden+Ornaments">Garden Ornaments</a></div></details></div><div class="mobile-drawer-group"><a href="catalogue.html?dept=Made+to+Order" class="nav-link">Made to Order</a><details class="mobile-nav-section"><summary>Upholstery</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Made+to+Order&amp;sub=Upholstery">Browse Upholstery</a><a href="catalogue.html?dept=Made+to+Order&amp;sub=Upholstery">Made to Order Upholstery</a></div></details><details class="mobile-nav-section"><summary>Mattresses</summary><div class="mobile-nav-links"><a href="catalogue.html?dept=Made+to+Order&amp;sub=Mattresses">Browse Mattresses</a><a href="catalogue.html?dept=Made+to+Order&amp;sub=Mattresses">Made to Order Mattresses</a></div></details><details class="mobile-nav-section"><summary>Options &amp; Advice</summary><div class="mobile-nav-links"><a href="https://info.gallerydirect.co.uk/help/contract-development-work" target="_blank" rel="noopener">Browse Options &amp; Advice</a><a href="https://info.gallerydirect.co.uk/help/contract-development-work" target="_blank" rel="noopener">Fabrics &amp; Contract Options</a><a href="https://info.gallerydirect.co.uk/help/own-brand" target="_blank" rel="noopener">Own Brand Options</a></div></details></div><a href="catalogue.html?route=Sale" class="nav-link">Sale</a></nav></aside>
+<div class="mobile-drawer-backdrop"></div>
+<main>
+<div class="plp-shell">
+<header class="plp-intro"><div class="plp-hero"><img class="plp-hero-bg" id="category-hero-image" src="assets/02ef8313b8085984.webp" alt=""><div class="plp-hero-tint"></div><div class="plp-hero-content"><nav class="breadcrumbs" aria-label="Breadcrumb" id="category-breadcrumbs"><a href="index.html">Home</a><span>/</span><strong>Mirrors</strong></nav><div class="kicker" id="category-kicker">Wall Decor</div><div class="plp-hero-title-row"><div><h1 id="category-title">Mirrors</h1><p id="category-description">Discover wall, leaner, round, arched and statement mirrors for every interior.</p></div><div class="plp-count"><strong>12</strong><span>sample products</span></div></div></div></div></header><div class="subcategory-wrap scroll-wrap"><nav aria-label="Mirror categories" class="subcategory-strip" id="mirror-category-scroll">
+<a class="is-active" href="mirrors.html">All mirrors</a>
+<a href="mirrors.html?shape=Round">Round</a>
+<a href="mirrors.html?shape=Arched">Arched</a>
+<a href="mirrors.html?type=Leaner+%26+floor">Leaner &amp; floor</a>
+<a href="mirrors.html?type=Overmantle">Overmantle</a>
+<a href="mirrors.html?shape=Freeform">Freeform</a>
+<a href="mirrors.html?route=new">New</a>
+</nav>
+<div class="scroll-controls"><button class="circle-arrow" data-scroll="mirror-category-scroll" data-direction="-1" aria-label="Previous mirror categories"><i aria-hidden="true" class="point-left"></i></button><button class="circle-arrow" data-scroll="mirror-category-scroll" data-direction="1" aria-label="More mirror categories"><i aria-hidden="true"></i></button></div></div><div class="plp-toolbar">
+<button class="filter-toggle" type="button">
+<span class="filter-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/><path class="filter-panel-arrow" d="m16 9-3 3 3 3"/></svg></span><span class="filter-toggle-label">Hide filters</span><span class="filter-count">2</span>
+</button>
+<div class="selected-filters" id="applied-filters">
+<button>Round <span>×</span></button>
+<button>In stock <span>×</span></button>
+<a href="mirrors.html" data-clear-filters="">Clear all</a>
+</div>
+<label class="sort-wrap">
+<span>Sort</span>
+<select id="mirror-sort">
+<option value="featured">Recommended</option>
+<option value="recent">Reverse sample order</option>
+<option value="price-asc" disabled>Price: low to high (live account required)</option>
+<option value="price-desc" disabled>Price: high to low (live account required)</option>
+<option value="name">Product name</option>
+</select>
+</label>
+</div>
+<div class="plp-layout">
+<aside aria-label="Product filters" class="filter-panel" id="mirror-filters">
+<div class="filter-panel-head">
+<strong>Filter products</strong>
+<button class="filter-close" type="button">×</button>
+</div>
+<details open="">
+<summary>Availability <span>−</span></summary>
+<label><input checked type="checkbox"> In stock <small>98</small></label>
+<label><input type="checkbox"> Incoming stock <small>21</small></label>
+</details>
+<details open="">
+<summary>Shape <span>−</span></summary>
+<label><input checked type="checkbox"> Round <small>43</small></label>
+<label><input type="checkbox"> Arched <small>29</small></label>
+<label><input type="checkbox"> Rectangular <small>34</small></label>
+<label><input type="checkbox"> Freeform <small>18</small></label>
+</details>
+<details open="">
+<summary>Colour <span>−</span></summary>
+<div class="filter-swatches">
+<button aria-label="Black" class="swatch-filter black"></button>
+<button aria-label="Gold" class="swatch-filter gold"></button>
+<button aria-label="Champagne" class="swatch-filter champagne"></button>
+<button aria-label="Bronze" class="swatch-filter bronze"></button>
+<button aria-label="Natural" class="swatch-filter natural"></button>
+</div>
+</details>
+<details>
+<summary>Size <span>+</span></summary>
+<label><input type="checkbox"> Small <small>21</small></label>
+<label><input type="checkbox"> Medium <small>64</small></label>
+<label><input type="checkbox"> Large <small>49</small></label>
+<label><input type="checkbox"> Extra large <small>12</small></label>
+</details>
+<details>
+<summary>Style <span>+</span></summary>
+<label><input type="checkbox"> Contemporary <small>71</small></label>
+<label><input type="checkbox"> Classic <small>32</small></label>
+<label><input type="checkbox"> Industrial <small>18</small></label>
+<label><input type="checkbox"> Organic <small>25</small></label>
+</details>
+<details>
+<summary>Brand <span>+</span></summary>
+<label><input type="checkbox"> Gallery Direct <small>146</small></label>
+</details>
+<button class="mobile-apply">Show 146 products</button>
+</aside>
+<section class="product-results">
+<div class="result-topline">
+<span>Showing 12 of 146 products</span>
+<div class="grid-view-controls" role="group" aria-label="Product grid view"><span class="grid-view-label">View</span><button class="view-control" type="button" data-grid-view="large" aria-label="Larger images" title="Larger images" aria-pressed="true"><svg viewBox="0 0 26 26" aria-hidden="true" focusable="false"><rect x="2" y="2" width="6" height="6"/><rect x="10" y="2" width="6" height="6"/><rect x="18" y="2" width="6" height="6"/><rect x="2" y="10" width="6" height="6"/><rect x="10" y="10" width="6" height="6"/><rect x="18" y="10" width="6" height="6"/><rect x="2" y="18" width="6" height="6"/><rect x="10" y="18" width="6" height="6"/><rect x="18" y="18" width="6" height="6"/></svg></button><button class="view-control" type="button" data-grid-view="compact" aria-label="More products per row" title="More products per row" aria-pressed="false"><svg viewBox="0 0 26 26" aria-hidden="true" focusable="false"><rect x="2" y="2" width="4" height="4"/><rect x="8" y="2" width="4" height="4"/><rect x="14" y="2" width="4" height="4"/><rect x="20" y="2" width="4" height="4"/><rect x="2" y="8" width="4" height="4"/><rect x="8" y="8" width="4" height="4"/><rect x="14" y="8" width="4" height="4"/><rect x="20" y="8" width="4" height="4"/><rect x="2" y="14" width="4" height="4"/><rect x="8" y="14" width="4" height="4"/><rect x="14" y="14" width="4" height="4"/><rect x="20" y="14" width="4" height="4"/><rect x="2" y="20" width="4" height="4"/><rect x="8" y="20" width="4" height="4"/><rect x="14" y="20" width="4" height="4"/><rect x="20" y="20" width="4" height="4"/></svg></button></div>
+</div>
+<div class="plp-grid" id="mirror-grid">
+</div>
+<div class="load-more">
+<span>12 of 146</span>
+<div class="progress"><i></i></div>
+<button>Load more products</button>
+</div>
+</section>
+</div>
+<section class="seo-category-copy">
+<div>
+<div class="kicker">Trade mirrors</div>
+<h2>Mirrors for every project</h2>
+</div>
+<div>
+<p>From statement leaners to compact wall mirrors, explore a broad collection designed for residential, retail and hospitality interiors.</p>
+<div class="seo-links">
+<a href="catalogue.html?dept=Furniture&amp;sub=Round+mirrors">Round mirrors</a>
+<a href="catalogue.html?dept=Furniture&amp;sub=Arched+mirrors">Arched mirrors</a>
+<a href="catalogue.html?dept=Furniture&amp;sub=Leaner+mirrors">Leaner mirrors</a>
+<a href="catalogue.html?dept=Furniture&amp;sub=Overmantle+mirrors">Overmantle mirrors</a>
+</div>
+</div>
+</section>
+</div>
+<div class="filter-backdrop"></div>
+</main>
+<footer class="footer">
+<div class="footer-top">
+<div class="footer__container">
+<div class="footer-grid">
+<div>
+<div class="footer__newsletter-notice">
+<p>Be the first to hear about our latest news and exclusive offers</p>
+<div>
+<a href="https://www.gallerydirect.co.uk/customer/account/?mailer=true" title="Join our Mailing List" target="_blank" rel="noopener noreferrer">
+<span>Join our Mailing List</span>
+<img alt="" src="assets/arrow.svg" loading="lazy" decoding="async">
+</a>
+</div>
+</div>
+<div class="footer__logo-socials">
+<div class="footer__logo">
+<img alt="Gallery Direct" src="assets/gallery-logo.svg" loading="lazy" decoding="async">
+</div>
+<div class="footer__socials">
+<p class="footer__socials__title">Follow us</p>
+<ul>
+<li><a href="https://www.facebook.com/GalleryDirectLtd/" target="_blank" title="Facebook" rel="noopener noreferrer"><span>Facebook</span></a></li>
+<li><a href="https://www.instagram.com/gallerydirecthome" target="_blank" title="Instagram" rel="noopener noreferrer"><span>Instagram</span></a></li>
+<li><a href="https://twitter.com/GalleryDirectUK" target="_blank" title="Twitter" rel="noopener noreferrer"><span>Twitter</span></a></li>
+<li><a href="https://www.linkedin.com/company/gallery-direct-limited" target="_blank" title="LinkedIn" rel="noopener noreferrer"><span>LinkedIn</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-nav-grid">
+<div>
+<span class="footer__nav-title">About Us</span>
+<div class="footer-links">
+<ul>
+<li><a href="https://www.gallerydirect.co.uk/about-us" target="_blank" rel="noopener noreferrer">Our Story</a></li>
+<li><a href="https://info.gallerydirect.co.uk/help/how-we-do-business" target="_blank" rel="noopener noreferrer">How We Do Business</a></li>
+<li><a href="https://www.gallerydirect.co.uk/our-sales-team" target="_blank" rel="noopener noreferrer">Our Sales Team</a></li>
+<li><a href="https://www.gallerydirect.co.uk/meet-the-experts" target="_blank" rel="noopener noreferrer">Meet the Experts</a></li>
+<li><a href="https://www.gallerydirect.co.uk/showrooms" target="_blank" rel="noopener noreferrer">Our Trade Showroom</a></li>
+<li><a href="https://www.gallerydirect.co.uk/catalogues" target="_blank" rel="noopener noreferrer">Our Catalogues</a></li>
+</ul>
+</div>
+</div>
+<div>
+<span class="footer__nav-title">Customer Service</span>
+<div class="footer-links">
+<ul>
+<li><a href="https://info.gallerydirect.co.uk/help/faq" target="_blank" rel="noopener noreferrer">FAQs</a></li>
+<li><a href="https://info.gallerydirect.co.uk/help/delivery-overview" target="_blank" rel="noopener noreferrer">Deliveries</a></li>
+<li><a href="https://www.gallerydirect.co.uk/contact-us" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div>
+<span class="footer__nav-title">General</span>
+<div class="footer-links">
+<ul>
+<li><a href="https://www.gallerydirect.co.uk/news/" target="_blank" rel="noopener noreferrer">News &amp; Events</a></li>
+<li><a href="https://www.gallerydirect.co.uk/trade-shows" target="_blank" rel="noopener noreferrer">Trade Shows</a></li>
+<li><a href="https://www.gallerydirect.co.uk/ethical-and-quality" target="_blank" rel="noopener noreferrer">Ethical and Quality Solution</a></li>
+<li><a href="https://www.gallerydirect.co.uk/modern-slavery-statement" target="_blank" rel="noopener noreferrer">Modern Slavery Statement</a></li>
+<li><a href="https://info.gallerydirect.co.uk/help/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a></li>
+<li><a href="https://www.gallerydirect.co.uk/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+<li><a href="https://www.gallerydirect.co.uk/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie Policy</a></li>
+</ul>
+</div>
+</div>
+<div>
+<span class="footer__nav-title">My Trade Account</span>
+<div class="footer-links">
+<ul>
+<li><a href="https://www.gallerydirect.co.uk/customer/account/" target="_blank" rel="noopener noreferrer">Trade Account Application</a></li>
+<li><a href="https://www.gallerydirect.co.uk/customer/account/" target="_blank" rel="noopener noreferrer">Login / Register</a></li>
+<li><a href="https://www.gallerydirect.co.uk/sales/order/history" target="_blank" rel="noopener noreferrer">Order History</a></li>
+<li><a href="https://www.gallerydirect.co.uk/sales/order/history" target="_blank" rel="noopener noreferrer">Track My Order</a></li>
+<li><a href="https://www.gallerydirect.co.uk/customer/account/returnslist" target="_blank" rel="noopener noreferrer">Returns &amp; Credits</a></li>
+<li><a href="https://www.gallerydirect.co.uk/customer/account/forgotpassword" target="_blank" rel="noopener noreferrer">Forgotten Password</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<dialog id="preview-dialog" class="preview-dialog"><div class="dialog-head"><strong id="dialog-title"></strong><button id="dialog-close" aria-label="Close dialog">×</button></div><div id="dialog-content"></div></dialog><div id="preview-toast" class="preview-toast" role="status" hidden></div><script src="mirror-data.js?v=20261001-gallery-import" defer></script><script src="catalogue-data.js?v=20261001-art-clean-titles" defer></script><script src="furniture-filters.js?v=20261001-furniture" defer></script><script src="art-filters.js?v=20261001-art" defer></script><script src="lighting-filters.js?v=20261001-lighting" defer></script><script src="textiles-filters.js?v=20261001-textiles" defer></script><script src="accessories-filters.js?v=20261001-accessories" defer></script><script src="artbeat-filters.js?v=20261001-artbeat" defer></script><script src="made-to-order-filters.js?v=20261001-mto" defer></script><script src="clocks-filters.js?v=20261001-clocks" defer></script><script src="version-b-filters.js?v=20261001-art-complete" defer></script><script src="version-b-mega-routes.js?v=20261001-editorial" defer></script><script src="catalogue-context.js?v=20261001-editorial" defer></script><script src="preview.js?v=20261001-first-filter-open" defer></script></body>
+</html>
