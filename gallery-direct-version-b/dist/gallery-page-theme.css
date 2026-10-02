@@ -116,3 +116,10 @@ input,select,textarea,button{font-family:inherit}
 }
 .mobile-nav-section>summary,.mobile-drawer-group>.nav-link{font-size:17px;padding-top:13px;padding-bottom:13px}
 .mega-inner>.overflow-circle,.mobile-drawer>.overflow-circle{display:none!important}
+
+/* Simplified mobile category banners — Version B. */
+@media(max-width:900px){
+ .plp-hero-content #category-kicker,.plp-hero-content #category-description{display:none}
+ .plp-hero-content .breadcrumbs{padding-bottom:16px}
+ .plp-hero-content h1{margin:0;max-width:100%;font-size:clamp(28px,5vw,36px);line-height:1.12;overflow-wrap:break-word}
+}
