@@ -21,7 +21,7 @@ if(group){const names=store.departments[dept]?.groups.find(g=>g[0]===group)?.sli
 if(sub&&!sub.startsWith('All '))base=base.filter(p=>routeMatch(p,sub));
 if(route)base=[];
 const menuRoute=window.VersionBMegaRoutes?.resolve(dept,params,base);if(menuRoute)base=menuRoute.products;
-const config=store.departments[dept];let title=route||sub||group||(dept==='Greeting Cards'?'Cards':dept);if(menuRoute)title=menuRoute.title;if(search&&!params.has('dept'))title='Search products';
+const config=store.departments[dept];let title=route||sub||group||(dept==='Greeting Cards'?'Greeting Cards':dept);if(menuRoute)title=menuRoute.title;if(search&&!params.has('dept'))title='Search products';
 const heroImages={'Furniture':'https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_Furn.jpg','Lighting':'https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_Lighting.jpg','Outdoor Living':'https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_Outdoor.jpg','Home Accessories':'https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_Acc.jpg','Soft Furnishings':'https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_Textiles.jpg','Mattresses':'assets/9076618d825d9515.webp','Made to Order':'https://www.gallerydirect.co.uk/media/wysiwyg/2606_Homepage_MTO.jpg','Clocks':'images/clocks-category.png','Art':'assets/0efb58f76d1d4cf0.webp','Greeting Cards':'assets/7f43ef3ecab733db.webp'};
 window.MIRROR_PRODUCTS=base;
 let keys=search&&!params.has('dept')?['Product Type','Availability','Colour','Material','Size','Collection']:(config?.filters||['Product Type','Availability']);
@@ -39,7 +39,7 @@ if(dept==='Home Accessories'&&!(search&&!params.has('dept')))Object.assign(windo
 if(dept==='Greeting Cards'&&!(search&&!params.has('dept')))Object.assign(window.CATALOGUE_CONTEXT,window.ArtbeatFilters.configure(base));
 if(dept==='Made to Order'&&!(search&&!params.has('dept')))Object.assign(window.CATALOGUE_CONTEXT,window.MadeToOrderFilters.configure(base,sub));
 if(dept==='Clocks'&&!(search&&!params.has('dept')))Object.assign(window.CATALOGUE_CONTEXT,window.ClocksFilters.configure(base));
-document.title=title+' | Gallery Direct Preview';$('#category-title').textContent=title;$('#category-kicker').textContent=dept==='Greeting Cards'?'Artbeat':(sub||group)?dept:'Gallery Direct';$('#category-description').textContent=route?'This collection needs approved range data before products can be shown.':config?.desc||'Browse the available sample products.';
+document.title=title+' | Gallery Direct Preview';$('#category-title').textContent=title;$('#category-kicker').textContent=dept==='Greeting Cards'?'Artbeat':(sub||group)?dept:'Gallery Direct';$('#category-description').textContent=dept==='Greeting Cards'?'Browse Artbeat greeting cards by occasion and collection.':route?'This collection needs approved range data before products can be shown.':config?.desc||'Browse the available sample products.';
 $('#category-hero-image').addEventListener('error',e=>e.currentTarget.hidden=true);$('#category-hero-image').src=heroImages[dept]||heroImages.Furniture;
 $('#category-breadcrumbs').innerHTML='<a href="index.html">Home</a><span>/</span>'+((sub||group)?`<a href="${url(dept)}">${esc(dept)}</a><span>/</span>`:'')+`<strong>${esc(title)}</strong>`;
 $('.subcategory-strip').innerHTML=`<a href="${url(dept)}" class="${!sub&&!group?'is-active':''}">All ${esc(dept)}</a>`+(config?.groups||[]).flatMap(([heading,...items])=>items).map(label=>`<a href="${url(dept,label)}" class="${label===sub?'is-active':''}">${esc(label)}</a>`).join('');
