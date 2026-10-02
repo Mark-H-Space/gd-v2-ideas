@@ -14,3 +14,5 @@
  .department-mega .mega-title{min-height:34px}
  .department-mega .department-feature{display:block}
 }
+
+@media(min-width:1200px){.department-mega[data-department="Greeting Cards"] .editorial-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
